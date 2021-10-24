@@ -166,7 +166,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   color: #fff;
   font-size: 70px;
   line-height: 70px;
@@ -500,7 +500,7 @@
 }
 
 .working-with-header {
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   color: #4f748b;
   font-size: 60px;
   line-height: 60px;
@@ -528,7 +528,7 @@
 }
 
 .bold-text {
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   font-style: normal;
   font-weight: 700;
 }
@@ -735,7 +735,7 @@
 
 .about-grey-text {
   margin-bottom: 30px;
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   color: #4f748b;
   font-size: 40px;
   line-height: 50px;
@@ -807,7 +807,7 @@
 }
 
 .contact-section-text.about {
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   color: #4f748b;
   font-size: 45px;
   line-height: 45px;
@@ -873,7 +873,7 @@
 }
 
 .experienced-attorneys-text {
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   color: #892432;
   font-size: 40px;
   line-height: 40px;
@@ -995,7 +995,7 @@
 }
 
 .testimonial-text {
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   color: #2c3e50;
   font-size: 22px;
   line-height: 1.7em;
@@ -1144,7 +1144,7 @@
 }
 
 .resources-title {
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   color: #fff;
   font-size: 45px;
   font-weight: 400;
@@ -1388,7 +1388,7 @@
 }
 
 .faq-heading {
-  font-family: Cormorant, sans-serif;
+  font-family: Cormorant;
   color: #c3e1ff;
   font-size: 45px;
   line-height: 45px;
