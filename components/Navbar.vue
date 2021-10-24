@@ -6,17 +6,17 @@
         <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
           <div class="container w-container">
             <nav role="navigation" class="w-nav-menu">
-              <NuxtLink to="/about">
+              <NuxtLink to="/">
               <a href="#" class="nav-link w-nav-link">Home</a>
               </NuxtLink>
               <NuxtLink to="/about">
               <a href="#" class="nav-link w-nav-link">About</a>
               </NuxtLink>
-              <NuxtLink to="/about">
+              <NuxtLink to="/resources">
               <a href="#" class="nav-link w-nav-link">Resources</a></NuxtLink>
-              <NuxtLink to="/about">
+              <NuxtLink to="/faq">
               <a href="#" class="nav-link w-nav-link">FAQ</a></NuxtLink>
-              <NuxtLink to="/about">
+              <NuxtLink to="/contact">
               <a href="#" aria-current="page" class="nav-link w-nav-link w--current">Contact</a>
               </NuxtLink>
             </nav>
