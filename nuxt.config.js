@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'task',
+    title: 'caseym',
     htmlAttrs: {
       lang: 'en'
     },
@@ -24,6 +24,9 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/static/assets/css/components',
+    '~/static/assets/css/gd-website-01a59f',
+    '~/static/assets/css/normalize',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
