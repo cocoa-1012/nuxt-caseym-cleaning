@@ -1,23 +1,22 @@
 <template>
-  <div style="margin: 50px">
-    <div class="testimonials wf-section">
-      <div class="testimonials-section w-row">
-        <div class="w-col w-col-4"></div>
-        <div class="w-col w-col-8">
-          <VueSlickCarousel ref="carousel" class="testimonial w-slider" :css-ease="ease">
-            <div class="w-slide">
-              <div class="testimonial-text">Suspendisse dignissim ultrices dolor, quis condimentum orci. Proin eu pulvinar leo. Quisque tempor aliquet convallis. Ut in urna lacinia, viverra ex quis, suscipit sapien. Donec sed ipsum velit. Praesent at faucibus purus. Curabitur pretium nibh vel nisi efficitur viverra. Nullam finibus in lectus ut fermentum. Phasellus hendrerit nec nulla a posuere. Fusce rhoncus ut sem et lobortis. Aenean tempus ut neque eu eleifend. Curabitur quis urna mi. Suspendisse odio justo, lobortis vel auctor ut, ornare eget tortor.<br>LOREM IPSUM</div>
-            </div>
-            <div class="w-slide">
-              <div class="testimonial-text">Suspendisse dignissim ultrices dolor, quis condimentum orci. Proin eu pulvinar leo. Quisque tempor aliquet convallis. Ut in urna lacinia, viverra ex quis, suscipit sapien. Donec sed ipsum velit. Praesent at faucibus purus. Curabitur pretium nibh vel nisi efficitur viverra. Nullam finibus in lectus ut fermentum. Phasellus hendrerit nec nulla a posuere. Fusce rhoncus ut sem et lobortis. Aenean tempus ut neque eu eleifend. Curabitur quis urna mi. Suspendisse odio justo, lobortis vel auctor ut, ornare eget tortor.<br>LOREM IPSUM</div>
-            </div>
-          </VueSlickCarousel> 
-          <div class="left-arrow w-slider-arrow-left" @click="showBefore">
-            <div class="icon-4 w-icon-slider-left"></div>
+  <div class="testimonials wf-section">
+    <div class="testimonials-section">
+      <div class="w-col w-col-10 slick-carousel">
+        <div class="w-slider-mask">
+        <VueSlickCarousel ref="carousel" class="testimonial w-slider" :css-ease="ease">
+          <div class="w-slide">
+            <div class="testimonial-text">Suspendisse dignissim ultrices dolor, quis condimentum orci. Proin eu pulvinar leo. Quisque tempor aliquet convallis. Ut in urna lacinia, viverra ex quis, suscipit sapien. Donec sed ipsum velit. Praesent at faucibus purus. Curabitur pretium nibh vel nisi efficitur viverra. Nullam finibus in lectus ut fermentum. Phasellus hendrerit nec nulla a posuere. Fusce rhoncus ut sem et lobortis. Aenean tempus ut neque eu eleifend. Curabitur quis urna mi. Suspendisse odio justo, lobortis vel auctor ut, ornare eget tortor.<br>LOREM IPSUM</div>
           </div>
-          <div class="right-arrow w-slider-arrow-right" @click="showNext">
-            <div class="icon-3 w-icon-slider-right"></div>
+          <div class="w-slide">
+            <div class="testimonial-text">Suspendisse dignissim ultrices dolor, quis condimentum orci. Proin eu pulvinar leo. Quisque tempor aliquet convallis. Ut in urna lacinia, viverra ex quis, suscipit sapien. Donec sed ipsum velit. Praesent at faucibus purus. Curabitur pretium nibh vel nisi efficitur viverra. Nullam finibus in lectus ut fermentum. Phasellus hendrerit nec nulla a posuere. Fusce rhoncus ut sem et lobortis. Aenean tempus ut neque eu eleifend. Curabitur quis urna mi. Suspendisse odio justo, lobortis vel auctor ut, ornare eget tortor.<br>LOREM IPSUM</div>
           </div>
+        </VueSlickCarousel> 
+        </div>
+        <div class="left-arrow w-slider-arrow-left" @click="showBefore">
+          <div class="icon-4 w-icon-slider-left"></div>
+        </div>
+        <div class="right-arrow w-slider-arrow-right" @click="showNext">
+          <div class="icon-3 w-icon-slider-right"></div>
         </div>
       </div>
     </div>

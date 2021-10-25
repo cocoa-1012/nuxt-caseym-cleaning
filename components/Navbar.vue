@@ -23,7 +23,7 @@
             <div class="w-nav-button" @click="burgerToggle">
               <div class="w-icon-nav-menu"></div>
             </div>
-            <div v-show="burgerOpen" class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="display: block; height: 4042.22px;">
+            <div v-show="burgerOpen" id="w-nav-overlay-0" class="w-nav-overlay" data-wf-ignore="" style="display: block; height: 4042.22px;">
               <nav role="navigation" class="w-nav-menu" style="transform: translateY(0px) translateX(0px); display: none; transition: transform 400ms ease 0s;" data-nav-menu-open="">
                 <NuxtLink to="/" class="nav-link w-nav-link w--nav-link-open" style="max-width: 728px;">
                   Home

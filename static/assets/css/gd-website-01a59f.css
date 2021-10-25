@@ -988,13 +988,22 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  align-items: center;
 }
 
 .testimonials-section {
-  max-width: 1230px;
+  max-width: 1000px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
+.slick-list {
+  overflow: auto !important;
+}
 .testimonial-text {
+  margin: 0 50px;
+  margin-bottom: 30px;
   font-family: Cormorant;
   color: #2c3e50;
   font-size: 22px;
@@ -1009,6 +1018,7 @@
 
 .testimonial {
   background-color: hsla(0, 0%, 86.7%, 0);
+  max-width: 930px;
 }
 
 .icon-3 {
@@ -1026,13 +1036,13 @@
 .left-arrow {
   position: absolute;
   left: 71%;
-  top: 79%;
+  top: 90%;
   right: auto;
   bottom: 0%;
 }
 
 .right-arrow {
-  top: 234px;
+  top: 90%;
 }
 
 .contact-table {
@@ -1530,6 +1540,11 @@
     text-align: center;
   }
 
+  .testimonial {
+    max-width: 800px;
+    height: 400px;
+  }
+
   .testimonials {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1544,6 +1559,25 @@
 }
 
 @media screen and (max-width: 767px) {
+  .home-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabs-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+  }
   .page-hero.sub-page-hero {
     background-position: 50% 50%;
   }
@@ -1553,6 +1587,25 @@
     padding-right: 20px;
     padding-left: 20px;
     font-size: 38px;
+  }
+  .testimonial {
+    max-width: 450px;
+    height: 550px;
+  }
+  .testimonials {
+    justify-content: center;
+  }
+  .left-arrow {
+    left: 70%;
+    top: 95%;
+    right: auto;
+    bottom: 0%;
+  }
+  .w-tab-link {
+    width: 100%;
+  }
+  .right-arrow {
+    top: 95%;
   }
 }
 
@@ -1569,7 +1622,31 @@
     -ms-flex-pack: center;
     justify-content: center;
   }
-
+  .testimonial {
+    margin-top: 80px;
+    max-width: 300px;
+    height: 450px;
+  }
+  .testimonials {
+    justify-content: center;
+  }
+  .left-arrow {
+    left: 65%;
+    top: 96%;
+    right: auto;
+    bottom: 0%;
+  }
+  
+  .right-arrow {
+    top: 96%;
+  }
+  .testimonial-text {
+    margin: 30px 20px;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-style: italic;
+    font-weight: 300;
+  }
   .logo {
     width: 200px;
   }
@@ -1627,7 +1704,7 @@
   }
 
   .tabs-menu {
-    width: auto;
+    width: 100vw;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 10px;
@@ -1836,6 +1913,7 @@
   }
 
   .faq-sidebar {
+    margin-top: -50px;
     padding: 20px 30px;
   }
 
