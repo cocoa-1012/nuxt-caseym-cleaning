@@ -1231,6 +1231,9 @@
   margin-top: 0px;
   margin-bottom: 0px;
   background-color: #16223b;
+  opacity: 1; 
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+  transform-style: preserve-3d;
 }
 
 .accordion-item-q-text {
@@ -1269,6 +1272,9 @@
   font-family: 'Nunito Sans', sans-serif;
   color: #ededed;
   line-height: 24px;
+  transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+  transform-style: preserve-3d; 
+  opacity: 1;
 }
 
 .c-header {
@@ -1310,8 +1316,12 @@
 
 .c-accordion-item-a {
   overflow: hidden;
+  height: 0;
 }
 
+.item-opened {
+  height: inherit;
+}
 ._w-accordion-item-q-icon {
   position: relative;
   display: -webkit-box;
