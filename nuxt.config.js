@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'caseym',
+    title: 'Gabe A Duhon - Attorneys At Law',
     htmlAttrs: {
       lang: 'en'
     },
