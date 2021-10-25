@@ -1,5 +1,5 @@
 <template>
-  <div class="c-accordion-item">
+  <div id="accordion-open" class="c-accordion-item">
     <div class="_w-accordion-item">
       <div class="c-accordion-item-q">
         <div class="_w-accordion-item-q">
