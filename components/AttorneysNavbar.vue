@@ -45,11 +45,11 @@
           </div>
         </div>
         <div class="w-row">
-          <div class="sub-phone left w-col w-col-4 w-col-stack">
+          <div class="sub-phone attorney left w-col w-col-4 w-col-stack">
             <div data-hover="true" data-delay="0" class="w-dropdown" @click="toggle">
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
-                <div class="text-block-4">Real Estate</div>
+                <div class="text-block-4 attorney">Practice Areas</div>
               </div>
               <nav v-show="isOpen" id="myDropdown" class="w-dropdown-list">
                 <a href="#" class="w-dropdown-link">Commercial</a>
@@ -61,12 +61,12 @@
               </nav>
             </div>
           </div>
-          <div class="sub-phone w-col w-col-4 w-col-stack">
+          <div class="sub-phone attorney w-col w-col-4 w-col-stack">
             <a href="tel:337-893-3423" class="phone-number">337-893-3423</a>
           </div>
           <div class="site-toggle w-col w-col-4 w-col-stack">
             <Nuxt-link to="/">
-              <a href="#" class="toggle-button w-button">Attorneys At Law</a>
+              <a href="/" class="toggle-button attorney w-button">Attorneys At Law</a>
             </Nuxt-link>
           </div>
         </div>
