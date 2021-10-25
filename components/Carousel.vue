@@ -4,7 +4,7 @@
       <div class="testimonials-section w-row">
         <div class="w-col w-col-4"></div>
         <div class="w-col w-col-8">
-          <VueSlickCarousel ref="carousel">
+          <VueSlickCarousel ref="carousel" class="testimonial w-slider" :css-ease="ease">
             <div class="w-slide">
               <div class="testimonial-text">Suspendisse dignissim ultrices dolor, quis condimentum orci. Proin eu pulvinar leo. Quisque tempor aliquet convallis. Ut in urna lacinia, viverra ex quis, suscipit sapien. Donec sed ipsum velit. Praesent at faucibus purus. Curabitur pretium nibh vel nisi efficitur viverra. Nullam finibus in lectus ut fermentum. Phasellus hendrerit nec nulla a posuere. Fusce rhoncus ut sem et lobortis. Aenean tempus ut neque eu eleifend. Curabitur quis urna mi. Suspendisse odio justo, lobortis vel auctor ut, ornare eget tortor.<br>LOREM IPSUM</div>
             </div>
