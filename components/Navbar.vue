@@ -34,12 +34,12 @@
                 </div>
               </div>
             </div>
-            <div data-hover="true" data-delay="0" class="w-dropdown">
+            <div data-hover="true" data-delay="0" class="w-dropdown" @click="toggle">
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
                 <div class="text-block-4">Real Estate</div>
               </div>
-              <nav class="w-dropdown-list">
+              <nav v-show="isOpen" id="myDropdown" class="w-dropdown-list">
                 <a href="#" class="w-dropdown-link">Commercial</a>
                 <a href="#" class="w-dropdown-link">Title</a>
                 <a href="#" class="w-dropdown-link">Settlement</a>
@@ -53,10 +53,29 @@
             <a href="tel:337-893-3423" class="phone-number">337-893-3423</a>
           </div>
           <div class="site-toggle w-col w-col-4 w-col-stack">
-            <a href="#" class="toggle-button w-button">Attorneys At Law</a>
+            <Nuxt-link to="/">
+              <a href="#" class="toggle-button w-button">Attorneys At Law</a>
+            </Nuxt-link>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        isOpen: false
+      };
+    },
+    methods: {
+      toggle() {
+        this.isOpen = !this.isOpen;
+        document.getElementById("myDropdown").classList.toggle("show");
+        document.getElementById("myDropdown").classList.add("w--open");
+      },
+    }
+  }
+</script> 
