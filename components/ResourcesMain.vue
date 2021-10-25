@@ -85,10 +85,10 @@
   <div class="contact-section about-contact wf-section">
     <div class="contact-container about-contact-container w-container">
       <div class="w-row">
-        <div class="contact-table w-col w-col-4"><img src="images/aboutimage1.bd629355.png" loading="lazy" alt="">
+        <div class="contact-table w-col w-col-4"><img src="assets/images/aboutimage1.bd629355.png" loading="lazy" alt="">
           <p class="contact-section-text about">Contact Us <br>Today!<br></p>
         </div>
-        <div class="contact-table w-col w-col-4"><img src="images/aboutimage1.bd629355.png" loading="lazy" alt="">
+        <div class="contact-table w-col w-col-4"><img src="assets/images/aboutimage1.bd629355.png" loading="lazy" alt="">
           <div class="w-form">
             <form id="email-form" name="email-form" data-name="Email Form">
               <div class="w-row">
@@ -111,7 +111,7 @@
             </div>
           </div>
         </div>
-        <div class="contact-table w-col w-col-4"><img src="images/aboutimage1.bd629355.png" loading="lazy" alt=""></div>
+        <div class="contact-table w-col w-col-4"><img src="assets/images/aboutimage1.bd629355.png" loading="lazy" alt=""></div>
       </div>
     </div>
   </div>
