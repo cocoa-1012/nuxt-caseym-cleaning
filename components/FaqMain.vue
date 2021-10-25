@@ -9,7 +9,7 @@
           <h1 class="faq-heading commercial">Commercial</h1>
           <div class="cloneable-area">
             <div class="c-accordion-list">
-              <div id="accordion-item0" class="c-accordion-item" @click="toggle(0)">
+              <div class="c-accordion-item" @click="toggle(0)">
                 <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
@@ -18,7 +18,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon0" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -45,7 +45,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon1" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -72,7 +72,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon2" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -99,7 +99,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon3" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -126,7 +126,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon4" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -153,7 +153,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon5" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -180,7 +180,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon6" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -207,7 +207,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon7" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -234,7 +234,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon8" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -261,7 +261,7 @@
                           <div class="accordion-item-q-text">QUESTION</div>
                         </div>
                       </div>
-                      <div class="c-accordion-item-q-icon">
+                      <div id="accordion-icon9" class="c-accordion-item-q-icon">
                         <div class="_w-accordion-item-q-icon">
                           <div class="accordion-item-q-icon-stripe-1"></div>
                           <div class="accordion-item-q-icon-stripe-2"></div>
@@ -342,9 +342,12 @@
       },
       changeClass(item) {
         this.temp = "accordion-des" + item;
+        this.iconTemp = "accordion-icon" + item;
         if (this.itemArrays[item]){
+          document.getElementById(this.iconTemp).classList.add("icon-opened");
           document.getElementById(this.temp).classList.add("item-opened");
         } else {
+          document.getElementById(this.iconTemp).classList.remove("icon-opened");
           document.getElementById(this.temp).classList.remove("item-opened");
         }
       }
