@@ -645,6 +645,9 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
+  .w-col-6 {
+    width: 100%;
+  }
   .w-hidden-main {
     display: inherit !important;
   }
@@ -1785,6 +1788,9 @@ textarea.w-select {
 @media screen and (max-width: 479px) {
   .w-tab-link {
     display: block;
+  }
+  .w-tab-content {
+    width: 100vw;
   }
 }
 .w-ix-emptyfix:after {

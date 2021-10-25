@@ -13,7 +13,7 @@
         </a>
       </div>
       <div style="width: 100vw;">
-        <VueSlickCarousel ref="carousel" class="w-tab-content" :fade="true">
+        <VueSlickCarousel ref="carousel" class="w-tab-content" :fade="true" :draggable="false">
           <div data-w-tab="WORKING WITH HOME BUYERS" class="w-tab-pane w--tab-active">
             <div class="tabs-images w-row">
               <div class="image-one w-col w-col-6"></div>

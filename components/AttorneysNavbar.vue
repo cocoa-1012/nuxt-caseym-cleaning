@@ -6,17 +6,17 @@
         <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
           <div class="container w-container">
             <nav role="navigation" class="w-nav-menu">
-              <NuxtLink to="/">
+              <NuxtLink to="/att-index">
               <a class="nav-link w-nav-link">Home</a>
               </NuxtLink>
-              <NuxtLink to="/about">
+              <NuxtLink to="/att-about">
               <a  class="nav-link w-nav-link">About</a>
               </NuxtLink>
-              <NuxtLink to="/resources">
+              <NuxtLink to="/att-resources">
               <a class="nav-link w-nav-link">Resources</a></NuxtLink>
-              <NuxtLink to="/faq">
+              <NuxtLink to="/att-faq">
               <a class="nav-link w-nav-link">FAQ</a></NuxtLink>
-              <NuxtLink to="/contact">
+              <NuxtLink to="/att-contact">
               <a aria-current="page" class="nav-link w-nav-link w--current">Contact</a>
               </NuxtLink>
             </nav>
@@ -46,13 +46,6 @@
         </div>
         <div class="w-row">
           <div class="sub-phone left w-col w-col-4 w-col-stack">
-            <!-- <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="w-nav">
-              <div class="w-container">
-                <div class="menu-button w-nav-button">
-                  <div class="w-icon-nav-menu"></div>
-                </div>
-              </div>
-            </div> -->
             <div data-hover="true" data-delay="0" class="w-dropdown" @click="toggle">
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
@@ -72,7 +65,7 @@
             <a href="tel:337-893-3423" class="phone-number">337-893-3423</a>
           </div>
           <div class="site-toggle w-col w-col-4 w-col-stack">
-            <Nuxt-link to="/att-index">
+            <Nuxt-link to="/">
               <a href="#" class="toggle-button w-button">Attorneys At Law</a>
             </Nuxt-link>
           </div>
