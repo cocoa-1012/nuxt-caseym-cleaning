@@ -7,33 +7,52 @@
           <div class="container w-container">
             <nav role="navigation" class="w-nav-menu">
               <NuxtLink to="/">
-              <a href="#" class="nav-link w-nav-link">Home</a>
+              <a class="nav-link w-nav-link">Home</a>
               </NuxtLink>
               <NuxtLink to="/about">
-              <a href="#" class="nav-link w-nav-link">About</a>
+              <a  class="nav-link w-nav-link">About</a>
               </NuxtLink>
               <NuxtLink to="/resources">
-              <a href="#" class="nav-link w-nav-link">Resources</a></NuxtLink>
+              <a class="nav-link w-nav-link">Resources</a></NuxtLink>
               <NuxtLink to="/faq">
-              <a href="#" class="nav-link w-nav-link">FAQ</a></NuxtLink>
+              <a class="nav-link w-nav-link">FAQ</a></NuxtLink>
               <NuxtLink to="/contact">
-              <a href="#" aria-current="page" class="nav-link w-nav-link w--current">Contact</a>
+              <a aria-current="page" class="nav-link w-nav-link w--current">Contact</a>
               </NuxtLink>
             </nav>
-            <div class="w-nav-button">
+            <div class="w-nav-button" @click="burgerToggle">
               <div class="w-icon-nav-menu"></div>
+            </div>
+            <div v-show="burgerOpen" class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="display: block; height: 4042.22px;">
+              <nav role="navigation" class="w-nav-menu" style="transform: translateY(0px) translateX(0px); display: none; transition: transform 400ms ease 0s;" data-nav-menu-open="">
+                <NuxtLink to="/" class="nav-link w-nav-link w--nav-link-open" style="max-width: 728px;">
+                  Home
+                </NuxtLink>
+                <NuxtLink to="/about" class="nav-link w-nav-link w--nav-link-open" style="max-width: 728px;">
+                  About
+                </NuxtLink>
+                <NuxtLink to="/resources" class="nav-link w-nav-link w--nav-link-open" style="max-width: 728px;">
+                  Resources
+                </NuxtLink>
+                <NuxtLink to="/faq" class="nav-link w-nav-link w--nav-link-open" style="max-width: 728px;">
+                  FAQ
+                </NuxtLink>
+                <NuxtLink to="/contact" class="nav-link w-nav-link w--nav-link-open" style="max-width: 728px;">
+                  Contact
+                </NuxtLink>
+              </nav>
             </div>
           </div>
         </div>
         <div class="w-row">
           <div class="sub-phone left w-col w-col-4 w-col-stack">
-            <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="w-nav">
+            <!-- <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="w-nav">
               <div class="w-container">
                 <div class="menu-button w-nav-button">
                   <div class="w-icon-nav-menu"></div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div data-hover="true" data-delay="0" class="w-dropdown" @click="toggle">
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
@@ -67,7 +86,8 @@
   export default {
     data() {
       return {
-        isOpen: false
+        isOpen: false,
+        burgerOpen: false,
       };
     },
     methods: {
@@ -76,6 +96,11 @@
         document.getElementById("myDropdown").classList.toggle("show");
         document.getElementById("myDropdown").classList.add("w--open");
       },
+      burgerToggle() {
+        this.burgerOpen = !this.burgerOpen;
+        document.getElementById("myDropdown").classList.toggle("show");
+        document.getElementById("myDropdown").classList.add("w--open");
+      }
     }
   }
 </script> 

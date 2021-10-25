@@ -1640,6 +1640,7 @@ textarea.w-select {
 .w--nav-link-open {
   display: block;
   position: relative;
+  text-decoration: none;
 }
 .w-nav-overlay {
   position: absolute;
