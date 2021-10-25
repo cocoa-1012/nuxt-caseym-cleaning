@@ -12,7 +12,7 @@
           <div class="tabs-heading">WORKING WITH <strong>REALTORS</strong></div>
         </a>
       </div>
-      <div style="width: 100vw;">
+      <div>
         <VueSlickCarousel ref="carousel" class="w-tab-content" :fade="true" :draggable="false">
           <div data-w-tab="WORKING WITH HOME BUYERS" class="w-tab-pane w--tab-active">
             <div class="tabs-images w-row">
