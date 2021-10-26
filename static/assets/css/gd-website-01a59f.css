@@ -1056,9 +1056,13 @@
 .contact-table input {
   width: 97%;
 }
-.contact-table textarea {
+textarea {
+  resize: none;
 }
-
+.contact-us-group input {
+  width: 98%;
+  margin-bottom: 12px;
+}
 .resources-top {
   display: -webkit-box;
   display: -webkit-flex;
