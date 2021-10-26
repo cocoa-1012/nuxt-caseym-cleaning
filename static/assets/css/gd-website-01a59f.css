@@ -1002,7 +1002,8 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
+  margin-right: 120px;
 }
 
 .testimonials-section {
@@ -1048,15 +1049,9 @@
 }
 
 .left-arrow {
-  position: absolute;
-  left: 71%;
-  top: 90%;
-  right: auto;
-  bottom: 0%;
 }
 
 .right-arrow {
-  top: 90%;
 }
 
 .contact-table {
@@ -1616,16 +1611,11 @@
     justify-content: center;
   }
   .left-arrow {
-    left: 70%;
-    top: 95%;
-    right: auto;
-    bottom: 0%;
   }
   .w-tab-link {
     width: 100%;
   }
   .right-arrow {
-    top: 95%;
   }
 }
 
@@ -1654,17 +1644,8 @@
     height: 450px;
   }
   .testimonials {
-    justify-content: center;
-  }
-  .left-arrow {
-    left: 65%;
-    top: 96%;
-    right: auto;
-    bottom: 0%;
-  }
-
-  .right-arrow {
-    top: 96%;
+    align-items: center;
+    margin-right: 0px;
   }
   .testimonial-text {
     margin: 30px 20px;
@@ -1897,6 +1878,7 @@
     display: flex;
     padding-right: 30px;
     padding-left: 30px;
+    margin-bottom: 30px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
