@@ -538,9 +538,6 @@ export default {
         false,
       ],
       temp: '',
-      upHere: false,
-      tempId: '',
-      hideArrays: [],
     }
   },
   mounted() {
