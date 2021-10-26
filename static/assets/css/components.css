@@ -89,6 +89,12 @@ html.w-mod-touch * {
   cursor: pointer;
   border-radius: 0;
 }
+.today-button {
+  background-color: #4f748c !important;
+  text-align: center !important;
+  color: white !important;
+  margin-top: 10px;
+}
 input.w-button {
   -webkit-appearance: button;
 }

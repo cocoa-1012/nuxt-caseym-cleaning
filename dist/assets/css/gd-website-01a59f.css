@@ -1048,15 +1048,15 @@
   display: none;
 }
 
-.left-arrow {
-}
-
-.right-arrow {
-}
-
 .contact-table {
   padding-right: 0px;
   padding-left: 0px;
+  margin-bottom: 20px;
+}
+.contact-table input {
+  width: 97%;
+}
+.contact-table textarea {
 }
 
 .resources-top {
@@ -1610,12 +1610,8 @@
   .testimonials {
     justify-content: center;
   }
-  .left-arrow {
-  }
   .w-tab-link {
     width: 100%;
-  }
-  .right-arrow {
   }
 }
 
