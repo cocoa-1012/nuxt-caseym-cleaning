@@ -978,7 +978,7 @@
 .expand {
   font-size: 14px;
   text-align: right;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-right: 5px;
 }
 .expand:hover {
@@ -1341,8 +1341,8 @@ textarea {
 }
 .text-credentials {
   font-family: Cormorant !important;
-  padding-bottom: 25px;
-  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   text-align: left;
 }
 .c-accordion-item-a {
