@@ -1098,7 +1098,15 @@ textarea.w-select {
   display: none;
   min-width: 233%;
 }
-.w-dropdown-list.credential-exp {
+/* .w-dropdown-list.credential-exp {
+  padding: 30px 40px;
+  position: relative !important;
+  background: #f5f5f5 !important;
+  opacity: 1;
+  display: none;
+  min-width: 100%;
+} */
+.credential-exp {
   padding: 30px 40px;
   position: relative !important;
   background: #f5f5f5 !important;
@@ -1720,22 +1728,6 @@ textarea.w-select {
     opacity: 0.9;
     min-width: 100%;
   }
-  /* .w-dropdown-list {
-    padding: 30px 40px;
-    position: absolute;
-    background: #4f748b;
-    opacity: 0.7;
-    display: none;
-    min-width: 233%;
-  }
-  .w-dropdown-list.credential-exp {
-    padding: 30px 40px;
-    position: relative !important;
-    background: #f5f5f5 !important;
-    opacity: 1;
-    display: none;
-    min-width: 100%;
-  } */
   .w-nav[data-collapse='small'] .w-nav-menu {
     display: none;
   }
