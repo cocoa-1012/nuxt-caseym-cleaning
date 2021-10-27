@@ -22,7 +22,7 @@
           role="banner"
           class="navbar w-nav"
         >
-          <div class="container w-container">
+          <div class="container w-container nav-menu-responsive">
             <nav role="navigation" class="w-nav-menu">
               <NuxtLink to="/att-index">
                 <a class="nav-link w-nav-link">Home</a>
@@ -42,8 +42,11 @@
                 </a>
               </NuxtLink>
             </nav>
-            <div class="w-nav-button" @click="burgerToggle">
-              <div class="w-icon-nav-menu"></div>
+            <div class="w-nav-button" style="width: 80vw" @click="burgerToggle">
+              <div
+                class="w-icon-nav-menu"
+                style="text-align: end; margin-right: -30px"
+              ></div>
             </div>
             <div
               v-show="burgerOpen"

@@ -702,6 +702,10 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+  .nav-menu-responsive {
+    margin-top: -60px;
+    margin-right: -60px;
+  }
   .w-container {
     max-width: none;
   }
