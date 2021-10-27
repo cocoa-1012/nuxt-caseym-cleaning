@@ -1,10 +1,9 @@
 <template>
-<div>
-  <Navbar/>
-  <ContactMain/>
-  <Footer/>
-</div>
-  
+  <div>
+    <Navbar />
+    <ContactMain />
+    <Footer />
+  </div>
 </template>
 
 <script>
