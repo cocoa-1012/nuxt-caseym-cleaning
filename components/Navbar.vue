@@ -122,7 +122,7 @@
               </nav>
             </div>
           </div>
-          <div class="sub-phone w-col w-col-4 w-col-stack">
+          <div class="sub-phone sub-phone-number w-col w-col-4 w-col-stack">
             <a href="tel:337-893-3423" class="phone-number">337-893-3423</a>
           </div>
           <div class="site-toggle w-col w-col-5 w-col-stack">

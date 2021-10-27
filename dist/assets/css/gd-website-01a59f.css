@@ -341,7 +341,9 @@
   background-color: #4f748b;
   z-index: 3;
 }
-
+.sub-phone-number {
+  z-index: 2;
+}
 .sub-phone.left {
   border-top-left-radius: 5px;
 }
