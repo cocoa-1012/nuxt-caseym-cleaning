@@ -1098,15 +1098,7 @@ textarea.w-select {
   display: none;
   min-width: 233%;
 }
-/* .w-dropdown-list.credential-exp {
-  padding: 30px 40px;
-  position: relative !important;
-  background: #f5f5f5 !important;
-  opacity: 1;
-  display: none;
-  min-width: 100%;
-} */
-.credential-exp {
+.w-dropdown-list.credential-exp {
   padding: 30px 40px;
   position: relative !important;
   background: #f5f5f5 !important;
@@ -1114,6 +1106,14 @@ textarea.w-select {
   display: none;
   min-width: 100%;
 }
+/* .credential-exp {
+  padding: 30px 40px;
+  position: relative !important;
+  background: #f5f5f5 !important;
+  opacity: 1;
+  display: none;
+  min-width: 100%;
+} */
 .w-dropdown-list.attorney {
   background: #892432;
 }
