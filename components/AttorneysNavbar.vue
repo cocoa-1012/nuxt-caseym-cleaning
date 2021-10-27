@@ -66,35 +66,35 @@
                 data-nav-menu-open=""
               >
                 <NuxtLink
-                  to="/"
+                  to="/att-index"
                   class="nav-link w-nav-link w--nav-link-open"
                   style="max-width: 728px"
                 >
                   Home
                 </NuxtLink>
                 <NuxtLink
-                  to="/about"
+                  to="/att-about"
                   class="nav-link w-nav-link w--nav-link-open"
                   style="max-width: 728px"
                 >
                   About
                 </NuxtLink>
                 <NuxtLink
-                  to="/resources"
+                  to="/att-resources"
                   class="nav-link w-nav-link w--nav-link-open"
                   style="max-width: 728px"
                 >
                   Resources
                 </NuxtLink>
                 <NuxtLink
-                  to="/faq"
+                  to="/att-faq"
                   class="nav-link w-nav-link w--nav-link-open"
                   style="max-width: 728px"
                 >
                   FAQ
                 </NuxtLink>
                 <NuxtLink
-                  to="/contact"
+                  to="/att-contact"
                   class="nav-link w-nav-link w--nav-link-open"
                   style="max-width: 728px"
                 >
