@@ -1619,6 +1619,12 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .contact-table input {
+    width: 100%;
+  }
+  .contact-us-group input {
+    width: 100%;
+  }
   .real-estate-intro {
     align-items: center;
     display: flex;
