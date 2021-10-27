@@ -1,10 +1,9 @@
 <template>
-<div>
-  <AttorneysNavbar/>
-  <AttorneysAboutMain/>
-  <AttorneysFooter/>
-</div>
-  
+  <div>
+    <AttorneysNavbar />
+    <AttorneysAboutMain />
+    <AttorneysFooter />
+  </div>
 </template>
 
 <script>

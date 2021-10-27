@@ -1,10 +1,9 @@
 <template>
-<div>
-  <Navbar/>
-  <AboutMain/>
-  <Footer/>
-</div>
-  
+  <div>
+    <Navbar />
+    <AboutMain />
+    <Footer />
+  </div>
 </template>
 
 <script>
