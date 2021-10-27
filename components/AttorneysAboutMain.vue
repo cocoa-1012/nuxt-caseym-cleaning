@@ -65,7 +65,7 @@
             <nav
               v-show="isOpen1"
               id="myDropdown1"
-              class="credentials-content w-dropdown-list credential-exp"
+              class="w-dropdown-list credential-exp"
             >
               <p class="working-with-subtext about-page-subtext">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -140,7 +140,7 @@
             <nav
               v-show="isOpen2"
               id="myDropdown2"
-              class="credentials-content w-dropdown-list credential-exp"
+              class="w-dropdown-list credential-exp"
             >
               <p class="working-with-subtext about-page-subtext">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
