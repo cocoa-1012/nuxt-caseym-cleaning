@@ -1711,7 +1711,7 @@ textarea.w-select {
     padding: 30px 40px;
     position: absolute;
     background: #4f748b;
-    opacity: 0.7;
+    opacity: 0.9;
     display: none;
     min-width: 100%;
   }
