@@ -1622,6 +1622,18 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .working-with-header {
+    font-family: CormorantItalic;
+    color: #4f748b;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 400;
+  }
+  .footer-font {
+    font-size: 45px !important;
+    line-height: 1.1;
+    text-align: left;
+  }
   .tab-link-working-with-realtors.w--current {
     padding-bottom: 10px;
     border-bottom: 10px solid #707070;

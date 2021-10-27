@@ -1,7 +1,7 @@
 <template>
   <div class="footer wf-section">
     <div class="main-content-container w-container">
-      <div class="experienced-attorneys-text">
+      <div class="experienced-attorneys-text footer-font">
         Experienced and Local Attorneys Here for You
       </div>
       <div class="footer-content w-row">
