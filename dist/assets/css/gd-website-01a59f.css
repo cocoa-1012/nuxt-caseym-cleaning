@@ -1619,6 +1619,11 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .real-estate-intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
   .expand {
     font-size: 14px;
     text-align: right;

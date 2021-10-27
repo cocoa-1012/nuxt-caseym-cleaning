@@ -17,7 +17,7 @@
           w-row
         "
       >
-        <div class="w-col w-col-6">
+        <div class="w-col w-col-6 real-estate-intro">
           <img
             src="assets/images/person1.046db6ca.png"
             loading="lazy"
@@ -92,7 +92,7 @@
             </nav>
           </div>
         </div>
-        <div class="w-col w-col-6">
+        <div class="w-col w-col-6 real-estate-intro">
           <img
             src="assets/images/person2.b2145e19.png"
             loading="lazy"
@@ -100,7 +100,7 @@
             class="circle-image about-image"
           />
           <p class="about-grey-text title">
-            Kimberly K. Souriyakhamphong<strong><br /></strong>
+            Kimberly K. <br />Souriyakhamphong<strong><br /></strong>
           </p>
           <p class="about-grey-text title sub-title">
             associate attorney<strong><br /></strong>
