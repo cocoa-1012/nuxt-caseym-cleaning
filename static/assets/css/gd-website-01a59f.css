@@ -1619,6 +1619,18 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .tab-link-working-with-realtors.w--current {
+    padding-bottom: 10px;
+    border-bottom: 10px solid #707070;
+  }
+  .tab-link-working-with-lenders.w--current {
+    padding-bottom: 10px;
+    border-bottom: 10px solid #707070;
+  }
+  .tab-link-working-with-home-buyers.w--current {
+    padding-bottom: 10px;
+    border-bottom: 10px solid #707070;
+  }
   .contact-table input {
     width: 100%;
   }
@@ -1708,12 +1720,12 @@ textarea {
   }
 
   .tab-link-working-with-home-buyers.w--current {
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
 
   .tab-link-working-with-home-buyers.attorney.w--current {
     width: 100vw;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
 
   .tab-link-working-with-realtors.attorney {
