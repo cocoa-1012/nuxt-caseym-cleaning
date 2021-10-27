@@ -1,8 +1,8 @@
 <template>
   <div class="navigation-container wf-section">
     <div class="nav-contain w-row">
-      <div class="column-2 w-col w-col-5 w-col-stack w-col-small-small-stack">
-        <NuxtLink to="/att-index" class="logo" style="max-width: 728px">
+      <div class="column-2 w-col w-col-5 w-col-stack nav-bar-group">
+        <NuxtLink to="/att-index" class="nav-bar-logo">
           <img
             src="assets/images/logo.ce898954.png"
             loading="lazy"
@@ -11,6 +11,54 @@
             class="logo"
           />
         </NuxtLink>
+        <div class="w-nav-button" @click="burgerToggle">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+        <div
+          v-show="burgerOpen"
+          id="w-nav-overlay-0"
+          class="w-nav-overlay"
+          data-wf-ignore=""
+          style="display: block; height: 4042.22px"
+        >
+          <nav role="navigation" class="w-nav-menu" data-nav-menu-open="">
+            <NuxtLink
+              to="/att-index"
+              class="nav-link w-nav-link w--nav-link-open"
+              style="max-width: 728px"
+            >
+              Homes
+            </NuxtLink>
+            <NuxtLink
+              to="/att-about"
+              class="nav-link w-nav-link w--nav-link-open"
+              style="max-width: 728px"
+            >
+              About
+            </NuxtLink>
+            <NuxtLink
+              to="/att-resources"
+              class="nav-link w-nav-link w--nav-link-open"
+              style="max-width: 728px"
+            >
+              Resources
+            </NuxtLink>
+            <NuxtLink
+              to="/att-faq"
+              class="nav-link w-nav-link w--nav-link-open"
+              style="max-width: 728px"
+            >
+              FAQ
+            </NuxtLink>
+            <NuxtLink
+              to="/att-contact"
+              class="nav-link w-nav-link w--nav-link-open"
+              style="max-width: 728px"
+            >
+              Contact
+            </NuxtLink>
+          </nav>
+        </div>
       </div>
       <div class="column w-col w-col-7 w-col-stack w-col-small-small-stack">
         <div
@@ -42,66 +90,6 @@
                 </a>
               </NuxtLink>
             </nav>
-            <div class="w-nav-button" style="width: 80vw" @click="burgerToggle">
-              <div
-                class="w-icon-nav-menu"
-                style="text-align: end; margin-right: -30px"
-              ></div>
-            </div>
-            <div
-              v-show="burgerOpen"
-              id="w-nav-overlay-0"
-              class="w-nav-overlay"
-              data-wf-ignore=""
-              style="display: block; height: 4042.22px"
-            >
-              <nav
-                role="navigation"
-                class="w-nav-menu"
-                style="
-                  transform: translateY(0px) translateX(0px);
-                  display: none;
-                  transition: transform 400ms ease 0s;
-                "
-                data-nav-menu-open=""
-              >
-                <NuxtLink
-                  to="/att-index"
-                  class="nav-link w-nav-link w--nav-link-open"
-                  style="max-width: 728px"
-                >
-                  Home
-                </NuxtLink>
-                <NuxtLink
-                  to="/att-about"
-                  class="nav-link w-nav-link w--nav-link-open"
-                  style="max-width: 728px"
-                >
-                  About
-                </NuxtLink>
-                <NuxtLink
-                  to="/att-resources"
-                  class="nav-link w-nav-link w--nav-link-open"
-                  style="max-width: 728px"
-                >
-                  Resources
-                </NuxtLink>
-                <NuxtLink
-                  to="/att-faq"
-                  class="nav-link w-nav-link w--nav-link-open"
-                  style="max-width: 728px"
-                >
-                  FAQ
-                </NuxtLink>
-                <NuxtLink
-                  to="/att-contact"
-                  class="nav-link w-nav-link w--nav-link-open"
-                  style="max-width: 728px"
-                >
-                  Contact
-                </NuxtLink>
-              </nav>
-            </div>
           </div>
         </div>
         <div class="w-row">

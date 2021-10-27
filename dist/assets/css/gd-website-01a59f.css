@@ -339,6 +339,7 @@
   align-items: center;
   border-top-left-radius: 0px;
   background-color: #4f748b;
+  z-index: 3;
 }
 
 .sub-phone.left {

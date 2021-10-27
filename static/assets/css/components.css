@@ -702,6 +702,14 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+  .nav-bar-logo {
+    width: 80% !important;
+  }
+  .nav-bar-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .nav-menu-responsive {
     margin-top: -60px;
     margin-right: -60px;
@@ -1632,15 +1640,16 @@ textarea.w-select {
   display: block;
   position: relative;
   text-decoration: none;
+  color: white;
 }
 .w-nav-overlay {
   position: absolute;
   overflow: hidden;
   display: none;
   top: 100%;
-  left: 0;
   right: 0;
-  width: 100%;
+  width: 40%;
+  z-index: 200;
 }
 .w-nav-overlay [data-nav-menu-open] {
   top: 0;
@@ -1726,6 +1735,9 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+  .w-nav-button {
+    display: block;
+  }
   .slider-arrow {
     display: flex;
     align-items: center;
