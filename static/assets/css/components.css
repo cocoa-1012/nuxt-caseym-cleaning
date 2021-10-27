@@ -1098,7 +1098,7 @@ textarea.w-select {
   display: none;
   min-width: 233%;
 }
-.w-dropdown-list.credential-exp {
+.credential-exp {
   padding: 30px 40px;
   position: relative !important;
   background: #f5f5f5;

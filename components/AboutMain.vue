@@ -55,7 +55,7 @@
             <div class="credential-title">
               <div class="w-row">
                 <div class="w-col w-col-9">
-                  <div class="text-credentials">Credentials</div>
+                  <div class="text-credentials">Credentialse</div>
                 </div>
                 <div class="w-col w-col-3" @click="toggle1">
                   <div class="expand">Expand &#x25BC;</div>
