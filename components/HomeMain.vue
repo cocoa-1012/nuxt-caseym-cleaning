@@ -95,7 +95,7 @@
                       maxlength="256"
                       name="name"
                       data-name="Name"
-                      placeholder="Name"
+                      placeholder="NAME"
                     />
                     <input
                       id="email"
@@ -104,7 +104,7 @@
                       maxlength="256"
                       name="email"
                       data-name="Email"
-                      placeholder="Email"
+                      placeholder="EMAIL"
                       required=""
                     />
                     <input
@@ -114,14 +114,14 @@
                       maxlength="256"
                       name="Phone"
                       data-name="Phone"
-                      placeholder="Phone"
+                      placeholder="PHONE"
                       required=""
                     />
                   </div>
                   <div class="contact-form-column-two w-col w-col-6">
                     <textarea
                       id="field"
-                      placeholder="Example Text"
+                      placeholder="MESSAGE"
                       maxlength="5000"
                       name="field"
                       rows="6"
@@ -131,7 +131,7 @@
                       type="submit"
                       value="Submit"
                       data-wait="Please wait..."
-                      class="button contact w-button"
+                      class="button contact w-button submit"
                     />
                   </div>
                 </div>

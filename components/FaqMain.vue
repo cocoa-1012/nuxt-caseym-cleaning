@@ -487,7 +487,7 @@
         </div>
       </div>
     </div>
-    <div class="resources-top wf-section">
+    <!-- <div class="resources-top wf-section">
       <div class="resources-top-container w-row">
         <div class="w-col w-col-5">
           <h1 class="resources-title">Covid-19 Policy<br /></h1>
@@ -528,7 +528,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <Carousel />
     <ContactUsToday />
   </div>
