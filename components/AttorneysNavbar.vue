@@ -98,11 +98,14 @@
               data-hover="true"
               data-delay="0"
               class="w-dropdown"
+              @mouseout="toggle"
               @click="toggle"
             >
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
-                <div class="text-block-4 attorney">Practice Areas</div>
+                <div class="text-block-4 attorney" @mouseover="toggle">
+                  Practice Areas
+                </div>
               </div>
               <nav
                 v-show="isOpen"

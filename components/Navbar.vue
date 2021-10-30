@@ -92,22 +92,16 @@
         </div>
         <div class="w-row">
           <div class="sub-phone left w-col w-col-3 w-col-stack">
-            <!-- <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="w-nav">
-              <div class="w-container">
-                <div class="menu-button w-nav-button">
-                  <div class="w-icon-nav-menu"></div>
-                </div>
-              </div>
-            </div> -->
             <div
               data-hover="true"
               data-delay="0"
               class="w-dropdown"
+              @mouseout="toggle"
               @click="toggle"
             >
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
-                <div class="text-block-4">Real Estate</div>
+                <div class="text-block-4" @mouseover="toggle">Real Estate</div>
               </div>
               <nav v-show="isOpen" id="myDropdown" class="w-dropdown-list">
                 <div class="w-dropdown-list-sub">
