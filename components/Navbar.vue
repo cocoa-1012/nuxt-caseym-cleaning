@@ -96,12 +96,13 @@
               data-hover="true"
               data-delay="0"
               class="w-dropdown"
-              @mouseout="toggle"
+              @mouseover="mouseOver"
+              @mouseout="mouseOut"
               @click="toggle"
             >
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
-                <div class="text-block-4" @mouseover="toggle">Real Estate</div>
+                <div class="text-block-4">Real Estate</div>
               </div>
               <nav v-show="isOpen" id="myDropdown" class="w-dropdown-list">
                 <div class="w-dropdown-list-sub">
@@ -145,6 +146,14 @@ export default {
       this.isOpen = !this.isOpen
       document.getElementById('myDropdown').classList.toggle('show')
       document.getElementById('myDropdown').classList.add('w--open')
+    },
+    mouseOver() {
+      this.isOpen = true
+      document.getElementById('myDropdown').classList.toggle('show')
+      document.getElementById('myDropdown').classList.add('w--open')
+    },
+    mouseOut() {
+      this.isOpen = false
     },
     burgerToggle() {
       this.burgerOpen = !this.burgerOpen
