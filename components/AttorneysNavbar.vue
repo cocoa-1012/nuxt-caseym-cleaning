@@ -85,9 +85,7 @@
                 <a class="nav-link w-nav-link">FAQ</a>
               </NuxtLink>
               <NuxtLink to="/att-contact">
-                <a aria-current="page" class="nav-link w-nav-link w--current">
-                  Contact
-                </a>
+                <a aria-current="page" class="nav-link w-nav-link"> Contact </a>
               </NuxtLink>
             </nav>
           </div>

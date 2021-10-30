@@ -531,6 +531,21 @@
   font-weight: 300;
 }
 
+.footer-text {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #47587c;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 600;
+  text-align: left;
+}
+.footer-text.linked {
+  cursor: pointer;
+}
+.footer-sub-title {
+  color: #979797;
+  cursor: default;
+}
 .working-with-subtext.about-page-subtext {
   margin-top: 40px;
 }
@@ -887,11 +902,10 @@
 .experienced-attorneys-text {
   font-family: Cormorant;
   color: #892432;
-  font-size: 40px;
+  font-size: 44px;
   line-height: 40px;
-  text-align: center;
+  text-align: left;
 }
-
 .experienced-attorneys-text.about-subtext-hero {
   position: relative;
   top: auto;
