@@ -24,7 +24,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 80vh;
+  height: 90vh;
   /* height: 650px; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -473,7 +473,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5px;
   margin-bottom: 15px;
   padding-top: 30px;
   padding-bottom: 0px;
