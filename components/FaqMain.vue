@@ -6,7 +6,7 @@
     <div class="faq-top wf-section">
       <div class="faq-container w-row">
         <div class="faq-column-one w-col w-col-8">
-          <h1 class="faq-heading commercial">Commercial</h1>
+          <h1 class="faq-heading commercial">{{ sectionTitle }}</h1>
           <div class="cloneable-area">
             <div class="c-accordion-list">
               <div
@@ -456,20 +456,32 @@
         <div class="faq-sidebar w-col w-col-4">
           <h1 class="faq-heading sidebar">Practice Areas</h1>
           <ul role="list" class="w-list-unstyled">
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Commercial</a>
+            <li class="practice-list-item" @click="sectionTitle = 'Commercial'">
+              <p class="practice-area-list">Commercial</p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Residential</a>
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Residential'"
+            >
+              <p class="practice-area-list">Residential</p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Title Settlement</a>
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Title Settlement'"
+            >
+              <p class="practice-area-list">Title Settlement</p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Estate Planning</a>
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Estate Planning'"
+            >
+              <p class="practice-area-list">Estate Planning</p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Loan Closing</a>
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Loan Closing'"
+            >
+              <p class="practice-area-list">Loan Closing</p>
             </li>
           </ul>
         </div>
@@ -538,10 +550,12 @@ export default {
         false,
       ],
       temp: '',
+      sectionTitle: '',
     }
   },
   mounted() {
     this.$nextTick(function () {
+      this.sectionTitle = 'Commercial'
       for (let i = 0; i < this.itemArrays.length; i++) {
         document.getElementById('accordion-item' + i).style.zIndex = i + 50
       }

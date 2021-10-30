@@ -1491,6 +1491,7 @@ textarea {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .practice-area-list:hover {
