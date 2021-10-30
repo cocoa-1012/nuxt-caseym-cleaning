@@ -40,7 +40,7 @@
           <div class="tabs-heading">WORKING WITH <strong>REALTORS</strong></div>
         </a>
       </div>
-      <div>
+      <div class="carousel-main">
         <VueSlickCarousel
           ref="carousel"
           class="w-tab-content"
@@ -56,7 +56,7 @@
               <div class="image-two w-col w-col-6"></div>
             </div>
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-4">
                 <h1 class="working-with-header">
                   <em>Working</em><br /><em>with</em><br /><strong
                     class="bold-text"
@@ -64,7 +64,7 @@
                   >
                 </h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-8">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -100,7 +100,7 @@
               <div class="image-two w-col w-col-6"></div>
             </div>
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-4">
                 <h1 class="working-with-header">
                   <em>Working</em><br /><em>with</em><br /><strong
                     class="bold-text"
@@ -108,7 +108,7 @@
                   >
                 </h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-8">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -144,7 +144,7 @@
               <div class="image-two w-col w-col-6"></div>
             </div>
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-4">
                 <h1 class="working-with-header">
                   <em>Working</em><br /><em>with</em><br /><strong
                     class="bold-text"
@@ -152,7 +152,7 @@
                   >
                 </h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-8">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -181,6 +181,7 @@
             </div>
           </div>
         </VueSlickCarousel>
+        <div class="carousel-overlay"></div>
       </div>
     </div>
   </div>

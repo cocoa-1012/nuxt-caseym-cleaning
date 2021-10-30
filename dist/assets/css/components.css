@@ -1805,6 +1805,16 @@ textarea.w-select {
 .w--tab-active {
   display: block;
 }
+.carousel-main {
+  position: relative;
+}
+.carousel-overlay {
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+}
 @media screen and (max-width: 479px) {
   .w-tab-link {
     display: block;

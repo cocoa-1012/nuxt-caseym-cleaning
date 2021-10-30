@@ -71,19 +71,19 @@
           <div class="tabs-heading">MARITIME<strong></strong></div>
         </a>
       </div>
-      <div>
+      <div class="carousel-main">
         <VueSlickCarousel ref="carousel" class="w-tab-content" :fade="true">
           <div
             data-w-tab="WORKING WITH HOME BUYERS"
             class="w-tab-pane w--tab-active"
           >
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-4">
                 <h1 class="working-with-header attorney">
                   <em>Criminal<br />Defense</em>
                 </h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-8">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -112,12 +112,12 @@
           </div>
           <div data-w-tab="WORKING WITH LENDERS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-4">
                 <h1 class="working-with-header attorney">
                   <em>Immigration</em>
                 </h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-8">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -146,12 +146,12 @@
           </div>
           <div data-w-tab="WORKING WITH REALTORS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-4">
                 <h1 class="working-with-header attorney">
                   <em>Personal<br />Injury</em>
                 </h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-8">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -180,10 +180,10 @@
           </div>
           <div data-w-tab="WORKING WITH REALTORS 2" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-4">
                 <h1 class="working-with-header attorney"><em>Adoption</em></h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-8">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -212,10 +212,10 @@
           </div>
           <div data-w-tab="WORKING WITH REALTORS 3" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-4">
                 <h1 class="working-with-header attorney"><em>Maritime</em></h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-8">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -243,6 +243,7 @@
             </div>
           </div>
         </VueSlickCarousel>
+        <div class="carousel-overlay"></div>
       </div>
     </div>
   </div>

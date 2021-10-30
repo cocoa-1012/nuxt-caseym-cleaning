@@ -83,7 +83,7 @@
   top: auto;
   right: 0%;
   bottom: 0%;
-  display: block;
+  display: flex;
   max-width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -180,7 +180,7 @@
   font-size: 70px;
   line-height: 70px;
   font-weight: 500;
-  text-align: right;
+  text-align: center;
 }
 
 .hero-text.sub-page-hero {
