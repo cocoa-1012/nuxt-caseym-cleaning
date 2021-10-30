@@ -149,12 +149,12 @@
     </div>
     <div class="real-estate-title-services-section wf-section">
       <div class="workingwithtextsection real-estate-title-services w-row">
-        <div class="w-col w-col-6">
+        <div class="w-col w-col-4">
           <h1 class="working-with-header">
             <em>Our Real <br />Estate Title <br />Services</em>
           </h1>
         </div>
-        <div class="w-col w-col-6">
+        <div class="w-col w-col-8">
           <p class="working-with-subtext">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
