@@ -589,6 +589,9 @@ textarea.w-select {
 .w-hidden-main {
   display: none !important;
 }
+.nav-bar-logo img {
+  width: 320px;
+}
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
@@ -704,6 +707,9 @@ textarea.w-select {
 @media screen and (max-width: 479px) {
   .nav-bar-logo {
     width: 80% !important;
+  }
+  .nav-bar-logo img {
+    width: 250px;
   }
   .nav-bar-group {
     display: flex;

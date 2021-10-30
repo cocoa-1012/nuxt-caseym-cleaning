@@ -3,13 +3,7 @@
     <div class="nav-contain w-row">
       <div class="column-2 w-col w-col-5 w-col-stack nav-bar-group">
         <NuxtLink to="/att-index" class="nav-bar-logo">
-          <img
-            src="assets/images/logo.ce898954.png"
-            loading="lazy"
-            width="245.5"
-            alt=""
-            class="logo"
-          />
+          <img src="assets/images/logo.ce898954.png" loading="lazy" alt="" />
         </NuxtLink>
         <div class="w-nav-button" @click="burgerToggle">
           <div class="w-icon-nav-menu"></div>
