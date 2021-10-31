@@ -51,7 +51,7 @@
         </div>
       </div>
     </div>
-    <div class="contact-section wf-section">
+    <!-- <div class="contact-section wf-section">
       <div class="contact-container w-container">
         <div class="w-row">
           <div class="w-col w-col-4">
@@ -138,7 +138,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="real-estate-title-services-section wf-section">
       <div class="workingwithtextsection real-estate-title-services w-row">
         <div class="w-col w-col-4">

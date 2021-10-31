@@ -839,6 +839,16 @@
   display: flex;
   justify-content: space-between;
 }
+.consultation {
+  padding-left: 80px;
+  z-index: 500;
+}
+.consultation input {
+  margin: 15px 0px;
+}
+.consultation .contact-description {
+  font-size: 20px;
+}
 .description {
   line-height: 1.5;
   color: #c6c6c6 !important;
