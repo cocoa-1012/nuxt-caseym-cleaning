@@ -61,9 +61,9 @@
     </div>
     <div class="contact-section wf-section">
       <div class="contact-container w-container">
-        <div class="w-row">
+        <div class="w-row home-contact-form">
           <div class="w-col w-col-4">
-            <p class="contact-section-text">
+            <p class="contact-section-text description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               aliquam cursus metus, at accumsan massa ornare id. Aliquam
               facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
@@ -72,10 +72,14 @@
               odio, id feugiat libero gravida facilisis. Class aptent taciti
               sociosqu ad litora torquent per conubia nostra, per inceptos
               himenaeos. <br />
+              Donec commodo ex vitae odio tincidunt sodales vel at massa. Nulla
+              facilisi. Etiam cursus varius urna, vel mattis sapien venenatis
+              at. Donec et eros eros. Phasellus arcu mi, hendrerit eu nibh eu,
+              condimentum iaculis sapien.
             </p>
           </div>
-          <div class="w-col w-col-8">
-            <p class="contact-us-title">
+          <div class="w-col w-col-8 main-contact-form">
+            <p class="contact-us-title description">
               Contact Us<strong><br /></strong>
             </p>
             <div class="w-form">
