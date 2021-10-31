@@ -137,7 +137,8 @@
           <div class="site-toggle w-col w-col-5 w-col-stack">
             <Nuxt-link to="/">
               <a href="/" class="toggle-button attorney w-button">
-                Real Estate &nbsp;&nbsp;&nbsp;----------------
+                <p>Real Estate</p>
+                <hr size="2" width="30%" />
               </a>
             </Nuxt-link>
           </div>

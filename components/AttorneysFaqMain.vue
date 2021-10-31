@@ -594,7 +594,7 @@ export default {
       if (window.matchMedia('(min-width: 768px)').matches) {
         for (let i = 0; i < this.itemArrays.length; i++) {
           if (i !== item) {
-            document.getElementById('accordion-item' + i).style.opacity = '0'
+            document.getElementById('accordion-item' + i).style.opacity = '0.2'
             document.getElementById('accordion-item' + i).style.transition =
               'all 1s ease'
           }
