@@ -10,9 +10,11 @@
     <AttorneysHomeCarousel />
     <div class="why-choose-us attorney wf-section">
       <div class="wcu-images attorney w-row">
-        <div class="column-3 w-col w-col-2"></div>
+        <div class="column-3 w-col w-col-1"></div>
+
         <div class="wcu-image-one w-col w-col-5"></div>
         <div class="wcu-image-two w-col w-col-5"></div>
+        <div class="column-3 w-col w-col-1"></div>
       </div>
       <h1 class="why-choose-us-title-container attorney">WHO WE ARE</h1>
     </div>
