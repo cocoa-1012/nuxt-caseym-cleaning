@@ -819,7 +819,22 @@
 .contact-section.about-contact {
   margin-top: 0px;
 }
-
+.contact-attorney {
+  padding: 0px !important;
+  margin-bottom: 50px;
+}
+.contact-attorney-forms {
+  padding-right: 30px !important;
+}
+.contact-attorney img {
+  padding-left: 30px;
+  height: 400px;
+}
+.contact-description {
+  color: #777;
+  font-size: 16px;
+  font-weight: 600;
+}
 .contact-container {
   max-width: 1230px;
   padding: 80px 50px;
@@ -841,7 +856,9 @@
   font-size: 45px;
   line-height: 45px;
 }
-
+.contact-section-text.attorney {
+  color: #892432;
+}
 .real-estate-title-services-section {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1650,6 +1667,23 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .contact-attorney {
+    padding: 0px !important;
+    margin-bottom: 50px;
+    background-color: #ededed !important;
+  }
+  .contact-attorney input,
+  .contact-attorney textarea {
+    background-color: white !important;
+  }
+  .contact-attorney-forms {
+    padding: 30px !important;
+  }
+  .contact-attorney img {
+    padding-left: 30px;
+    padding-right: 40px;
+    height: 300px;
+  }
   .working-with-header {
     font-family: CormorantItalic;
     color: #4f748b;
