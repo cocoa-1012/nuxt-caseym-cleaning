@@ -58,7 +58,10 @@
                   <div class="text-credentials">Credentialse</div>
                 </div>
                 <div class="w-col w-col-3" @click="toggle1">
-                  <div class="expand">Expand &#x25BC;</div>
+                  <div class="expand">
+                    <span style="color: #4f748b">Expand</span>
+                    &#x25BC;
+                  </div>
                 </div>
               </div>
             </div>
@@ -133,7 +136,9 @@
                   <div class="text-credentials">Credentials</div>
                 </div>
                 <div class="w-col w-col-3" @click="toggle2">
-                  <div class="expand">Expand &#x25BC;</div>
+                  <div class="expand">
+                    <span style="color: #4f748b">Expand</span> &#x25BC;
+                  </div>
                 </div>
               </div>
             </div>

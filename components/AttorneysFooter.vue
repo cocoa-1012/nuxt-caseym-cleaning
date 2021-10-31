@@ -30,9 +30,39 @@
               Gramm-Leach-Bliley Act (GLBA). Any information collected will only
               be used in accordance with this privacy statement.<br />
             </p>
+            <p v-show="isOpen" class="footer-text">
+              Through discussions with management and review of available
+              information, identify the institution’s information sharing
+              practices (and changes to those practices) with affiliates and
+              nonaffiliated third parties; how it treats nonpublic personal
+              information; and how it administers opt-outs.
+            </p>
+            <div class="w-col w-col-3" @click="toggle">
+              <div class="expand" style="text-align: left; margin-bottom: 20px">
+                {{ expandText }}
+                {{ isOpen ? `&#x25B2;` : `&#x25BC;` }}
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isOpen: false,
+      expandText: 'Expand',
+    }
+  },
+  methods: {
+    toggle() {
+      this.expandText = this.isOpen ? 'Expand' : 'Close'
+      this.isOpen = !this.isOpen
+    },
+  },
+}
+</script> 
