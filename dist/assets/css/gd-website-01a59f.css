@@ -549,7 +549,7 @@
   cursor: default;
 }
 .working-with-subtext.about-page-subtext {
-  margin-top: 40px;
+  text-align: left;
 }
 
 .dropdown {
@@ -1788,10 +1788,6 @@ textarea {
 
   .working-with-subtext {
     font-size: 10px;
-  }
-
-  .working-with-subtext.about-page-subtext {
-    margin-top: 0px;
   }
 
   .why-choose-us.about-us-contact-banner {
