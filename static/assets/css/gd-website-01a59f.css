@@ -974,7 +974,11 @@
 .credentials {
   width: 100%;
 }
-
+.email-direct img {
+  width: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 .credential-title {
   width: 100%;
   border-style: solid none;
