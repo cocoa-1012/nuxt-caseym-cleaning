@@ -1676,6 +1676,17 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .carousel-main {
+    margin: 50px !important;
+  }
+  .consultation {
+    padding: 0px 30px;
+    z-index: 500;
+  }
+
+  .consultation .contact-description {
+    margin-top: 30px;
+  }
   .contact-attorney {
     padding: 0px !important;
     margin-bottom: 50px;
@@ -1699,6 +1710,7 @@ textarea {
     font-size: 45px;
     line-height: 45px;
     font-weight: 400;
+    margin-left: 20px;
   }
   .footer-font {
     font-size: 45px !important;
@@ -1780,6 +1792,7 @@ textarea {
   }
 
   .workingwithtextsection {
+    padding-top: 0px;
     display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1830,7 +1843,8 @@ textarea {
   }
 
   .working-with-subtext {
-    font-size: 10px;
+    font-size: 14px;
+    margin: 0px 20px;
   }
 
   .why-choose-us.about-us-contact-banner {
