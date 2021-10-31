@@ -80,7 +80,7 @@
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
                 <h1 class="working-with-header attorney">
-                  <em>Criminal<br />Defense</em>
+                  Criminal<br />Defense
                 </h1>
               </div>
               <div class="w-col w-col-8">
@@ -113,9 +113,7 @@
           <div data-w-tab="WORKING WITH LENDERS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
-                <h1 class="working-with-header attorney">
-                  <em>Immigration</em>
-                </h1>
+                <h1 class="working-with-header attorney">Immigration</h1>
               </div>
               <div class="w-col w-col-8">
                 <p class="working-with-subtext">
@@ -148,7 +146,7 @@
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
                 <h1 class="working-with-header attorney">
-                  <em>Personal<br />Injury</em>
+                  Personal<br />Injury
                 </h1>
               </div>
               <div class="w-col w-col-8">
@@ -181,7 +179,7 @@
           <div data-w-tab="WORKING WITH REALTORS 2" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
-                <h1 class="working-with-header attorney"><em>Adoption</em></h1>
+                <h1 class="working-with-header attorney">Adoption</h1>
               </div>
               <div class="w-col w-col-8">
                 <p class="working-with-subtext">
@@ -213,7 +211,7 @@
           <div data-w-tab="WORKING WITH REALTORS 3" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
-                <h1 class="working-with-header attorney"><em>Maritime</em></h1>
+                <h1 class="working-with-header attorney">Maritime</h1>
               </div>
               <div class="w-col w-col-8">
                 <p class="working-with-subtext">

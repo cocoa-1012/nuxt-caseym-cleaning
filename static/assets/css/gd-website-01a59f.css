@@ -523,6 +523,7 @@
 
 .working-with-header.attorney {
   color: #892432;
+  font-family: Cormorant;
 }
 
 .working-with-subtext {
@@ -790,6 +791,7 @@
 
 .circle-image {
   margin-bottom: 20px;
+  max-width: 200px;
 }
 
 .circle-image.about-image {
