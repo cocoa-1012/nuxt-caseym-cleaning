@@ -27,10 +27,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon0" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -76,10 +73,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon1" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -125,10 +119,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon2" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -174,10 +165,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon3" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -223,10 +211,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon4" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -272,10 +257,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon5" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -321,10 +303,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon6" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -370,10 +349,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon7" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -419,10 +395,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon8" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
