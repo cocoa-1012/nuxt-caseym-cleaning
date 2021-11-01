@@ -81,6 +81,26 @@
               <NuxtLink to="/contact">
                 <a aria-current="page" class="nav-link w-nav-link">Contact</a>
               </NuxtLink>
+              <NuxtLink to="/">
+                <a aria-current="page" class="nav-link w-nav-link">
+                  <img
+                    src="assets/images/search.png"
+                    loading="lazy"
+                    alt=""
+                    width="20px"
+                  />
+                </a>
+              </NuxtLink>
+              <NuxtLink to="/">
+                <a aria-current="page" class="nav-link w-nav-link">
+                  <img
+                    src="assets/images/Facebook-logo-gray.png"
+                    loading="lazy"
+                    alt=""
+                    width="20px"
+                  />
+                </a>
+              </NuxtLink>
             </nav>
           </div>
         </div>
