@@ -523,6 +523,9 @@
   line-height: 60px;
   font-weight: 400;
 }
+.working-with-header.regular-font {
+  font-family: Cormorant;
+}
 
 .working-with-header.attorney {
   color: #892432;
@@ -1800,7 +1803,6 @@ textarea {
     height: 300px;
   }
   .working-with-header {
-    font-family: CormorantItalic;
     color: #4f748b;
     font-size: 45px;
     line-height: 45px;

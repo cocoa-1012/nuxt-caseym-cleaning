@@ -141,7 +141,9 @@
               Donec commodo ex vitae odio tincidunt sodales vel at massa. Nulla
               facilisi. Etiam cursus varius urna, vel mattis sapien venenatis
               at. Donec et eros eros. Phasellus arcu mi, hendrerit eu nibh eu,
-              condimentum iaculis sapien.<br /><br />
+              condimentum iaculis sapien.<br />
+            </p>
+            <p class="contact-section-text description mobile-view">
               Donec eu blandit elit, in ultrices tellus. Maecenas ultricies
               bibendum sodales. Morbi in tincidunt eros. Vivamus nec ipsum
               suscipit, sagittis libero eget, vehicula leo. Aliquam erat
@@ -229,8 +231,8 @@
     <div class="real-estate-title-services-section wf-section">
       <div class="workingwithtextsection real-estate-title-services w-row">
         <div class="w-col w-col-4">
-          <h1 class="working-with-header">
-            <em>Our Real <br />Estate Title <br />Services</em>
+          <h1 class="working-with-header regular-font">
+            Our Real <br />Estate Title <br />Services
           </h1>
         </div>
         <div class="w-col w-col-8">
