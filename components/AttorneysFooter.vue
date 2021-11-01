@@ -6,20 +6,20 @@
       </div>
       <div class="footer-content w-row">
         <div class="w-col w-col-4"></div>
-        <div class="w-col w-col-8">
-          <div class="w-col w-col-3">
+        <div class="w-col w-col-8 footer-parent">
+          <div class="w-col w-col-3 footer-child">
             <p class="footer-text">
               <span class="footer-sub-title">OFFICE</span><br />105 Tivoli
               Street<br />Abbeville, LA<br />337-893-3423<br />
             </p>
           </div>
-          <div class="w-col w-col-3">
+          <div class="w-col w-col-3 footer-child second">
             <p class="footer-text linked">
-              <span class="footer-sub-title">CONTACT</span
-              ><br />Disclaimer<br />Sitemap<br />Privacy policy<br />
+              <span>Contact</span><br />Disclaimer<br />Sitemap<br />Privacy
+              policy<br />
             </p>
           </div>
-          <div class="w-col w-col-6">
+          <div class="w-col w-col-6 footer-policy">
             <p class="footer-text">
               <span class="footer-sub-title">PRIVACY POLICY</span
               ><br />‍Purpose<br />‍Federal and state laws and regulations

@@ -544,6 +544,7 @@
 }
 .footer-text.linked {
   cursor: pointer;
+  color: #54788e;
 }
 .footer-sub-title {
   color: #979797;
@@ -1721,6 +1722,12 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .footer-contact-form-title {
+    width: 100%;
+  }
+  .footer-contact-form {
+    width: 100%;
+  }
   .carousel-main {
     margin: 50px !important;
   }
@@ -1872,7 +1879,9 @@ textarea {
   .tab-link-working-with-realtors.attorney {
     width: 100%;
   }
-
+  .tabs {
+    width: 100%;
+  }
   .tabs-menu {
     width: 100vw;
     margin-top: 0px;
@@ -1997,6 +2006,19 @@ textarea {
   .footer-content {
     padding-right: 30px;
     padding-left: 30px;
+  }
+  .footer-parent {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer-child {
+    width: 60%;
+  }
+  .footer-child.second {
+    width: 40%;
+  }
+  .footer-policy {
+    display: none;
   }
 
   .column {
