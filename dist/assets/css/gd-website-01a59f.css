@@ -1120,7 +1120,9 @@
 .text-block-6 {
   width: 200px;
 }
-
+.real-estate-intro {
+  margin-right: 50px;
+}
 .testimonials {
   display: -webkit-box;
   display: -webkit-flex;
