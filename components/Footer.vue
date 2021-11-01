@@ -5,13 +5,30 @@
         Experienced and Local Attorneys Here for You
       </div>
       <div class="footer-content w-row">
-        <div class="w-col w-col-4"></div>
+        <div class="w-col w-col-4">
+          <img
+            src="assets/images/Full Logo.png"
+            loading="lazy"
+            alt=""
+            width="90%"
+            class="desktop-view"
+          />
+        </div>
         <div class="w-col w-col-8 footer-parent">
           <div class="w-col w-col-3 footer-child">
             <p class="footer-text">
               <span class="footer-sub-title">OFFICE</span><br />105 Tivoli
               Street<br />Abbeville, LA<br />337-893-3423<br />
             </p>
+            <a href="#" style="cursor: pointer">
+              <img
+                src="assets/images/Facebook-logo-gray.png"
+                loading="lazy"
+                alt=""
+                width="20%"
+                class="desktop-view"
+              />
+            </a>
           </div>
           <div class="w-col w-col-3 footer-child second">
             <p class="footer-text linked">
