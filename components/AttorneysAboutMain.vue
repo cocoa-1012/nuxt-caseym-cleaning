@@ -4,7 +4,14 @@
       <div class="overlay-section about-us w-container">
         <h1 class="hero-text sub-page-hero">About Us<br /></h1>
       </div>
-      <div class="experienced-attorneys-text about-subtext-hero attorney">
+      <div
+        class="
+          experienced-attorneys-text
+          about-subtext-hero
+          attorney
+          desktop-view
+        "
+      >
         Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
       </div>
     </div>
@@ -17,6 +24,16 @@
           w-row
         "
       >
+        <div
+          class="
+            experienced-attorneys-text
+            about-subtext-hero
+            attorney
+            mobile-view
+          "
+        >
+          Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
+        </div>
         <div class="w-col w-col-6 real-estate-intro">
           <img
             src="assets/images/person1.046db6ca.png"

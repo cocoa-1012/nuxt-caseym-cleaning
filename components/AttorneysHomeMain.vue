@@ -2,8 +2,11 @@
   <div>
     <div class="page-hero home attorney wf-section">
       <div class="overlay-section w-container">
-        <h1 class="hero-text">
-          Experienced and Local<br />Attorneys Here for You
+        <h1 class="hero-text desktop-view">
+          Experienced&nbsp;and Local<br />Attorneys Here for You
+        </h1>
+        <h1 class="hero-text mobile-view">
+          Experienced&nbsp;and Local&nbsp;Attorneys Here&nbsp;for&nbsp;You
         </h1>
       </div>
     </div>
