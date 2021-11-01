@@ -1722,6 +1722,10 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .about-grey-text {
+    font-size: 23px;
+    line-height: 30px;
+  }
   .footer-contact-form-title {
     width: 100%;
   }
@@ -1939,6 +1943,7 @@ textarea {
   }
 
   .about-grey {
+    padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -1962,7 +1967,14 @@ textarea {
   .circle-image.about-image {
     padding-top: 40px;
   }
-
+  .second-image {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .circle-image {
+    margin-top: 20px;
+  }
   .contact-section.about-contact {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

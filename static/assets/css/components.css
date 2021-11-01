@@ -712,6 +712,10 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+  .learn-more {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
   .nav-bar-logo {
     width: 80% !important;
   }

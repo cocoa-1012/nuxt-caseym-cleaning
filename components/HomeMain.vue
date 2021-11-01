@@ -43,7 +43,7 @@
             attorney/owner<strong><br /></strong>
           </p>
         </div>
-        <div class="column-9 w-col w-col-3 w-col-medium-3">
+        <div class="column-9 w-col w-col-3 w-col-medium-3 second-image">
           <img
             src="assets/images/person2.b2145e19.png"
             loading="lazy"
