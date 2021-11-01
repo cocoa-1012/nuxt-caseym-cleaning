@@ -6,7 +6,7 @@
     <div class="faq-top wf-section">
       <div class="faq-container w-row">
         <div class="faq-column-one w-col w-col-8">
-          <h1 class="faq-heading commercial attorney">Adoption</h1>
+          <h1 class="faq-heading commercial attorney">{{ sectionTitle }}</h1>
           <div class="cloneable-area">
             <div class="c-accordion-list">
               <div
@@ -27,10 +27,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon0" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -76,10 +73,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon1" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -125,10 +119,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon2" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -174,10 +165,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon3" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -223,10 +211,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon4" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -272,10 +257,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon5" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -321,10 +303,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon6" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -370,10 +349,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon7" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -419,10 +395,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon8" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -456,50 +429,94 @@
         <div class="faq-sidebar attorney w-col w-col-4">
           <h1 class="faq-heading sidebar attorney">Practice Areas</h1>
           <ul role="list" class="w-list-unstyled">
-            <li class="practice-list-item attorney">
-              <a href="#" class="practice-area-list">ADOPTION</a>
+            <li
+              class="practice-list-item attorney"
+              @click="sectionTitle = 'Adoption'"
+            >
+              <p class="practice-area-list">Adoption</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">FAMILY LAW</a>
+
+            <li class="practice-list-item" @click="sectionTitle = 'Family law'">
+              <p class="practice-area-list">Family Law</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">DIVORCE</a>
+
+            <li class="practice-list-item" @click="sectionTitle = 'Divorce'">
+              <p class="practice-area-list">Divorce</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">WILLS / SUCCESSION</a>
+
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Wills / Succession'"
+            >
+              <p class="practice-area-list">Wills / Succession</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">CRIMINAL DEFENSE</a>
+
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Criminal Defense'"
+            >
+              <p class="practice-area-list">Criminal Defense</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">PERSONAL INJURY</a>
+
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Personal Injury'"
+            >
+              <p class="practice-area-list">Personal Injury</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">DUI / DWI</a>
+
+            <li class="practice-list-item" @click="sectionTitle = 'DUI / DWI'">
+              <p class="practice-area-list">DUI / DWI</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">WORKERS&#x27; COMP</a>
+
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = `Workers' Comp`"
+            >
+              <p class="practice-area-list">Workers&#x27; Comp</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">AUTO</a>
+
+            <li class="practice-list-item" @click="sectionTitle = 'Auto'">
+              <p class="practice-area-list">AUTO</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">18-Wheeler Accident</a>
+
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = '18-Wheeler Accident'"
+            >
+              <p class="practice-area-list">18-Wheeler Accident</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Maritime</a>
+
+            <li class="practice-list-item" @click="sectionTitle = 'Maritime'">
+              <p class="practice-area-list">Maritime</p>
+              <p></p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list"
-                >IRREVOCABLE / <br />Revocable trust</a
-              >
+
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Irrevocable / Revocable trust'"
+            >
+              <p class="practice-area-list">
+                IRREVOCABLE / <br />Revocable trust
+              </p>
+              <p></p>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <Carousel />
-    <ContactUsToday />
+    <AttorneysContactUsToday />
   </div>
 </template>
 
@@ -519,10 +536,12 @@ export default {
         false,
       ],
       temp: '',
+      sectionTitle: '',
     }
   },
   mounted() {
     this.$nextTick(function () {
+      this.sectionTitle = 'Adoption'
       for (let i = 0; i < this.itemArrays.length; i++) {
         document.getElementById('accordion-item' + i).style.zIndex = i + 50
       }
@@ -548,7 +567,7 @@ export default {
       if (window.matchMedia('(min-width: 768px)').matches) {
         for (let i = 0; i < this.itemArrays.length; i++) {
           if (i !== item) {
-            document.getElementById('accordion-item' + i).style.opacity = '0'
+            document.getElementById('accordion-item' + i).style.opacity = '0.2'
             document.getElementById('accordion-item' + i).style.transition =
               'all 1s ease'
           }

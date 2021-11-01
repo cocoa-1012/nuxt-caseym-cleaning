@@ -42,7 +42,7 @@
                     maxlength="256"
                     name="name"
                     data-name="Name"
-                    placeholder="Name"
+                    placeholder="NAME"
                   />
                   <input
                     id="email"
@@ -51,7 +51,7 @@
                     maxlength="256"
                     name="email"
                     data-name="Email"
-                    placeholder="Email"
+                    placeholder="EMAIL"
                     required=""
                   />
                   <input
@@ -61,13 +61,13 @@
                     maxlength="256"
                     name="Phone"
                     data-name="Phone"
-                    placeholder="Phone"
+                    placeholder="PHONE"
                     required=""
                   />
                 </div>
                 <div id="field" class="contact-form-column-two w-col w-col-6">
                   <textarea
-                    placeholder="Example Text"
+                    placeholder="MESSAGE"
                     maxlength="5000"
                     rows="3"
                     name="field"

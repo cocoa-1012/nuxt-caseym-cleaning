@@ -6,7 +6,7 @@
     <div class="faq-top wf-section">
       <div class="faq-container w-row">
         <div class="faq-column-one w-col w-col-8">
-          <h1 class="faq-heading commercial">Commercial</h1>
+          <h1 class="faq-heading commercial">{{ sectionTitle }}</h1>
           <div class="cloneable-area">
             <div class="c-accordion-list">
               <div
@@ -27,10 +27,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon0" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -76,10 +73,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon1" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -125,10 +119,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon2" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -174,10 +165,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon3" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -223,10 +211,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon4" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -272,10 +257,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon5" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -321,10 +303,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon6" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -370,10 +349,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon7" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -419,10 +395,7 @@
                         </div>
                       </div>
                       <div id="accordion-icon8" class="c-accordion-item-q-icon">
-                        <div class="_w-accordion-item-q-icon">
-                          <div class="accordion-item-q-icon-stripe-1"></div>
-                          <div class="accordion-item-q-icon-stripe-2"></div>
-                        </div>
+                        <div class="_w-accordion-item-q-icon">&#x25BC;</div>
                       </div>
                     </div>
                   </div>
@@ -456,26 +429,38 @@
         <div class="faq-sidebar w-col w-col-4">
           <h1 class="faq-heading sidebar">Practice Areas</h1>
           <ul role="list" class="w-list-unstyled">
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Commercial</a>
+            <li class="practice-list-item" @click="sectionTitle = 'Commercial'">
+              <p class="practice-area-list">Commercial</p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Residential</a>
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Residential'"
+            >
+              <p class="practice-area-list">Residential</p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Title Settlement</a>
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Title Settlement'"
+            >
+              <p class="practice-area-list">Title Settlement</p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Estate Planning</a>
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Estate Planning'"
+            >
+              <p class="practice-area-list">Estate Planning</p>
             </li>
-            <li class="practice-list-item">
-              <a href="#" class="practice-area-list">Loan Closing</a>
+            <li
+              class="practice-list-item"
+              @click="sectionTitle = 'Loan Closing'"
+            >
+              <p class="practice-area-list">Loan Closing</p>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="resources-top wf-section">
+    <!-- <div class="resources-top wf-section">
       <div class="resources-top-container w-row">
         <div class="w-col w-col-5">
           <h1 class="resources-title">Covid-19 Policy<br /></h1>
@@ -516,7 +501,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <Carousel />
     <ContactUsToday />
   </div>
@@ -538,10 +523,12 @@ export default {
         false,
       ],
       temp: '',
+      sectionTitle: '',
     }
   },
   mounted() {
     this.$nextTick(function () {
+      this.sectionTitle = 'Commercial'
       for (let i = 0; i < this.itemArrays.length; i++) {
         document.getElementById('accordion-item' + i).style.zIndex = i + 50
       }
@@ -567,7 +554,7 @@ export default {
       if (window.matchMedia('(min-width: 768px)').matches) {
         for (let i = 0; i < this.itemArrays.length; i++) {
           if (i !== item) {
-            document.getElementById('accordion-item' + i).style.opacity = '0'
+            document.getElementById('accordion-item' + i).style.opacity = '0.2'
             document.getElementById('accordion-item' + i).style.transition =
               'all 1s ease'
           }

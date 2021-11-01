@@ -71,19 +71,19 @@
           <div class="tabs-heading">MARITIME<strong></strong></div>
         </a>
       </div>
-      <div>
+      <div class="carousel-main">
         <VueSlickCarousel ref="carousel" class="w-tab-content" :fade="true">
           <div
             data-w-tab="WORKING WITH HOME BUYERS"
             class="w-tab-pane w--tab-active"
           >
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-3">
                 <h1 class="working-with-header attorney">
-                  <em>Criminal<br />Defense</em>
+                  Criminal<br />Defense
                 </h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-5">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -108,16 +108,15 @@
                   elementum.<br />
                 </p>
               </div>
+              <AttorneysConsultationSection />
             </div>
           </div>
           <div data-w-tab="WORKING WITH LENDERS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
-                <h1 class="working-with-header attorney">
-                  <em>Immigration</em>
-                </h1>
+              <div class="w-col w-col-3">
+                <h1 class="working-with-header attorney">Immigration</h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-5">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -142,16 +141,17 @@
                   elementum.<br />
                 </p>
               </div>
+              <AttorneysConsultationSection />
             </div>
           </div>
           <div data-w-tab="WORKING WITH REALTORS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-3">
                 <h1 class="working-with-header attorney">
-                  <em>Personal<br />Injury</em>
+                  Personal<br />Injury
                 </h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-5">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -176,14 +176,15 @@
                   elementum.<br />
                 </p>
               </div>
+              <AttorneysConsultationSection />
             </div>
           </div>
           <div data-w-tab="WORKING WITH REALTORS 2" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
-                <h1 class="working-with-header attorney"><em>Adoption</em></h1>
+              <div class="w-col w-col-3">
+                <h1 class="working-with-header attorney">Adoption</h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-5">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -208,14 +209,15 @@
                   elementum.<br />
                 </p>
               </div>
+              <AttorneysConsultationSection />
             </div>
           </div>
           <div data-w-tab="WORKING WITH REALTORS 3" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
-              <div class="w-col w-col-6">
-                <h1 class="working-with-header attorney"><em>Maritime</em></h1>
+              <div class="w-col w-col-3">
+                <h1 class="working-with-header attorney">Maritime</h1>
               </div>
-              <div class="w-col w-col-6">
+              <div class="w-col w-col-5">
                 <p class="working-with-subtext">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam aliquam cursus metus, at accumsan massa ornare id.
@@ -240,9 +242,11 @@
                   elementum.<br />
                 </p>
               </div>
+              <AttorneysConsultationSection />
             </div>
           </div>
         </VueSlickCarousel>
+        <div class="carousel-overlay"></div>
       </div>
     </div>
   </div>

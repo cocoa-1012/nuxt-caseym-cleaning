@@ -4,7 +4,7 @@
       <div class="overlay-section about-us w-container">
         <h1 class="hero-text sub-page-hero">About Us<br /></h1>
       </div>
-      <div class="experienced-attorneys-text about-subtext-hero">
+      <div class="experienced-attorneys-text about-subtext-hero desktop-view">
         Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
       </div>
     </div>
@@ -17,6 +17,9 @@
           w-row
         "
       >
+        <div class="experienced-attorneys-text about-subtext-hero mobile-view">
+          Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
+        </div>
         <div class="w-col w-col-6 real-estate-intro">
           <img
             src="assets/images/person1.046db6ca.png"
@@ -51,6 +54,9 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
+          <a href="mailto:email@example.com" class="email-direct">
+            <img src="assets/images/email.png" loading="lazy" alt="" />
+          </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
             <div class="credential-title">
               <div class="w-row">
@@ -58,7 +64,10 @@
                   <div class="text-credentials">Credentialse</div>
                 </div>
                 <div class="w-col w-col-3" @click="toggle1">
-                  <div class="expand">Expand &#x25BC;</div>
+                  <div class="expand">
+                    <span style="color: #4f748b">Expand</span>
+                    &#x25BC;
+                  </div>
                 </div>
               </div>
             </div>
@@ -126,6 +135,9 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
+          <a href="mailto:email@example.com" class="email-direct">
+            <img src="assets/images/email.png" loading="lazy" alt="" />
+          </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
             <div class="credential-title">
               <div class="w-row">
@@ -133,7 +145,9 @@
                   <div class="text-credentials">Credentials</div>
                 </div>
                 <div class="w-col w-col-3" @click="toggle2">
-                  <div class="expand">Expand &#x25BC;</div>
+                  <div class="expand">
+                    <span style="color: #4f748b">Expand</span> &#x25BC;
+                  </div>
                 </div>
               </div>
             </div>

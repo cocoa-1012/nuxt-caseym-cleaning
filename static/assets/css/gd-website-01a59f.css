@@ -24,7 +24,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 80vh;
+  height: 90vh;
   /* height: 650px; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -83,7 +83,7 @@
   top: auto;
   right: 0%;
   bottom: 0%;
-  display: block;
+  display: flex;
   max-width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -103,7 +103,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(15, 18, 26, 0.9);
+  background-color: #060f21;
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -159,7 +159,7 @@
 }
 
 .hero-text {
-  display: block;
+  display: flex;
   width: 100%;
   max-width: 1230px;
   -webkit-box-orient: vertical;
@@ -180,7 +180,7 @@
   font-size: 70px;
   line-height: 70px;
   font-weight: 500;
-  text-align: right;
+  text-align: left;
 }
 
 .hero-text.sub-page-hero {
@@ -289,8 +289,7 @@
 }
 
 .nav-link:hover {
-  color: #686868;
-  font-weight: 400;
+  color: #333;
   text-decoration: none;
 }
 
@@ -341,6 +340,9 @@
   background-color: #4f748b;
   z-index: 3;
 }
+.sub-switch {
+  text-align: center !important;
+}
 .sub-phone-number {
   z-index: 2;
 }
@@ -354,6 +356,9 @@
 
 .site-toggle {
   background-color: #892432;
+}
+.site-toggle a {
+  text-decoration: none;
 }
 
 .text-block-5 {
@@ -473,7 +478,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5px;
   margin-bottom: 15px;
   padding-top: 30px;
   padding-bottom: 0px;
@@ -518,9 +522,13 @@
   line-height: 60px;
   font-weight: 400;
 }
+.working-with-header.regular-font {
+  font-family: Cormorant;
+}
 
 .working-with-header.attorney {
   color: #892432;
+  font-family: Cormorant;
 }
 
 .working-with-subtext {
@@ -531,8 +539,24 @@
   font-weight: 300;
 }
 
+.footer-text {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #47587c;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 600;
+  text-align: left;
+}
+.footer-text.linked {
+  cursor: pointer;
+  color: #54788e;
+}
+.footer-sub-title {
+  color: #979797;
+  cursor: default;
+}
 .working-with-subtext.about-page-subtext {
-  margin-top: 40px;
+  text-align: left;
 }
 
 .dropdown {
@@ -563,7 +587,7 @@
 
 .button.contact {
   background-color: #fff;
-  color: #000;
+  color: #4f748b;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -666,7 +690,10 @@
 }
 
 .why-choose-us-title-container.attorney {
-  width: 650px;
+  text-align: left;
+  padding-left: 10%;
+  width: 60%;
+  font-weight: 400;
   margin-top: -230px;
   background-color: rgba(79, 116, 139, 0.9);
 }
@@ -773,6 +800,7 @@
 
 .circle-image {
   margin-bottom: 20px;
+  max-width: 200px;
 }
 
 .circle-image.about-image {
@@ -802,10 +830,84 @@
 .contact-section.about-contact {
   margin-top: 0px;
 }
+.contact-attorney {
+  padding: 0px !important;
+  margin-bottom: 50px;
+}
+.contact-attorney-forms {
+  padding-right: 30px !important;
+}
+.contact-attorney img {
+  padding-left: 30px;
+  height: 400px;
+}
+.main-contact-form {
+  width: 50%;
+}
+.footer-contact-form {
+  display: flex;
+  background: #eee;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 40px 50px 40px;
+  width: 60%;
+  margin-top: -190px;
+}
+.footer-contact-form-title.attorney .description,
+.footer-contact-form.attorney .description {
+  color: #892432 !important;
+}
+.footer-contact-form.attorney .submit {
+  background-color: #892432;
+  color: white;
+}
+.footer-contact-form-title {
+  display: flex;
+  background: #eee;
+  padding: 20px 40px 10px 40px;
+  width: 50%;
+  cursor: pointer;
+}
 
+.footer-contact-form-title .description {
+  color: #000 !important;
+}
+.footer-contact-form .description {
+  color: #000 !important;
+}
+.footer-contact-form .w-input {
+  background: #fafafa !important;
+}
+.mobile-contact-form {
+  display: none;
+}
+.home-contact-form {
+  display: flex;
+  justify-content: space-between;
+}
+.consultation {
+  padding-left: 80px;
+  z-index: 500;
+}
+.consultation input {
+  margin: 15px 0px;
+}
+.consultation .contact-description {
+  font-size: 20px;
+}
+.description {
+  line-height: 1.5;
+  color: #c6c6c6 !important;
+}
+
+.contact-description {
+  color: #777;
+  font-size: 16px;
+  font-weight: 600;
+}
 .contact-container {
   max-width: 1230px;
-  padding: 80px 50px;
+  padding: 50px;
   background-color: #707070;
 }
 
@@ -824,7 +926,9 @@
   font-size: 45px;
   line-height: 45px;
 }
-
+.contact-section-text.attorney {
+  color: #892432;
+}
 .real-estate-title-services-section {
   display: -webkit-box;
   display: -webkit-flex;
@@ -849,6 +953,7 @@
 }
 
 .toggle-button {
+  display: flex;
   width: 100%;
   height: 52px;
   padding-top: 20px;
@@ -858,6 +963,11 @@
   font-family: 'Nunito Sans', sans-serif;
   text-align: left;
   text-transform: uppercase;
+  text-decoration: none;
+}
+.toggle-button hr {
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 .toggle-button.attorney {
@@ -882,16 +992,16 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: 80px;
 }
 
 .experienced-attorneys-text {
   font-family: Cormorant;
   color: #892432;
-  font-size: 40px;
+  font-size: 44px;
   line-height: 40px;
-  text-align: center;
+  text-align: left;
 }
-
 .experienced-attorneys-text.about-subtext-hero {
   position: relative;
   top: auto;
@@ -948,11 +1058,25 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
+.close-button {
+  background-color: #060f21;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
 .credentials {
   width: 100%;
 }
-
+.email-direct img {
+  width: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 .credential-title {
   width: 100%;
   border-style: solid none;
@@ -976,6 +1100,7 @@
 }
 
 .expand {
+  color: #892432;
   font-size: 14px;
   text-align: right;
   margin-top: 20px;
@@ -1063,7 +1188,7 @@ textarea {
   resize: none;
 }
 .contact-us-group input {
-  width: 98%;
+  width: 94%;
   margin-bottom: 12px;
 }
 .resources-top {
@@ -1331,14 +1456,6 @@ textarea {
   line-height: 1.4em;
 }
 
-.accordion-item-q-icon-stripe-2 {
-  position: absolute;
-  width: 0.3em;
-  height: 150%;
-  background-color: #fff;
-  opacity: 1;
-  transition: ease-in-out 0.5s;
-}
 .text-credentials {
   font-family: Cormorant !important;
   padding-bottom: 20px;
@@ -1379,13 +1496,6 @@ textarea {
   font-weight: 300;
 }
 
-.accordion-item-q-icon-stripe-1 {
-  position: relative;
-  width: 100%;
-  height: 0.3em;
-  background-color: #fff;
-}
-
 .c-accordion-list {
   margin-bottom: 100px;
 }
@@ -1412,7 +1522,7 @@ textarea {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
@@ -1421,9 +1531,6 @@ textarea {
   transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
-}
-.icon-opened .accordion-item-q-icon-stripe-2 {
-  opacity: 0;
 }
 
 ._w-accordion-content-divider {
@@ -1477,6 +1584,7 @@ textarea {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .practice-area-list:hover {
@@ -1500,7 +1608,12 @@ textarea {
   z-index: 1000;
   width: 500px;
 }
-
+.desktop-view {
+  display: flex;
+}
+.mobile-view {
+  display: none;
+}
 @media screen and (max-width: 991px) {
   .page-hero.sub-page-hero {
     -webkit-box-orient: vertical;
@@ -1512,7 +1625,7 @@ textarea {
 
   .hero-text {
     font-size: 56px;
-    text-align: center;
+    text-align: left;
   }
 
   .navbar {
@@ -1559,6 +1672,9 @@ textarea {
 
   .toggle-button {
     text-align: center;
+  }
+  .toggle-button {
+    padding-left: 90px;
   }
 
   .testimonial {
@@ -1622,12 +1738,92 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .experienced-attorneys-text.about-subtext-hero {
+    position: relative;
+    margin-top: 300px;
+    margin-bottom: -170px;
+    width: 100%;
+    max-width: 1230px;
+    color: #4f748b;
+    font-size: 40px !important;
+    line-height: 40px !important;
+    text-align: left;
+  }
+  .why-choose-us-title-container.attorney {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: -30px;
+  }
+  .desktop-view {
+    display: none !important;
+  }
+  .mobile-view {
+    display: flex;
+  }
+  .home-contact-container {
+    padding: 50px 30px !important;
+  }
+  .home-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-contact-form {
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 40px 50px 40px;
+    width: 100%;
+    margin-top: -100px;
+  }
+  .main-contact-form {
+    display: none;
+  }
+  .about-grey-text {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .footer-contact-form-title {
+    width: 100%;
+  }
+  .footer-contact-form {
+    width: 100%;
+  }
+  .carousel-main {
+    margin: 50px !important;
+  }
+  .consultation {
+    padding: 0px 30px;
+    z-index: 500;
+  }
+
+  .consultation .contact-description {
+    margin-top: 30px;
+  }
+  .contact-attorney {
+    padding: 0px !important;
+    margin-bottom: 50px;
+    background-color: #ededed !important;
+  }
+  .contact-attorney input,
+  .contact-attorney textarea {
+    background-color: white !important;
+  }
+  .contact-attorney-forms {
+    padding: 30px !important;
+  }
+  .contact-attorney img {
+    padding-left: 30px;
+    padding-right: 40px;
+    height: 300px;
+  }
   .working-with-header {
-    font-family: CormorantItalic;
     color: #4f748b;
     font-size: 45px;
     line-height: 45px;
     font-weight: 400;
+    margin-left: 20px;
   }
   .footer-font {
     font-size: 45px !important;
@@ -1691,9 +1887,6 @@ textarea {
     font-style: italic;
     font-weight: 300;
   }
-  .logo {
-    width: 200px;
-  }
 
   .page-hero.sub-page-hero {
     height: 100vh;
@@ -1707,11 +1900,13 @@ textarea {
   }
 
   .hero-text {
-    font-size: 27px;
-    line-height: 40px;
+    font-size: 45px;
+    width: 72%;
+    line-height: 45px;
   }
 
   .workingwithtextsection {
+    padding-top: 0px;
     display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1746,7 +1941,9 @@ textarea {
   .tab-link-working-with-realtors.attorney {
     width: 100%;
   }
-
+  .tabs {
+    width: 100%;
+  }
   .tabs-menu {
     width: 100vw;
     margin-top: 0px;
@@ -1762,11 +1959,8 @@ textarea {
   }
 
   .working-with-subtext {
-    font-size: 10px;
-  }
-
-  .working-with-subtext.about-page-subtext {
-    margin-top: 0px;
+    font-size: 14px;
+    margin: 0px 20px;
   }
 
   .why-choose-us.about-us-contact-banner {
@@ -1807,12 +2001,13 @@ textarea {
   }
 
   .about-grey {
+    padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
   }
 
   .about-grey.attorney {
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .about-grey-text.title {
@@ -1830,7 +2025,14 @@ textarea {
   .circle-image.about-image {
     padding-top: 40px;
   }
-
+  .second-image {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .circle-image {
+    margin-top: 20px;
+  }
   .contact-section.about-contact {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1874,6 +2076,21 @@ textarea {
   .footer-content {
     padding-right: 30px;
     padding-left: 30px;
+  }
+  .footer-parent {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer-child {
+    width: 60%;
+  }
+  .footer-child.second {
+    width: 40%;
+  }
+  .footer-policy {
+    display: none;
   }
 
   .column {

@@ -53,6 +53,10 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
+input,
+textarea {
+  border: none !important;
+}
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
@@ -320,6 +324,9 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
 }
+.w-input {
+  background-color: #ededed !important;
+}
 .w-input,
 .w-select {
   display: block;
@@ -352,7 +359,7 @@ label {
 }
 .w-input:focus,
 .w-select:focus {
-  border-color: #3898ec;
+  /* border-color: #3898ec; */
   outline: 0;
 }
 .w-input[disabled],
@@ -589,6 +596,9 @@ textarea.w-select {
 .w-hidden-main {
   display: none !important;
 }
+.nav-bar-logo img {
+  width: 320px;
+}
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
@@ -702,8 +712,15 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+  .learn-more {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
   .nav-bar-logo {
     width: 80% !important;
+  }
+  .nav-bar-logo img {
+    width: 250px;
   }
   .nav-bar-group {
     display: flex;
@@ -1621,7 +1638,7 @@ textarea.w-select {
   vertical-align: top;
   text-decoration: none;
   color: #222222;
-  padding: 20px;
+  padding: 12px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -1632,6 +1649,11 @@ textarea.w-select {
 .w-nav-menu {
   position: relative;
   float: right;
+}
+.w-nav-menu a {
+  font-weight: 600;
+  color: #777;
+  font-size: 14px;
 }
 [data-nav-menu-open] {
   display: block !important;
@@ -1804,6 +1826,16 @@ textarea.w-select {
 }
 .w--tab-active {
   display: block;
+}
+.carousel-main {
+  position: relative;
+}
+.carousel-overlay {
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
 }
 @media screen and (max-width: 479px) {
   .w-tab-link {

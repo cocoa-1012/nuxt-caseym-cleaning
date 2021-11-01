@@ -10,9 +10,11 @@
     <AttorneysHomeCarousel />
     <div class="why-choose-us attorney wf-section">
       <div class="wcu-images attorney w-row">
-        <div class="column-3 w-col w-col-2"></div>
+        <div class="column-3 w-col w-col-1"></div>
+
         <div class="wcu-image-one w-col w-col-5"></div>
         <div class="wcu-image-two w-col w-col-5"></div>
+        <div class="column-3 w-col w-col-1"></div>
       </div>
       <h1 class="why-choose-us-title-container attorney">WHO WE ARE</h1>
     </div>
@@ -51,7 +53,7 @@
         </div>
       </div>
     </div>
-    <div class="contact-section wf-section">
+    <!-- <div class="contact-section wf-section">
       <div class="contact-container w-container">
         <div class="w-row">
           <div class="w-col w-col-4">
@@ -138,15 +140,15 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="real-estate-title-services-section wf-section">
+    </div> -->
+    <!-- <div class="real-estate-title-services-section wf-section">
       <div class="workingwithtextsection real-estate-title-services w-row">
-        <div class="w-col w-col-6">
+        <div class="w-col w-col-4">
           <h1 class="working-with-header">
             <em>Our Real <br />Estate Title <br />Services</em>
           </h1>
         </div>
-        <div class="w-col w-col-6">
+        <div class="w-col w-col-8">
           <p class="working-with-subtext">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
@@ -170,6 +172,6 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
