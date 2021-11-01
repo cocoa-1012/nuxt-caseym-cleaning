@@ -289,8 +289,7 @@
 }
 
 .nav-link:hover {
-  color: #686868;
-  font-weight: 400;
+  color: #333;
   text-decoration: none;
 }
 
@@ -908,7 +907,7 @@
 }
 .contact-container {
   max-width: 1230px;
-  padding: 80px 50px;
+  padding: 50px;
   background-color: #707070;
 }
 
@@ -1739,8 +1738,25 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .experienced-attorneys-text.about-subtext-hero {
+    position: relative;
+    margin-top: 300px;
+    margin-bottom: -170px;
+    width: 100%;
+    max-width: 1230px;
+    color: #4f748b;
+    font-size: 40px !important;
+    line-height: 40px !important;
+    text-align: left;
+  }
+  .why-choose-us-title-container.attorney {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: -30px;
+  }
   .desktop-view {
-    display: none;
+    display: none !important;
   }
   .mobile-view {
     display: flex;
@@ -1991,7 +2007,7 @@ textarea {
   }
 
   .about-grey.attorney {
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .about-grey-text.title {

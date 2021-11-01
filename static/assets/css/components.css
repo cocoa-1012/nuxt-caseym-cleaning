@@ -1638,7 +1638,7 @@ textarea.w-select {
   vertical-align: top;
   text-decoration: none;
   color: #222222;
-  padding: 20px;
+  padding: 12px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -1649,6 +1649,11 @@ textarea.w-select {
 .w-nav-menu {
   position: relative;
   float: right;
+}
+.w-nav-menu a {
+  font-weight: 600;
+  color: #777;
+  font-size: 14px;
 }
 [data-nav-menu-open] {
   display: block !important;
