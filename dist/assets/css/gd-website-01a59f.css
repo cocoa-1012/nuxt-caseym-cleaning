@@ -76,7 +76,10 @@
 .page-hero.home.attorney {
   background-image: url('../images/Attorney-Header.jpg');
 }
-
+.required-field {
+  color: #fff;
+  text-align: right;
+}
 .overlay-section {
   position: absolute;
   left: 0%;
@@ -1264,7 +1267,7 @@ textarea {
 
 .resources-top-container.contact-top {
   display: block;
-  width: 100%;
+  width: 80%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1278,6 +1281,7 @@ textarea {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  padding: 20px 40px 60px 120px;
 }
 
 .resources-page-subtext {
@@ -1602,11 +1606,10 @@ textarea {
 
 .contact-image {
   position: absolute;
-  left: auto;
-  right: -10%;
   bottom: auto;
   z-index: 1000;
-  width: 500px;
+  width: 30%;
+  right: 0;
 }
 .desktop-view {
   display: flex;
@@ -1738,6 +1741,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .resources-top-container.contact-top {
+    padding: 20px 40px 20px 30px;
+  }
   .map-view {
     display: flex;
     flex-direction: column;

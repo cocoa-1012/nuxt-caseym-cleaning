@@ -10,6 +10,7 @@
             Schedule a<br />Consultation<br />
           </h1>
           <div class="w-form">
+            <p class="required-field">REQUIRED FIELDS*</p>
             <form id="email-form" name="email-form" data-name="Email Form">
               <input
                 id="name"
@@ -18,7 +19,7 @@
                 maxlength="256"
                 name="name"
                 data-name="Name"
-                placeholder="Name"
+                placeholder="NAME*"
               />
               <input
                 id="email"
@@ -27,7 +28,7 @@
                 maxlength="256"
                 name="email"
                 data-name="Email"
-                placeholder="Email"
+                placeholder="EMAIL*"
                 required=""
               />
               <input
@@ -37,7 +38,7 @@
                 maxlength="256"
                 name="Phone"
                 data-name="Phone"
-                placeholder="Phone"
+                placeholder="PHONE*"
                 required=""
               />
               <input
@@ -47,12 +48,12 @@
                 maxlength="256"
                 name="Service-Subject"
                 data-name="Service / Subject"
-                placeholder="Service / Subject"
+                placeholder="SERVICE/SUBJECT"
                 required=""
               />
               <textarea
                 id="Message"
-                placeholder="Message"
+                placeholder="MESSAGE"
                 maxlength="5000"
                 name="Message"
                 data-name="Message"
@@ -74,15 +75,9 @@
             </div>
           </div>
         </div>
-        <div class="w-col w-col-4 w-col-stack desktop-view">
-          <img
-            src="assets/images/Contact-Image.png"
-            loading="lazy"
-            sizes="(max-width: 479px) 87vw, (max-width: 767px) 84vw, (max-width: 991px) 500px, 31vw"
-            alt=""
-            class="contact-image"
-          />
-        </div>
+      </div>
+      <div class="desktop-view contact-image">
+        <img src="assets/images/Contact-Image.png" loading="lazy" alt="" />
       </div>
       <div
         class="
