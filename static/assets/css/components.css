@@ -53,6 +53,10 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
+input,
+textarea {
+  border: none !important;
+}
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
@@ -355,7 +359,7 @@ label {
 }
 .w-input:focus,
 .w-select:focus {
-  border-color: #3898ec;
+  /* border-color: #3898ec; */
   outline: 0;
 }
 .w-input[disabled],

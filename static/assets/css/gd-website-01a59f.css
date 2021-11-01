@@ -838,6 +838,31 @@
 .main-contact-form {
   width: 50%;
 }
+.footer-contact-form {
+  display: flex;
+  background: #eee;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 40px 50px 40px;
+  width: 60%;
+  margin-top: -190px;
+}
+.footer-contact-form-title {
+  display: flex;
+  background: #eee;
+  padding: 20px 40px 10px 40px;
+  width: 50%;
+  cursor: pointer;
+}
+.footer-contact-form-title .description {
+  color: #000 !important;
+}
+.footer-contact-form .description {
+  color: #000 !important;
+}
+.footer-contact-form .w-input {
+  background: #fafafa !important;
+}
 .home-contact-form {
   display: flex;
   justify-content: space-between;
@@ -949,6 +974,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: 80px;
 }
 
 .experienced-attorneys-text {
@@ -1014,7 +1040,17 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
+.close-button {
+  background-color: #060f21;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
 .credentials {
   width: 100%;
 }
