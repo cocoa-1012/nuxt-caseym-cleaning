@@ -113,7 +113,7 @@
 
 .overlay-section.about-us {
   position: absolute;
-  bottom: -21%;
+  /* bottom: -21%; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
