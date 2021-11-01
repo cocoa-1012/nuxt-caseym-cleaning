@@ -159,7 +159,7 @@
 }
 
 .hero-text {
-  display: block;
+  display: flex;
   width: 100%;
   max-width: 1230px;
   -webkit-box-orient: vertical;
@@ -180,7 +180,7 @@
   font-size: 70px;
   line-height: 70px;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-text.sub-page-hero {
@@ -875,6 +875,9 @@
 }
 .footer-contact-form .w-input {
   background: #fafafa !important;
+}
+.mobile-contact-form {
+  display: none;
 }
 .home-contact-form {
   display: flex;
@@ -1603,7 +1606,12 @@ textarea {
   z-index: 1000;
   width: 500px;
 }
-
+.desktop-view {
+  display: flex;
+}
+.mobile-view {
+  display: none;
+}
 @media screen and (max-width: 991px) {
   .page-hero.sub-page-hero {
     -webkit-box-orient: vertical;
@@ -1615,7 +1623,7 @@ textarea {
 
   .hero-text {
     font-size: 56px;
-    text-align: center;
+    text-align: left;
   }
 
   .navbar {
@@ -1728,6 +1736,31 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: flex;
+  }
+  .home-contact-container {
+    padding: 50px 30px !important;
+  }
+  .home-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-contact-form {
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 40px 50px 40px;
+    width: 100%;
+    margin-top: -100px;
+  }
+  .main-contact-form {
+    display: none;
+  }
   .about-grey-text {
     font-size: 23px;
     line-height: 30px;
@@ -1849,8 +1882,9 @@ textarea {
   }
 
   .hero-text {
-    font-size: 27px;
-    line-height: 40px;
+    font-size: 45px;
+    width: 72%;
+    line-height: 45px;
   }
 
   .workingwithtextsection {

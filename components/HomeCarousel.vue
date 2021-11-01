@@ -132,7 +132,7 @@
                   vestibulum a sem id ornare. Praesent convallis mollis
                   elementum.<br />
                 </p>
-                <a href="#" class="button w-button"
+                <a href="#" class="button w-button learn-more"
                   ><strong>LEARN MORE</strong></a
                 >
               </div>
@@ -176,7 +176,7 @@
                   vestibulum a sem id ornare. Praesent convallis mollis
                   elementum.<br />
                 </p>
-                <a href="#" class="button w-button">LEARN MORE</a>
+                <a href="#" class="button w-button learn-more">LEARN MORE</a>
               </div>
             </div>
           </div>
