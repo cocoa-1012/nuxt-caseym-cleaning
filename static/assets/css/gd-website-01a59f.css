@@ -847,6 +847,14 @@
   width: 60%;
   margin-top: -190px;
 }
+.footer-contact-form-title.attorney .description,
+.footer-contact-form.attorney .description {
+  color: #892432 !important;
+}
+.footer-contact-form.attorney .submit {
+  background-color: #892432;
+  color: white;
+}
 .footer-contact-form-title {
   display: flex;
   background: #eee;
@@ -854,6 +862,7 @@
   width: 50%;
   cursor: pointer;
 }
+
 .footer-contact-form-title .description {
   color: #000 !important;
 }

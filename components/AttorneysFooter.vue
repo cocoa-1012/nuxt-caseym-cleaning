@@ -46,6 +46,80 @@
           </div>
         </div>
       </div>
+      <div v-show="isOpenContact" class="w-col footer-contact-form attorney">
+        <div style="display: flex; justify-content: space-between">
+          <p class="contact-us-title description">
+            Schedule a Consultation<strong><br /></strong>
+          </p>
+          <p class="close-button" @click="isOpenContact = false">&times;</p>
+        </div>
+        <div class="">
+          <form id="email-form" name="email-form" data-name="Email Form">
+            <div class="w-col w-col-6 contact-us-group">
+              <input
+                id="name"
+                type="text"
+                class="w-input"
+                maxlength="256"
+                name="name"
+                data-name="Name"
+                placeholder="NAME"
+              />
+              <input
+                id="email"
+                type="email"
+                class="w-input"
+                maxlength="256"
+                name="email"
+                data-name="Email"
+                placeholder="EMAIL"
+                required=""
+              />
+              <input
+                id="Phone"
+                type="tel"
+                class="w-input"
+                maxlength="256"
+                name="Phone"
+                data-name="Phone"
+                placeholder="PHONE"
+                required=""
+              />
+            </div>
+            <div class="contact-form-column-two w-col w-col-6">
+              <textarea
+                id="field"
+                placeholder="MESSAGE"
+                maxlength="5000"
+                name="field"
+                rows="6"
+                class="textarea w-input"
+              ></textarea>
+              <input
+                type="submit"
+                value="Submit"
+                data-wait="Please wait..."
+                class="button contact w-button submit"
+              />
+            </div>
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <div
+        v-show="!isOpenContact"
+        class="w-col footer-contact-form-title attorney"
+        @click="isOpenContact = true"
+      >
+        <p class="contact-us-title description">
+          Schedule a consultation<strong><br /></strong>
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -55,6 +129,7 @@ export default {
   data() {
     return {
       isOpen: false,
+      isOpenContact: false,
       expandText: 'Expand',
     }
   },
