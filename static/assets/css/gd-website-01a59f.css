@@ -341,6 +341,9 @@
   background-color: #4f748b;
   z-index: 3;
 }
+.sub-switch {
+  text-align: center !important;
+}
 .sub-phone-number {
   z-index: 2;
 }
@@ -1659,6 +1662,9 @@ textarea {
 
   .toggle-button {
     text-align: center;
+  }
+  .toggle-button {
+    padding-left: 90px;
   }
 
   .testimonial {

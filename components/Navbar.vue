@@ -117,8 +117,8 @@
           <div class="site-toggle w-col w-col-5 w-col-stack">
             <Nuxt-link to="/att-index">
               <a class="toggle-button w-button">
-                <p>Attorneys At Law</p>
-                <hr size="2" width="30%" />
+                <p class="sub-switch">Attorneys At Law</p>
+                <hr size="2" width="80px" />
               </a>
             </Nuxt-link>
           </div>
