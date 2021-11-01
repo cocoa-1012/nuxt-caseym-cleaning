@@ -110,6 +110,16 @@
   -o-object-fit: fill;
   object-fit: fill;
 }
+.overlay-section.home {
+  position: absolute;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.overlay-section.home h1 {
+  width: 40%;
+  margin-right: 18%;
+}
 
 .overlay-section.about-us {
   position: absolute;
