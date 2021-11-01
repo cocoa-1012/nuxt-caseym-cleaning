@@ -74,7 +74,7 @@
             </div>
           </div>
         </div>
-        <div class="w-col w-col-4">
+        <div class="w-col w-col-4 desktop-view">
           <img
             src="assets/images/Attorney-Contact-Image.png"
             loading="lazy"
@@ -84,7 +84,15 @@
           />
         </div>
       </div>
-      <div class="resources-top-container other-resources contact-bottom w-row">
+      <div
+        class="
+          resources-top-container
+          other-resources
+          contact-bottom
+          w-row
+          desktop-view
+        "
+      >
         <div class="w-col w-col-5">
           <div class="w-embed w-iframe">
             <iframe
@@ -102,6 +110,21 @@
             105 Tivoli Street<br />Abbeville, LA<br />337-893-3423<br />
           </h1>
         </div>
+      </div>
+      <div class="map-view mobile-view">
+        <div class="w-embed w-iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.1739156630233!2d-92.13768718488652!3d29.9744314819078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862367f2016092bf%3A0x916bc0c052053c97!2s105%20Tivoli%20St%2C%20Abbeville%2C%20LA%2070510!5e0!3m2!1sen!2sus!4v1634949420130!5m2!1sen!2sus"
+            width="100%"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <h1 class="resources-title other address attorney">
+          105 Tivoli Street<br />Abbeville, LA<br />337-893-3423<br />
+        </h1>
       </div>
     </div>
     <Carousel />

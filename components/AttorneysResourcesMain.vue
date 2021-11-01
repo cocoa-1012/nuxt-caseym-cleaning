@@ -26,7 +26,9 @@
       </div>
       <div class="resources-top-container other-resources w-row">
         <div class="w-col w-col-5">
-          <h1 class="resources-title other">Documents<br /></h1>
+          <h1 class="resources-title other" style="color: #4f748b">
+            Documents<br />
+          </h1>
         </div>
         <div class="w-col w-col-7">
           <p class="resources-page-subtext other">

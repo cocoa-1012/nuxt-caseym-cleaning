@@ -1738,6 +1738,11 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .map-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
   .experienced-attorneys-text.about-subtext-hero {
     position: relative;
     margin-top: 300px;
@@ -1874,15 +1879,16 @@ textarea {
   .testimonial {
     margin-top: 80px;
     max-width: 300px;
-    height: 450px;
+    height: 530px;
   }
   .testimonials {
+    padding-top: 50px;
     align-items: center;
     margin-right: 0px;
   }
   .testimonial-text {
     margin: 30px 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7em;
     font-style: italic;
     font-weight: 300;
@@ -2157,7 +2163,11 @@ textarea {
   .resources-title.other.address {
     padding-left: 0px;
     font-size: 17px;
-    line-height: 27px;
+    line-height: 36px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    font-size: 30px;
   }
 
   .faq-container {
