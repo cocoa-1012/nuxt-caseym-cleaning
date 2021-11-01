@@ -1661,10 +1661,12 @@ textarea.w-select {
   top: 100%;
   left: 0;
   right: 0;
-  background: #c8c8c8;
+  /* background: #c8c8c8; */
+  background-color: rgba(107, 96, 90, 0.6);
   text-align: center;
   overflow: visible;
   min-width: 200px;
+  padding: 50px 20px 30px 20px;
 }
 .w--nav-link-open {
   display: block;
@@ -1676,7 +1678,7 @@ textarea.w-select {
   position: absolute;
   overflow: hidden;
   display: none;
-  top: 100%;
+  top: 70px;
   right: 0;
   width: 40%;
   z-index: 200;
@@ -1838,6 +1840,11 @@ textarea.w-select {
   background-color: #fff;
 }
 @media screen and (max-width: 479px) {
+  .w-nav-menu a {
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+  }
   .w-tab-link {
     display: block;
   }
