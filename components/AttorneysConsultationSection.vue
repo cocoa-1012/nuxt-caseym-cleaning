@@ -43,12 +43,12 @@
               data-name="Field"
               class="textarea w-input"
             ></textarea>
-            <!-- <input
-                      type="submit"
-                      value="Submit"
-                      data-wait="Please wait..."
-                      class="button contact w-button today-button"
-                    /> -->
+            <input
+              type="submit"
+              value="Submit"
+              data-wait="Please wait..."
+              class="button contact w-button today-button attorney-button"
+            />
           </div>
         </div>
       </form>

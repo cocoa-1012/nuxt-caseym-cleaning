@@ -594,6 +594,12 @@ textarea.w-select {
 .nav-bar-logo img {
   width: 320px;
 }
+.learn-more.attorney {
+  background-color: #892432;
+}
+.learn-more.attorney:hover {
+  background-color: #892432;
+}
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
@@ -1761,12 +1767,6 @@ textarea.w-select {
     display: block;
   }
   .slider-arrow {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 50px;
-    margin: auto;
-    cursor: pointer;
     margin-bottom: -100px;
   }
   .w-nav[data-collapse='tiny'] .w-nav-menu {

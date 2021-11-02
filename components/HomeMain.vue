@@ -98,9 +98,9 @@
             Livingston and the rest of Acadiana with personalized local service
             since 2006.<strong><br /></strong>
           </p>
-          <a href="about.html" class="button w-button"
-            ><strong>MEET OUR ATTORNEYS</strong></a
-          >
+          <a href="about.html" class="button w-button">
+            <strong>MEET OUR ATTORNEYS</strong>
+          </a>
         </div>
         <div class="column-7 w-col w-col-3 w-col-medium-3">
           <img
