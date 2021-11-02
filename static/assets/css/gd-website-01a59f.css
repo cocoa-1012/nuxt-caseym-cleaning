@@ -208,7 +208,8 @@
 }
 
 .hero-text.sub-page-hero.resources {
-  max-width: 100%;
+  max-width: auto;
+  margin-left: 50px;
 }
 
 .workingwithtextsection {
@@ -1338,6 +1339,7 @@ textarea {
 }
 
 .resources-page-subtext.other.document-subtext {
+  width: 75%;
   font-weight: 300;
 }
 
@@ -1348,8 +1350,14 @@ textarea {
   font-weight: 400;
   text-align: left;
 }
+.resources-title.covid {
+  font-size: 55px;
+  margin-left: 30px;
+}
 
 .resources-title.other {
+  font-size: 55px;
+  margin-left: 30px;
   color: #892432;
 }
 
@@ -1358,6 +1366,7 @@ textarea {
   font-size: 28px;
   line-height: 28px;
   text-align: left;
+  margin-left: 0px;
   text-transform: uppercase;
 }
 
