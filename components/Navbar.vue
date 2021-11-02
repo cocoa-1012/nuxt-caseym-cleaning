@@ -120,13 +120,23 @@
               </div>
               <nav v-show="isOpen" id="myDropdown" class="w-dropdown-list">
                 <div class="w-dropdown-list-sub">
-                  <a href="#" class="w-dropdown-link">Commercial</a>
-                  <a href="#" class="w-dropdown-link">Title Settlement</a>
-                  <a href="#" class="w-dropdown-link">Loan Closing</a>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Commercial</p>
+                  </NuxtLink>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Title Settlement</p>
+                  </NuxtLink>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Loan Closing</p>
+                  </NuxtLink>
                 </div>
                 <div class="w-dropdown-list-sub">
-                  <a href="#" class="w-dropdown-link">Residential</a>
-                  <a href="#" class="w-dropdown-link">Estate Planning</a>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Residential</p>
+                  </NuxtLink>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Estate Planning</p>
+                  </NuxtLink>
                 </div>
               </nav>
             </div>

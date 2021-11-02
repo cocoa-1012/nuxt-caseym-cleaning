@@ -42,7 +42,12 @@
   background-position: 0px 0px;
   background-size: auto;
 }
-
+.page-hero.practice {
+  background-image: url('../images/Mask Group 34.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .page-hero.sub-page-hero {
   height: 90vh;
   -webkit-box-orient: vertical;
