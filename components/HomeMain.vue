@@ -1,7 +1,7 @@
 <template>
   <div class="home-mobile">
     <div class="page-hero home wf-section">
-      <div class="overlay-section w-container home">
+      <div class="overlay-section w-container home" style="padding-right: 50px">
         <img
           src="assets/images/Logo Icon.png"
           loading="lazy"
@@ -9,7 +9,7 @@
           class="desktop-view"
         />
         <h1 class="hero-text desktop-view">
-          Experienced&nbsp;and Local<br />Attorneys Here for You
+          Experienced&nbsp;and&nbsp;Local<br />Attorneys&nbsp;Here&nbsp;for&nbsp;You
         </h1>
 
         <h1 class="hero-text mobile-view">

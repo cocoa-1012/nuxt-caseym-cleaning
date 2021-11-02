@@ -25,7 +25,6 @@
   display: -ms-flexbox;
   display: flex;
   height: 90vh;
-  /* height: 650px; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -45,7 +44,7 @@
 }
 
 .page-hero.sub-page-hero {
-  height: 150vh;
+  height: 90vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -113,13 +112,15 @@
 .overlay-section.home {
   opacity: 0.8;
   position: absolute;
+  justify-content: center;
+  padding-left: 10%;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
 }
 .overlay-section.home h1 {
-  width: 40%;
-  margin-right: 18%;
+  width: auto;
+  margin-left: 50px;
 }
 
 .overlay-section.about-us {
@@ -609,6 +610,13 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.button.contact.today-button {
+  background-color: #4f748c;
+  color: #fff;
+  font-weight: 400;
+  width: 120px;
+  text-transform: uppercase;
+}
 
 .phone-number {
   font-family: 'Nunito Sans', sans-serif;
@@ -695,12 +703,25 @@
   margin-left: 320px;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 60px;
+  padding-left: 100px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   text-align: left;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.why-choose-us-title-container.about-us-dupe button {
+  text-transform: uppercase;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px 0px;
+  color: #4f748b;
+  padding: 5px 10px;
+  line-height: 30px;
 }
 
 .why-choose-us-title-container.about-us-dupe.attorney-box {
@@ -929,6 +950,11 @@
   background-color: #707070;
 }
 
+.contact-container.home-contact-container {
+  padding: 50px 0px;
+  border-radius: 5px;
+}
+
 .contact-container.about-contact-container {
   background-color: #fff;
 }
@@ -1121,7 +1147,7 @@
   color: #892432;
   font-size: 14px;
   text-align: right;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 5px;
 }
 .expand:hover {
@@ -1789,9 +1815,6 @@ textarea {
   .mobile-view {
     display: flex;
   }
-  .home-contact-container {
-    padding: 50px 30px !important;
-  }
   .home-mobile {
     display: flex;
     flex-direction: column;
@@ -1882,8 +1905,8 @@ textarea {
     flex-direction: column;
   }
   .expand {
+    text-align: center;
     font-size: 14px;
-    text-align: right;
     margin-top: 0px;
     margin-right: 5px;
   }
@@ -2148,10 +2171,6 @@ textarea {
 
   .menu-button {
     display: block;
-  }
-
-  .expand {
-    text-align: center;
   }
 
   .testimonials {
