@@ -211,6 +211,10 @@
   max-width: auto;
   margin-left: 50px;
 }
+.hero-text.sub-page-hero.faq {
+  max-width: auto;
+  margin-left: 50px;
+}
 
 .workingwithtextsection {
   display: -webkit-box;
