@@ -111,6 +111,7 @@
   object-fit: fill;
 }
 .overlay-section.home {
+  opacity: 0.8;
   position: absolute;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
@@ -124,6 +125,7 @@
 .overlay-section.about-us {
   position: absolute;
   /* bottom: -21%; */
+  opacity: 0.8;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -144,12 +146,15 @@
 }
 
 .overlay-section.about-us.resources {
+  opacity: 1;
   position: static;
   display: block;
   height: 40vh;
   text-align: center;
 }
-
+.overlay-section.attorney-home {
+  opacity: 0.8;
+}
 .overlay-section.about-us.resources.faq {
   display: -webkit-box;
   display: -webkit-flex;
