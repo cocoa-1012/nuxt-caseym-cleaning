@@ -220,6 +220,7 @@
                       value="Submit"
                       data-wait="Please wait..."
                       class="button contact w-button submit"
+                      style="text-align: right"
                     />
                   </div>
                 </div>
