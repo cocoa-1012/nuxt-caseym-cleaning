@@ -1,10 +1,17 @@
 <template>
   <div class="home-mobile">
     <div class="page-hero home wf-section">
-      <div class="overlay-section w-container">
+      <div class="overlay-section w-container home" style="padding-right: 50px">
+        <img
+          src="assets/images/Logo Icon.png"
+          loading="lazy"
+          alt=""
+          class="desktop-view"
+        />
         <h1 class="hero-text desktop-view">
-          Experienced&nbsp;and Local<br />Attorneys Here for You
+          Experienced&nbsp;and&nbsp;Local<br />Attorneys&nbsp;Here&nbsp;for&nbsp;You
         </h1>
+
         <h1 class="hero-text mobile-view">
           Experienced&nbsp;and Local&nbsp;Attorneys Here&nbsp;for&nbsp;You
         </h1>
@@ -91,9 +98,9 @@
             Livingston and the rest of Acadiana with personalized local service
             since 2006.<strong><br /></strong>
           </p>
-          <a href="about.html" class="button w-button"
-            ><strong>MEET OUR ATTORNEYS</strong></a
-          >
+          <a href="about.html" class="button w-button">
+            <strong>MEET OUR ATTORNEYS</strong>
+          </a>
         </div>
         <div class="column-7 w-col w-col-3 w-col-medium-3">
           <img
@@ -213,6 +220,7 @@
                       value="Submit"
                       data-wait="Please wait..."
                       class="button contact w-button submit"
+                      style="text-align: right"
                     />
                   </div>
                 </div>

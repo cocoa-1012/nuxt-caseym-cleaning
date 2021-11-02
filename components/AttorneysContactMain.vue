@@ -1,7 +1,15 @@
 <template>
   <div>
     <div class="overlay-section about-us resources contact w-container">
-      <h1 class="hero-text sub-page-hero contact-us">Contact Us<br /></h1>
+      <img
+        src="assets/images/Logo Icon.png"
+        loading="lazy"
+        alt=""
+        class="desktop-view"
+      />
+      <h1 class="hero-text sub-page-hero contact-us" style="margin-left: 20px">
+        Contact Us<br />
+      </h1>
     </div>
     <div class="resources-top contact wf-section">
       <div class="resources-top-container contact-top attorney w-row">
@@ -60,12 +68,21 @@
                 class="w-input"
                 rows="5"
               ></textarea>
-              <input
-                type="submit"
-                value="Submit"
-                data-wait="Please wait..."
-                class="w-button"
-              />
+              <div
+                style="
+                  display: flex;
+                  justify-content: flex-end;
+                  margin-top: 20px;
+                "
+              >
+                <input
+                  type="submit"
+                  value="Submit"
+                  data-wait="Please wait..."
+                  class="button contact w-button submit"
+                  style="color: #892432"
+                />
+              </div>
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>

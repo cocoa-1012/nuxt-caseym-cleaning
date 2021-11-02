@@ -69,7 +69,7 @@
                   <textarea
                     placeholder="MESSAGE"
                     maxlength="5000"
-                    rows="3"
+                    rows="6"
                     name="field"
                     data-name="Field"
                     class="textarea w-input"

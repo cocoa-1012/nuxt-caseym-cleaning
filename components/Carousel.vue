@@ -3,6 +3,14 @@
     <div class="testimonials-section">
       <div class="w-col w-col-10 slick-carousel">
         <div class="w-slider-mask">
+          <img
+            src="assets/images/carousel quote.png"
+            loading="lazy"
+            alt=""
+            width="35"
+            style="margin-bottom: -30px"
+            class="desktop-view"
+          />
           <VueSlickCarousel
             ref="carousel"
             class="testimonial w-slider"

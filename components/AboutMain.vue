@@ -1,14 +1,29 @@
 <template>
   <div>
     <div class="page-hero sub-page-hero wf-section">
-      <div class="overlay-section about-us w-container">
-        <h1 class="hero-text sub-page-hero">About Us<br /></h1>
-      </div>
-      <div class="experienced-attorneys-text about-subtext-hero desktop-view">
-        Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
+      <div
+        class="overlay-section about-us w-container"
+        style="justify-content: start; padding-left: 20%"
+      >
+        <img
+          src="assets/images/Logo Icon.png"
+          loading="lazy"
+          alt=""
+          class="desktop-view"
+        />
+        <h1 class="hero-text" style="width: auto; margin-left: 50px">
+          About Us<br />
+        </h1>
       </div>
     </div>
-    <div class="real-estate-title-services-section wf-section">
+
+    <div
+      class="real-estate-title-services-section wf-section"
+      style="margin-top: 200px"
+    >
+      <div class="experienced-attorneys-text about-subtext-hero desktop-view">
+        Vestibulum Mattis Laoreet Est, Scelerisque <br />Hehicula Enim Laoreet
+      </div>
       <div
         class="
           workingwithtextsection
@@ -186,7 +201,8 @@
     <div class="why-choose-us about-us-contact-banner wf-section">
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe">
-          Cras Et <br />Fringilla <br />Libero
+          Cras Et <br />Fringilla <br />Libero <br />
+          <button>Contact Us Today</button>
         </h1>
       </div>
       <div class="wcu-images wcu-section-about w-row">

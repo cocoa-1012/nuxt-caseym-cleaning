@@ -25,7 +25,6 @@
   display: -ms-flexbox;
   display: flex;
   height: 90vh;
-  /* height: 650px; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -45,7 +44,7 @@
 }
 
 .page-hero.sub-page-hero {
-  height: 150vh;
+  height: 90vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -110,10 +109,24 @@
   -o-object-fit: fill;
   object-fit: fill;
 }
+.overlay-section.home {
+  opacity: 0.8;
+  position: absolute;
+  justify-content: center;
+  padding-left: 10%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.overlay-section.home h1 {
+  width: auto;
+  margin-left: 50px;
+}
 
 .overlay-section.about-us {
   position: absolute;
   /* bottom: -21%; */
+  opacity: 0.8;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -134,12 +147,25 @@
 }
 
 .overlay-section.about-us.resources {
+  opacity: 1;
   position: static;
   display: block;
   height: 40vh;
   text-align: center;
 }
-
+.overlay-section.attorney-home {
+  opacity: 0.8;
+  position: absolute;
+  justify-content: center;
+  padding-left: 10%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.overlay-section.attorney-home h1 {
+  width: auto;
+  margin-left: 50px;
+}
 .overlay-section.about-us.resources.faq {
   display: -webkit-box;
   display: -webkit-flex;
@@ -192,7 +218,12 @@
 }
 
 .hero-text.sub-page-hero.resources {
-  max-width: 100%;
+  max-width: auto;
+  margin-left: 50px;
+}
+.hero-text.sub-page-hero.faq {
+  max-width: auto;
+  margin-left: 50px;
 }
 
 .workingwithtextsection {
@@ -594,6 +625,16 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.button.contact.today-button {
+  background-color: #4f748c;
+  color: #fff;
+  font-weight: 400;
+  width: 120px;
+  text-transform: uppercase;
+}
+.button.contact.today-button.attorney-button {
+  background-color: #892432;
+}
 
 .phone-number {
   font-family: 'Nunito Sans', sans-serif;
@@ -680,12 +721,25 @@
   margin-left: 320px;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 60px;
+  padding-left: 100px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   text-align: left;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.why-choose-us-title-container.about-us-dupe button {
+  text-transform: uppercase;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px 0px;
+  color: #4f748b;
+  padding: 5px 10px;
+  line-height: 30px;
 }
 
 .why-choose-us-title-container.about-us-dupe.attorney-box {
@@ -694,8 +748,8 @@
 
 .why-choose-us-title-container.attorney {
   text-align: left;
-  padding-left: 10%;
-  width: 60%;
+  padding-left: 7%;
+  width: 54%;
   font-weight: 400;
   margin-top: -230px;
   background-color: rgba(79, 116, 139, 0.9);
@@ -797,10 +851,27 @@
   line-height: 15px;
 }
 
+.about-grey-text.title.meet {
+  font-size: 24px;
+  color: #eee;
+}
+
+.about-grey-text.title.sub-title.meet {
+  font-size: 14px;
+  color: #ddd;
+}
+
 .about-grey-text.attorney {
   color: #892432;
 }
-
+.meet-slider {
+  background: rgba(137, 36, 50, 0.75);
+  padding: 110px 30px 110px 50px;
+  margin-top: -110px;
+  margin-left: 50px;
+  height: 730px;
+  margin-bottom: -150px;
+}
 .circle-image {
   margin-bottom: 20px;
   max-width: 200px;
@@ -912,6 +983,11 @@
   max-width: 1230px;
   padding: 50px;
   background-color: #707070;
+}
+
+.contact-container.home-contact-container {
+  padding: 50px 0px;
+  border-radius: 5px;
 }
 
 .contact-container.about-contact-container {
@@ -1027,6 +1103,21 @@
 .experienced-attorneys-text.attorneys {
   color: #4f748b;
 }
+.attorneys-meet-container {
+  margin: auto;
+  margin-top: -200px;
+  margin-bottom: 100px;
+  padding: 50px;
+  background-color: #060f21;
+  max-width: 1230px;
+}
+.meet-description {
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: #ccc !important;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38px;
+}
 
 .main-content-container {
   display: block;
@@ -1062,11 +1153,12 @@
   text-transform: uppercase;
 }
 .close-button {
+  margin-right: -25px;
+  margin-top: -8px;
   background-color: #060f21;
   border-radius: 50%;
   font-size: 20px;
   color: white;
-  margin-top: 5px;
   width: 20px;
   height: 20px;
   text-align: center;
@@ -1106,7 +1198,7 @@
   color: #892432;
   font-size: 14px;
   text-align: right;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 5px;
 }
 .expand:hover {
@@ -1159,7 +1251,10 @@
   font-style: italic;
   font-weight: 300;
 }
-
+.testimonial-text.meet {
+  color: #eee;
+  line-height: 1.3em;
+}
 .testimonial-text.attorney-testimonials {
   color: #4f748b;
 }
@@ -1297,6 +1392,7 @@ textarea {
 }
 
 .resources-page-subtext.other.document-subtext {
+  width: 75%;
   font-weight: 300;
 }
 
@@ -1307,8 +1403,14 @@ textarea {
   font-weight: 400;
   text-align: left;
 }
+.resources-title.covid {
+  font-size: 55px;
+  margin-left: 30px;
+}
 
 .resources-title.other {
+  font-size: 55px;
+  margin-left: 30px;
   color: #892432;
 }
 
@@ -1317,6 +1419,7 @@ textarea {
   font-size: 28px;
   line-height: 28px;
   text-align: left;
+  margin-left: 0px;
   text-transform: uppercase;
 }
 
@@ -1774,9 +1877,6 @@ textarea {
   .mobile-view {
     display: flex;
   }
-  .home-contact-container {
-    padding: 50px 30px !important;
-  }
   .home-mobile {
     display: flex;
     flex-direction: column;
@@ -1867,8 +1967,8 @@ textarea {
     flex-direction: column;
   }
   .expand {
+    text-align: center;
     font-size: 14px;
-    text-align: right;
     margin-top: 0px;
     margin-right: 5px;
   }
@@ -2133,10 +2233,6 @@ textarea {
 
   .menu-button {
     display: block;
-  }
-
-  .expand {
-    text-align: center;
   }
 
   .testimonials {

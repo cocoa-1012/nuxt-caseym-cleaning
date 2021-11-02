@@ -1,6 +1,12 @@
 <template>
   <div>
     <div class="overlay-section about-us resources faq w-container">
+      <img
+        src="assets/images/Logo Icon.png"
+        loading="lazy"
+        alt=""
+        class="desktop-view"
+      />
       <h1 class="hero-text sub-page-hero faq">FAQ<br /></h1>
     </div>
     <div class="faq-top wf-section">

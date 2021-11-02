@@ -93,12 +93,7 @@ html.w-mod-touch * {
   cursor: pointer;
   border-radius: 0;
 }
-.today-button {
-  background-color: #4f748c !important;
-  text-align: center !important;
-  color: white !important;
-  margin-top: 10px;
-}
+
 input.w-button {
   -webkit-appearance: button;
 }
@@ -598,6 +593,12 @@ textarea.w-select {
 }
 .nav-bar-logo img {
   width: 320px;
+}
+.learn-more.attorney {
+  background-color: #892432;
+}
+.learn-more.attorney:hover {
+  background-color: #892432;
 }
 @media screen and (max-width: 991px) {
   .w-container {
@@ -1110,8 +1111,7 @@ textarea.w-select {
 .w-dropdown-list {
   padding: 30px 40px;
   position: absolute;
-  background: #4f748b;
-  opacity: 0.7;
+  background: rgba(79, 116, 139, 0.7);
   display: none;
   min-width: 233%;
 }
@@ -1132,7 +1132,7 @@ textarea.w-select {
   min-width: 100%;
 } */
 .w-dropdown-list.attorney {
-  background: #892432;
+  background: rgba(137, 36, 50, 0.7);
 }
 .w-dropdown-list-sub {
   width: 50%;
@@ -1767,12 +1767,6 @@ textarea.w-select {
     display: block;
   }
   .slider-arrow {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 50px;
-    margin: auto;
-    cursor: pointer;
     margin-bottom: -100px;
   }
   .w-nav[data-collapse='tiny'] .w-nav-menu {
