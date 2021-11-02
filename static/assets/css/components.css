@@ -1126,7 +1126,7 @@ textarea.w-select {
   min-width: 100%;
 } */
 .w-dropdown-list.attorney {
-  background: #892432;
+  background: rgba(137, 36, 50, 0.7);
 }
 .w-dropdown-list-sub {
   width: 50%;
