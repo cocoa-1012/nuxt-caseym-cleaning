@@ -60,12 +60,21 @@
                 class="w-input"
                 rows="5"
               ></textarea>
-              <input
-                type="submit"
-                value="Submit"
-                data-wait="Please wait..."
-                class="w-button"
-              />
+              <div
+                style="
+                  display: flex;
+                  justify-content: flex-end;
+                  margin-top: 20px;
+                "
+              >
+                <input
+                  type="submit"
+                  value="Submit"
+                  data-wait="Please wait..."
+                  class="button contact w-button submit"
+                  style="color: #892432"
+                />
+              </div>
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
