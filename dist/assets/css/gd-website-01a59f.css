@@ -1952,8 +1952,7 @@ textarea {
     margin-bottom: 50px;
     background-color: #ededed !important;
   }
-  .contact-attorney input,
-  .contact-attorney textarea {
+  .contact-attorney .white-tag {
     background-color: white !important;
   }
   .contact-attorney-forms {
