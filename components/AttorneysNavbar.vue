@@ -81,16 +81,18 @@
               <NuxtLink to="/att-contact">
                 <a aria-current="page" class="nav-link w-nav-link"> Contact </a>
               </NuxtLink>
-              <NuxtLink to="/att-index">
-                <a aria-current="page" class="nav-link w-nav-link">
-                  <img
-                    src="assets/images/search.png"
-                    loading="lazy"
-                    alt=""
-                    width="20px"
-                  />
-                </a>
-              </NuxtLink>
+              <button
+                class="nav-link w-nav-link"
+                style="background: none"
+                @click="showModal = true"
+              >
+                <img
+                  src="assets/images/search.png"
+                  loading="lazy"
+                  alt=""
+                  width="20px"
+                />
+              </button>
               <NuxtLink to="/att-index">
                 <a aria-current="page" class="nav-link w-nav-link">
                   <img
@@ -225,15 +227,21 @@
         </div>
       </div>
     </div>
+    <SavedModal v-show="showModal" @close-modal="showModal = false" />
   </div>
 </template>
 
 <script>
+import SavedModal from '~/components/SavedModal.vue'
 export default {
+  components: {
+    SavedModal,
+  },
   data() {
     return {
       isOpen: false,
       burgerOpen: false,
+      showModal: false,
     }
   },
   methods: {
