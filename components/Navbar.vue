@@ -81,16 +81,18 @@
               <NuxtLink to="/contact">
                 <a aria-current="page" class="nav-link w-nav-link">Contact</a>
               </NuxtLink>
-              <NuxtLink to="/">
-                <a aria-current="page" class="nav-link w-nav-link">
-                  <img
-                    src="assets/images/search.png"
-                    loading="lazy"
-                    alt=""
-                    width="20px"
-                  />
-                </a>
-              </NuxtLink>
+              <button
+                class="nav-link w-nav-link"
+                style="background: none"
+                @click="showModal = true"
+              >
+                <img
+                  src="assets/images/search.png"
+                  loading="lazy"
+                  alt=""
+                  width="20px"
+                />
+              </button>
               <NuxtLink to="/">
                 <a aria-current="page" class="nav-link w-nav-link">
                   <img
@@ -120,13 +122,23 @@
               </div>
               <nav v-show="isOpen" id="myDropdown" class="w-dropdown-list">
                 <div class="w-dropdown-list-sub">
-                  <a href="#" class="w-dropdown-link">Commercial</a>
-                  <a href="#" class="w-dropdown-link">Title Settlement</a>
-                  <a href="#" class="w-dropdown-link">Loan Closing</a>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Commercial</p>
+                  </NuxtLink>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Title Settlement</p>
+                  </NuxtLink>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Loan Closing</p>
+                  </NuxtLink>
                 </div>
                 <div class="w-dropdown-list-sub">
-                  <a href="#" class="w-dropdown-link">Residential</a>
-                  <a href="#" class="w-dropdown-link">Estate Planning</a>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Residential</p>
+                  </NuxtLink>
+                  <NuxtLink to="/practise-area" style="text-decoration: none">
+                    <p class="w-dropdown-link">Estate Planning</p>
+                  </NuxtLink>
                 </div>
               </nav>
             </div>
@@ -145,15 +157,21 @@
         </div>
       </div>
     </div>
+    <SavedModal v-show="showModal" @close-modal="showModal = false" />
   </div>
 </template>
 
 <script>
+import SavedModal from '~/components/SavedModal.vue'
 export default {
+  components: {
+    SavedModal,
+  },
   data() {
     return {
       isOpen: false,
       burgerOpen: false,
+      showModal: false,
     }
   },
   methods: {

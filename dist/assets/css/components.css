@@ -1806,7 +1806,7 @@ textarea.w-select {
   background-color: #dddddd;
 }
 .w-tab-link.w--current {
-  background-color: #c8c8c8;
+  /* background-color: #c8c8c8; */
 }
 .w-tab-link:focus {
   outline: 0;
@@ -1819,6 +1819,9 @@ textarea.w-select {
 .w-tab-pane {
   position: relative;
   display: none;
+}
+.w-tab-pane.practice {
+  background-color: #707070;
 }
 .w--tab-active {
   display: block;

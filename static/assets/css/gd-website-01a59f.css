@@ -42,7 +42,12 @@
   background-position: 0px 0px;
   background-size: auto;
 }
-
+.page-hero.practice {
+  background-image: url('../images/Mask Group 34.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .page-hero.sub-page-hero {
   height: 90vh;
   -webkit-box-orient: vertical;
@@ -242,6 +247,10 @@
   -ms-flex-align: start;
   align-items: flex-start;
 }
+.workingwithtextsection.practice {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .workingwithtextsection.real-estate-title-services {
   max-width: 1230px;
@@ -440,7 +449,15 @@
 .tab-link-working-with-home-buyers.w--current {
   padding-bottom: 30px;
   border-bottom: 15px solid #707070;
-  background-color: #892432;
+}
+.tab-link-working-with-practice-buyers {
+  background-color: #707070;
+}
+
+.tab-link-working-with-practice-buyers.w--current {
+  padding-bottom: 30px;
+  border-bottom: 15px solid #fff;
+  background-color: #707070;
   color: #fff;
 }
 
@@ -530,6 +547,11 @@
   border-bottom-right-radius: 5px;
   background-color: #892432;
 }
+.tabs-menu.practice {
+  background-color: #707070;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
 
 .tabs-menu.attorney {
   background-color: #4f748b;
@@ -559,7 +581,14 @@
 .working-with-header.regular-font {
   font-family: Cormorant;
 }
-
+.working-with-header.practice {
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-right: 50px;
+  font-size: 50px;
+  color: #fff;
+  font-family: Cormorant;
+}
 .working-with-header.attorney {
   color: #892432;
   font-family: Cormorant;
@@ -571,6 +600,10 @@
   font-size: 16px;
   line-height: 1.7em;
   font-weight: 300;
+}
+.working-with-subtext.practice {
+  color: white;
+  margin-right: 80px;
 }
 
 .footer-text {
@@ -1919,8 +1952,7 @@ textarea {
     margin-bottom: 50px;
     background-color: #ededed !important;
   }
-  .contact-attorney input,
-  .contact-attorney textarea {
+  .contact-attorney .white-tag {
     background-color: white !important;
   }
   .contact-attorney-forms {
@@ -2048,6 +2080,14 @@ textarea {
   }
 
   .tab-link-working-with-home-buyers.attorney.w--current {
+    width: 100vw;
+    padding-bottom: 10px;
+  }
+  .tab-link-working-with-practice-buyers {
+    /* background-color: #892432; */
+  }
+
+  .tab-link-working-with-practice-buyers.w--current {
     width: 100vw;
     padding-bottom: 10px;
   }

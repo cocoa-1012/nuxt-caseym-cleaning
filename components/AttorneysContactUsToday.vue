@@ -11,7 +11,7 @@
       <div class="contact-table w-col w-col-7 contact-attorney-forms">
         <div class="contact-table w-col w-col-12">
           <p class="contact-section-text attorney about">
-            CONTACT US <br />TODAY!<br />
+            Contact Us <br />Today!<br />
           </p>
         </div>
         <div class="contact-table w-col w-col-12">
@@ -23,7 +23,7 @@
                   <input
                     id="name"
                     type="text"
-                    class="w-input"
+                    class="w-input white-tag"
                     maxlength="256"
                     name="name"
                     data-name="Name"
@@ -32,7 +32,7 @@
                   <input
                     id="email"
                     type="email"
-                    class="w-input"
+                    class="w-input white-tag"
                     maxlength="256"
                     name="email"
                     data-name="Email"
@@ -42,7 +42,7 @@
                   <input
                     id="Phone"
                     type="tel"
-                    class="w-input"
+                    class="w-input white-tag"
                     maxlength="256"
                     name="Phone"
                     data-name="Phone"
@@ -57,7 +57,7 @@
                     rows="6"
                     name="field"
                     data-name="Field"
-                    class="textarea w-input"
+                    class="textarea w-input white-tag"
                   ></textarea>
                   <input
                     type="submit"
