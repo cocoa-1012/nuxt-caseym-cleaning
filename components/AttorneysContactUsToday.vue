@@ -11,7 +11,7 @@
       <div class="contact-table w-col w-col-7 contact-attorney-forms">
         <div class="contact-table w-col w-col-12">
           <p class="contact-section-text attorney about">
-            CONTACT US <br />TODAY!<br />
+            Contact Us <br />Today!<br />
           </p>
         </div>
         <div class="contact-table w-col w-col-12">

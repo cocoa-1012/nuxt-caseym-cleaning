@@ -124,23 +124,83 @@
                 class="w-dropdown-list attorney"
               >
                 <div class="w-dropdown-list-sub">
-                  <a href="#" class="w-dropdown-link">adoption</a>
-                  <a href="#" class="w-dropdown-link">family law</a>
-                  <a href="#" class="w-dropdown-link">divorce</a>
-                  <a href="#" class="w-dropdown-link">wills/succession</a>
-                  <a href="#" class="w-dropdown-link">criminal defense</a>
-                  <a href="#" class="w-dropdown-link">personal injury</a>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">adoption</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">family law</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">divorce</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">wills/succession</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">criminal defense</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">personal injury</p>
+                  </NuxtLink>
                 </div>
                 <div class="w-dropdown-list-sub">
-                  <a href="#" class="w-dropdown-link">dui.dwi</a>
-                  <a href="#" class="w-dropdown-link">workers' comp</a>
-                  <a href="#" class="w-dropdown-link">auto</a>
-                  <a href="#" class="w-dropdown-link">1b-wheeler accident</a>
-                  <a href="#" class="w-dropdown-link">maritime</a>
-                  <a href="#" class="w-dropdown-link">
-                    irrevocable/<br />
-                    revocable trust
-                  </a>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">dui.dwi</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">workers' comp</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">auto</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">1b-wheeler accident</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">maritime</p>
+                  </NuxtLink>
+                  <NuxtLink
+                    to="/att-practise-area"
+                    style="text-decoration: none"
+                  >
+                    <p class="w-dropdown-link">
+                      irrevocable/<br />
+                      revocable trust
+                    </p>
+                  </NuxtLink>
                 </div>
               </nav>
             </div>
