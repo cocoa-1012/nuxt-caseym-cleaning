@@ -32,7 +32,10 @@
           w-row
         "
       >
-        <div class="experienced-attorneys-text about-subtext-hero mobile-view">
+        <div
+          class="experienced-attorneys-text about-subtext-hero mobile-view"
+          style="margin-top: 300px; margin-bottom: -150px; color: #892432"
+        >
           Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
         </div>
         <div class="w-col w-col-6 real-estate-intro">
@@ -129,7 +132,10 @@
           w-row
         "
       >
-        <div class="experienced-attorneys-text about-subtext-hero mobile-view">
+        <div
+          class="experienced-attorneys-text about-subtext-hero mobile-view"
+          style="margin-top: 500px; margin-bottom: -150px; color: #892432"
+        >
           Donec Euismod Ornare Sodales Morbi Gravida Er Metus Eget Fermentum
         </div>
         <div class="w-col w-col-6 real-estate-intro">
@@ -608,10 +614,7 @@
             </div>
           </div>
         </div>
-        <div
-          class="faq-sidebar attorney w-col w-col-4"
-          style="margin-top: -130px; padding: 65px 60px"
-        >
+        <div class="faq-sidebar attorney w-col w-col-4 practice-sidebar">
           <h1 class="faq-heading sidebar attorney">Practice Areas</h1>
           <ul role="list" class="w-list-unstyled">
             <li
