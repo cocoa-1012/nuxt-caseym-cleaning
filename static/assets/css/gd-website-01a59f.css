@@ -578,6 +578,9 @@
   line-height: 60px;
   font-weight: 400;
 }
+.working-with-header.home-title {
+  margin: 0px;
+}
 .working-with-header.regular-font {
   font-family: Cormorant;
 }

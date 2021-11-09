@@ -57,7 +57,7 @@
             </div>
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
-                <h1 class="working-with-header">
+                <h1 class="working-with-header home-title">
                   <em>Working</em><br /><em>with</em><br /><strong
                     class="bold-text"
                     >Home<br />Buyers</strong
@@ -101,7 +101,7 @@
             </div>
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
-                <h1 class="working-with-header">
+                <h1 class="working-with-header home-title">
                   <em>Working</em><br /><em>with</em><br /><strong
                     class="bold-text"
                     >Lenders</strong
@@ -145,7 +145,7 @@
             </div>
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
-                <h1 class="working-with-header">
+                <h1 class="working-with-header home-title">
                   <em>Working</em><br /><em>with</em><br /><strong
                     class="bold-text"
                     >Realtors</strong
