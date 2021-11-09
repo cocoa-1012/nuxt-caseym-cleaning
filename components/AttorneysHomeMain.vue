@@ -17,15 +17,20 @@
       </div>
     </div>
     <AttorneysHomeCarousel />
-    <div class="why-choose-us attorney wf-section">
-      <div class="wcu-images attorney w-row">
-        <div class="column-3 w-col w-col-1"></div>
-
-        <div class="wcu-image-one w-col w-col-5"></div>
-        <div class="wcu-image-two w-col w-col-5"></div>
-        <div class="column-3 w-col w-col-1"></div>
+    <div
+      class="why-choose-us attorney wf-section"
+      style="position: relative; align-items: center"
+    >
+      <div class="wcu-images attorney w-row" style="max-width: 1230px">
+        <div class="wcu-image-one w-col w-col-6"></div>
+        <div class="wcu-image-two w-col w-col-6"></div>
       </div>
-      <h1 class="why-choose-us-title-container attorney">WHO WE ARE</h1>
+      <h1
+        class="why-choose-us-title-container attorney"
+        style="position: absolute; bottom: 20%; right: 0"
+      >
+        WHO WE ARE
+      </h1>
     </div>
     <div class="about-grey attorney wf-section">
       <div class="about-grey-text-section attorney w-row">
