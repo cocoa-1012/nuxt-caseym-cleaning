@@ -79,7 +79,7 @@
           >
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-3">
-                <h1 class="working-with-header attorney">
+                <h1 class="working-with-header attorney home-title">
                   Criminal<br />Defense
                 </h1>
               </div>
@@ -90,7 +90,9 @@
           <div data-w-tab="WORKING WITH LENDERS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-3">
-                <h1 class="working-with-header attorney">Immigration</h1>
+                <h1 class="working-with-header attorney home-title">
+                  Immigration
+                </h1>
               </div>
               <AttorneysHomeCarouselDetailSection />
               <AttorneysConsultationSection />
@@ -99,7 +101,7 @@
           <div data-w-tab="WORKING WITH REALTORS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-3">
-                <h1 class="working-with-header attorney">
+                <h1 class="working-with-header attorney home-title">
                   Personal<br />Injury
                 </h1>
               </div>
@@ -110,7 +112,9 @@
           <div data-w-tab="WORKING WITH REALTORS 2" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-3">
-                <h1 class="working-with-header attorney">Adoption</h1>
+                <h1 class="working-with-header attorney home-title">
+                  Adoption
+                </h1>
               </div>
               <AttorneysHomeCarouselDetailSection />
               <AttorneysConsultationSection />
@@ -119,7 +123,9 @@
           <div data-w-tab="WORKING WITH REALTORS 3" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-3">
-                <h1 class="working-with-header attorney">Maritime</h1>
+                <h1 class="working-with-header attorney home-title">
+                  Maritime
+                </h1>
               </div>
               <AttorneysHomeCarouselDetailSection />
               <AttorneysConsultationSection />
