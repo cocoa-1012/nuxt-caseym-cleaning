@@ -1118,6 +1118,8 @@
   text-align: left;
 }
 .experienced-attorneys-text.about-subtext-hero {
+  font-size: 54px;
+  line-height: 54px;
   position: relative;
   top: auto;
   bottom: 165px;
