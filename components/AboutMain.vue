@@ -3,7 +3,7 @@
     <div class="page-hero sub-page-hero wf-section">
       <div
         class="overlay-section about-us w-container"
-        style="justify-content: start; padding-left: 20%"
+        style="justify-content: start; padding-left: 30%"
       >
         <img
           src="assets/images/Logo Icon.png"
