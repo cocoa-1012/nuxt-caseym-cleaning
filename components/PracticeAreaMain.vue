@@ -1,19 +1,33 @@
 <template>
   <div class="home-mobile">
-    <div class="page-hero practice wf-section">
-      <div class="overlay-section w-container home">
+    <div class="page-hero practice wf-section" style="position: relative">
+      <div class="overlay-section w-container home desktop-view">
         <img
           src="assets/images/Logo Icon.png"
           loading="lazy"
           alt=""
           class="desktop-view"
         />
-        <h1 class="hero-text desktop-view">Residential Closings</h1>
-
-        <h1 class="hero-text mobile-view">Residential Closings</h1>
+        <h1 class="hero-text">Residential Closings</h1>
+      </div>
+      <div
+        class="overlay-section w-container home mobile-view"
+        style="opacity: 1; top: 200px; height: 150px"
+      >
+        <h1
+          class="hero-text"
+          style="font-weight: 400; font-size: 40px; margin-left: -20px"
+        >
+          Residential <br />
+          Closings
+        </h1>
       </div>
     </div>
-
+    <div class="why-choose-us wf-section mobile-view">
+      <div class="wcu-images w-row">
+        <div class="wcu-image-one-practice w-col w-col-3"></div>
+      </div>
+    </div>
     <div
       class="real-estate-title-services-section wf-section"
       style="margin-top: 200px"
@@ -39,10 +53,18 @@
           w-row
         "
       >
-        <div class="experienced-attorneys-text about-subtext-hero mobile-view">
-          Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
+        <div
+          class="
+            experienced-attorneys-text
+            about-subtext-hero
+            practice
+            mobile-view
+          "
+        >
+          Vestibulum<br />Mattis Laoreet<br />
+          Est, Scelerisque<br />Hehicula Enim Laoreet
         </div>
-        <div class="w-col w-col-6 real-estate-intro">
+        <div class="w-col w-col-6 real-estate-intro practice-detail-group">
           <p class="working-with-subtext about-page-subtext">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
@@ -65,7 +87,10 @@
             convallis mollis elementum.<br />
           </p>
         </div>
-        <div class="w-col w-col-6 real-estate-intro">
+        <div
+          class="w-col w-col-6 real-estate-intro practice-detail-group"
+          style="margin-top: 20px"
+        >
           <p class="working-with-subtext about-page-subtext">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
@@ -91,6 +116,12 @@
       </div>
     </div>
     <PracticeCarousel />
+    <div
+      class="contact-table w-col w-col-4 mobile-view"
+      style="margin-bottom: -10px"
+    >
+      <img src="assets/images/faq-contact-3.png" loading="lazy" alt="" />
+    </div>
     <ContactUsTodayPractice />
   </div>
 </template>
