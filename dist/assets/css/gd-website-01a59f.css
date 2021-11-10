@@ -1396,7 +1396,10 @@ textarea {
 .resources-top-container.other-resources {
   background-color: #fff;
 }
-
+.resources-items {
+  justify-content: space-between;
+  display: flex;
+}
 .resources-top-container.other-resources.contact-bottom {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1785,6 +1788,9 @@ textarea {
 .mobile-view {
   display: none;
 }
+.resources-document {
+  margin: 10px 0px 10px 30px;
+}
 @media screen and (max-width: 991px) {
   .page-hero.sub-page-hero {
     -webkit-box-orient: vertical;
@@ -1909,6 +1915,22 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .resources-document {
+    margin: 10px 0px 30px 0px;
+    padding: 0px;
+  }
+  .resources-items {
+    justify-content: space-between;
+    display: block;
+  }
+  .resources-title.covid {
+    font-size: 45px;
+    margin-left: 0px;
+  }
+  .resources-title.other {
+    font-size: 45px;
+    margin-left: 0px;
+  }
   .contact-us-title.description.mobile-view {
     text-align: center;
   }

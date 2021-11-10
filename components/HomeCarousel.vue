@@ -18,7 +18,7 @@
           @click="showPage(0)"
         >
           <div class="tabs-heading">
-            WORKING WITH <strong>HOME BUYERS</strong>
+            WORKING WITH <strong>HOME&nbsp;BUYERS</strong>
           </div>
         </a>
         <a
@@ -59,7 +59,7 @@
               <div class="w-col w-col-4">
                 <h1 class="working-with-header home-title">
                   <em>Working</em><br /><em>with</em><br />
-                  <strong class="bold-text">Home<br />Buyers</strong>
+                  <strong class="bold-text">Home&nbsp;Buyers</strong>
                 </h1>
               </div>
               <div class="w-col w-col-8">
