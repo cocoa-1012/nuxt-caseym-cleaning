@@ -217,7 +217,34 @@
       </div>
     </div>
     <Carousel />
-    <ContactUsToday />
+    <div class="contact-section about-contact wf-section">
+      <div class="contact-container about-contact-container w-container">
+        <div class="w-row">
+          <div class="contact-table w-col w-col-4">
+            <img
+              src="assets/images/resources-contact-3.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div class="contact-table w-col w-col-4">
+            <img
+              src="assets/images/about-contact-2.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div class="contact-table w-col w-col-4">
+            <img
+              src="assets/images/about-contact-3.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+        </div>
+        <ContactUsToday />
+      </div>
+    </div>
   </div>
 </template>
 <script>
