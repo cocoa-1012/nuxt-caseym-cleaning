@@ -53,19 +53,32 @@
           </p>
         </div>
       </div>
+
+      <div style="display: flex; max-width: 1230px">
+        <div style="width: 110px"></div>
+        <div style="height: 1px; width: 100vw; background: #000"></div>
+        <div style="width: 60px"></div>
+      </div>
       <div
-        class="resources-top-container other-resources final section-1 w-row"
+        class="resources-top-container other-resources final w-row"
+        style="justify-content: space-between; display: flex"
       >
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
       </div>
       <div
-        class="resources-top-container other-resources final section-2 w-row"
+        class="resources-top-container other-resources final w-row"
+        style="justify-content: space-between; display: flex"
       >
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
+      </div>
+      <div style="display: flex; max-width: 1230px">
+        <div style="width: 110px"></div>
+        <div style="height: 1px; width: 100vw; background: #000"></div>
+        <div style="width: 60px"></div>
       </div>
     </div>
     <Carousel />

@@ -1366,19 +1366,6 @@ textarea {
   background-color: #fff;
 }
 
-.resources-top-container.other-resources.final.section-2 {
-  margin-bottom: 80px;
-  border-style: solid;
-  border-width: 0px 0px 1px;
-  border-color: #000;
-}
-
-.resources-top-container.other-resources.final.section-1 {
-  border-style: solid;
-  border-width: 1px 0px 0px;
-  border-color: #000;
-}
-
 .resources-top-container.other-resources.contact-bottom {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1431,10 +1418,11 @@ textarea {
 }
 
 .resources-page-subtext.other.document-subtext {
-  width: 75%;
   font-weight: 300;
 }
-
+.margin-top {
+  margin-top: 0px;
+}
 .resources-title {
   font-family: CusCormorant;
   color: #fff;
@@ -1445,12 +1433,14 @@ textarea {
 .resources-title.covid {
   font-size: 55px;
   margin-left: 30px;
+  margin-top: 0px;
 }
 
 .resources-title.other {
   font-size: 55px;
   margin-left: 30px;
   color: #892432;
+  margin-top: 0px;
 }
 
 .resources-title.other.document {

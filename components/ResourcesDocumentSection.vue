@@ -1,5 +1,5 @@
 <template>
-  <div class="w-col w-col-4">
+  <div class="w-col w-col-4" style="margin: 10px 0px 10px 30px">
     <h1 class="resources-title other document">Document<br />title<br /></h1>
     <p class="resources-page-subtext other document-subtext">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam
