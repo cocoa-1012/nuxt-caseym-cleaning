@@ -48,6 +48,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.page-hero.practice.attorneys {
+  background-image: url('../images/Mask Group 21.jpg');
+}
 .page-hero.sub-page-hero {
   position: relative;
   height: 90vh;
