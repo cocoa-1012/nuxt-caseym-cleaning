@@ -2408,6 +2408,11 @@ textarea {
     padding-left: 30px;
   }
 
+  .mobile-faq {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
   .accordion-item-q-text {
     font-size: 1.1em;
     line-height: 1.3em;

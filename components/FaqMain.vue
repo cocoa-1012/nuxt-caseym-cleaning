@@ -66,7 +66,7 @@
     </div>
 
     <div class="faq-top wf-section">
-      <div class="faq-container w-row">
+      <div class="faq-container w-row mobile-faq">
         <div class="faq-column-one w-col w-col-8">
           <h1 class="faq-heading commercial">{{ sectionTitle }}</h1>
           <div class="cloneable-area">
@@ -451,7 +451,10 @@
       </div>
     </div>
     <div class="contact-section about-contact wf-section mobile-view">
-      <div class="contact-container about-contact-container w-container">
+      <div
+        class="contact-container about-contact-container w-container"
+        style="margin-bottom: -200px"
+      >
         <ContactUsToday />
       </div>
     </div>
