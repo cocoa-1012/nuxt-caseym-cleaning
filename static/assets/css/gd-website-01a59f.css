@@ -1759,7 +1759,7 @@ textarea {
 .contact-image {
   position: absolute;
   bottom: auto;
-  z-index: 1000;
+  z-index: 800;
   width: 30%;
   right: 0;
 }
