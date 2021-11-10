@@ -51,17 +51,15 @@
             data-w-tab="WORKING WITH HOME BUYERS"
             class="w-tab-pane w--tab-active"
           >
-            <div class="tabs-images w-row">
+            <div class="tabs-images w-row desktop-view">
               <div class="image-one w-col w-col-6"></div>
               <div class="image-two w-col w-col-6"></div>
             </div>
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
                 <h1 class="working-with-header home-title">
-                  <em>Working</em><br /><em>with</em><br /><strong
-                    class="bold-text"
-                    >Home<br />Buyers</strong
-                  >
+                  <em>Working</em><br /><em>with</em><br />
+                  <strong class="bold-text">Home<br />Buyers</strong>
                 </h1>
               </div>
               <div class="w-col w-col-8">
@@ -95,17 +93,15 @@
             </div>
           </div>
           <div data-w-tab="WORKING WITH LENDERS" class="w-tab-pane">
-            <div class="tabs-images w-row">
+            <div class="tabs-images w-row desktop-view">
               <div class="image-one w-col w-col-6"></div>
               <div class="image-two w-col w-col-6"></div>
             </div>
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
                 <h1 class="working-with-header home-title">
-                  <em>Working</em><br /><em>with</em><br /><strong
-                    class="bold-text"
-                    >Lenders</strong
-                  >
+                  <em>Working</em><br /><em>with</em><br />
+                  <strong class="bold-text">Lenders </strong>
                 </h1>
               </div>
               <div class="w-col w-col-8">
@@ -139,17 +135,15 @@
             </div>
           </div>
           <div data-w-tab="WORKING WITH REALTORS" class="w-tab-pane">
-            <div class="tabs-images w-row">
+            <div class="tabs-images w-row desktop-view">
               <div class="image-one w-col w-col-6"></div>
               <div class="image-two w-col w-col-6"></div>
             </div>
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-4">
                 <h1 class="working-with-header home-title">
-                  <em>Working</em><br /><em>with</em><br /><strong
-                    class="bold-text"
-                    >Realtors</strong
-                  >
+                  <em>Working</em><br /><em>with</em><br />
+                  <strong class="bold-text">Realtors </strong>
                 </h1>
               </div>
               <div class="w-col w-col-8">

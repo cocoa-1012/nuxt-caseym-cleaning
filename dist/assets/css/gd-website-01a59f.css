@@ -1,9 +1,9 @@
 @font-face {
-  font-family: CormorantItalic;
+  font-family: CusCormorantItalic;
   src: url('../fonts/CormorantGaramond-MediumItalic.ttf');
 }
 @font-face {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   src: url('../fonts/CormorantGaramond-Medium.ttf');
 }
 .nav-contain {
@@ -209,7 +209,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #fff;
   font-size: 70px;
   line-height: 70px;
@@ -572,14 +572,17 @@
 }
 
 .working-with-header {
-  font-family: CormorantItalic;
+  font-family: CusCormorantItalic;
   color: #4f748b;
   font-size: 60px;
   line-height: 60px;
   font-weight: 400;
 }
+.working-with-header.home-title {
+  margin: 0px 20px;
+}
 .working-with-header.regular-font {
-  font-family: Cormorant;
+  font-family: CusCormorant;
 }
 .working-with-header.practice {
   margin-left: 70px;
@@ -587,11 +590,11 @@
   margin-right: 50px;
   font-size: 50px;
   color: #fff;
-  font-family: Cormorant;
+  font-family: CusCormorant;
 }
 .working-with-header.attorney {
   color: #892432;
-  font-family: Cormorant;
+  font-family: CusCormorant;
 }
 
 .working-with-subtext {
@@ -631,9 +634,9 @@
 }
 
 .bold-text {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .button {
@@ -864,7 +867,7 @@
 
 .about-grey-text {
   margin-bottom: 30px;
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #4f748b;
   font-size: 40px;
   line-height: 50px;
@@ -1033,7 +1036,7 @@
 }
 
 .contact-section-text.about {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #4f748b;
   font-size: 45px;
   line-height: 45px;
@@ -1108,13 +1111,15 @@
 }
 
 .experienced-attorneys-text {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #892432;
   font-size: 44px;
   line-height: 40px;
   text-align: left;
 }
 .experienced-attorneys-text.about-subtext-hero {
+  font-size: 54px;
+  line-height: 54px;
   position: relative;
   top: auto;
   bottom: 165px;
@@ -1211,7 +1216,7 @@
   border-width: 1px 0px;
   border-color: #892432;
   background-color: hsla(0, 0%, 100%, 0);
-  /* font-family: Cormorant, sans-serif; */
+  /* font-family: CusCormorant, sans-serif; */
   color: #892432;
   font-size: 25px;
   text-transform: uppercase;
@@ -1277,7 +1282,7 @@
 .testimonial-text {
   margin: 0 50px;
   margin-bottom: 30px;
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #2c3e50;
   font-size: 22px;
   line-height: 1.7em;
@@ -1430,7 +1435,7 @@ textarea {
 }
 
 .resources-title {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #fff;
   font-size: 45px;
   font-weight: 400;
@@ -1599,7 +1604,7 @@ textarea {
 }
 
 .text-credentials {
-  font-family: Cormorant !important;
+  font-family: CusCormorant !important;
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: left;
@@ -1695,7 +1700,7 @@ textarea {
 }
 
 .faq-heading {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #c3e1ff;
   font-size: 45px;
   line-height: 45px;
@@ -2419,14 +2424,14 @@ textarea {
     padding-top: 40px;
   }
   .text-credentials {
-    font-family: Cormorant !important;
+    font-family: CusCormorant !important;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
   }
   /* 
   .text-block-10 {
-    font-family: Cormorant !important;
+    font-family: CusCormorant !important;
     text-align: center;
   } */
 
