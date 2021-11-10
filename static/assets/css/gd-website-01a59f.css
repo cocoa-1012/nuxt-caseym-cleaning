@@ -327,7 +327,9 @@
 .text-block-3 {
   font-family: 'Nunito Sans', sans-serif;
 }
-
+.practice-mobile {
+  display: none;
+}
 .nav-link {
   padding-bottom: 12px;
   font-family: 'Nunito Sans', sans-serif;
@@ -2419,7 +2421,39 @@ textarea {
     margin-top: -50px;
     padding: 20px 30px;
   }
-
+  .faq-sidebar.real {
+    display: none;
+  }
+  .practice-mobile {
+    display: block;
+  }
+  .practice-mobile h1 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 20px auto;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    text-transform: uppercase;
+    font-family: CusCormorant !important;
+    font-weight: 400;
+    color: #4f748b;
+  }
+  .practice-mobile span {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .list-group {
+    width: 85%;
+    margin: auto;
+  }
+  .practice-mobile p {
+    text-transform: none;
+    border-bottom: solid 1px #777;
+    color: #555;
+    font-weight: 400;
+    font-size: 20px;
+  }
   .faq-column-one {
     padding-right: 10px;
   }

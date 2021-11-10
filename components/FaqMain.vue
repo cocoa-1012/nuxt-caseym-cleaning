@@ -12,6 +12,59 @@
         &nbsp;&nbsp; FAQ &nbsp; &nbsp;<br />
       </h1>
     </div>
+    <div class="practice-mobile">
+      <h1 @click="listGroup = !listGroup">
+        Practice area <span>&#x25BC;</span>
+      </h1>
+      <ul v-show="listGroup" role="list" class="w-list-unstyled list-group">
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Commercial'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Commercial</p>
+        </li>
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Residential'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Residential</p>
+        </li>
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Title Settlement'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Title Settlement</p>
+        </li>
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Estate Planning'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Estate Planning</p>
+        </li>
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Loan Closing'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Loan Closing</p>
+        </li>
+      </ul>
+    </div>
+
     <div class="faq-top wf-section">
       <div class="faq-container w-row">
         <div class="faq-column-one w-col w-col-8">
@@ -363,7 +416,7 @@
             </div>
           </div>
         </div>
-        <div class="faq-sidebar w-col w-col-4">
+        <div class="faq-sidebar w-col w-col-4 real">
           <h1 class="faq-heading sidebar">Practice Areas</h1>
           <ul role="list" class="w-list-unstyled">
             <li class="practice-list-item" @click="sectionTitle = 'Commercial'">
@@ -397,8 +450,13 @@
         </div>
       </div>
     </div>
+    <div class="contact-section about-contact wf-section mobile-view">
+      <div class="contact-container about-contact-container w-container">
+        <ContactUsToday />
+      </div>
+    </div>
     <Carousel />
-    <div class="contact-section about-contact wf-section">
+    <div class="contact-section about-contact wf-section desktop-view">
       <div class="contact-container about-contact-container w-container">
         <div class="w-row">
           <div class="contact-table w-col w-col-4">
@@ -438,7 +496,8 @@ export default {
         false,
       ],
       temp: '',
-      sectionTitle: '',
+      sectionTitle: 'Commercial',
+      listGroup: false,
     }
   },
 
