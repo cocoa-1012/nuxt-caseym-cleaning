@@ -34,7 +34,7 @@
         "
       >
         <div class="experienced-attorneys-text about-subtext-hero mobile-view">
-          Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
+          Vestibulum Mattis&nbsp;Laoreet Est, Scelerisque Hehicula Enim Laoreet
         </div>
         <div class="w-col w-col-6 real-estate-intro">
           <img
@@ -44,10 +44,11 @@
             class="circle-image about-image"
           />
           <p class="about-grey-text title">
-            Gabe A. Duhon<strong><br /></strong>
-          </p>
-          <p class="about-grey-text title sub-title">
-            attorney/owner<strong><br /></strong>
+            Gabe&nbsp;A.&nbsp;Duhon<strong><br /></strong>
+
+            <span class="about-grey-text title sub-title">
+              attorney/owner<strong><br /></strong
+            ></span>
           </p>
           <p class="working-with-subtext about-page-subtext">
             <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -70,7 +71,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct">
+          <a href="mailto:email@example.com" class="email-direct desktop-view">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -127,12 +128,13 @@
             class="circle-image about-image"
           />
           <p class="about-grey-text title">
-            Kimberly K. <br />Souriyakhamphong<strong><br /></strong>
-          </p>
-          <p class="about-grey-text title sub-title">
-            associate attorney<strong><br /></strong>
+            Kimberly K. Souriyakhamphong<strong><br /></strong>
+            <span class="about-grey-text title sub-title">
+              associate&nbsp;attorney<strong><br /></strong>
+            </span>
           </p>
           <p class="working-with-subtext about-page-subtext">
+            <br />
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
             ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna nec quam
@@ -153,7 +155,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct">
+          <a href="mailto:email@example.com" class="email-direct desktop-view">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -203,22 +205,31 @@
         </div>
       </div>
     </div>
+    <div class="contact-section about-contact wf-section mobile-view">
+      <div class="contact-container about-contact-container w-container">
+        <ContactUsToday />
+      </div>
+    </div>
+    <div class="contact-table mobile-view">
+      <img src="assets/images/about-contact-3.png" loading="lazy" alt="" />
+    </div>
     <div class="why-choose-us about-us-contact-banner wf-section">
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe">
           Cras Et <br />Fringilla <br />Libero <br />
+          <br />
           <button>Contact Us Today</button>
         </h1>
       </div>
       <div class="wcu-images wcu-section-about w-row">
         <div
-          class="wcu-image-one about-image about-image-two w-col w-col-6"
+          class="wcu-image-one about-image real about-image-two w-col w-col-6"
         ></div>
-        <div class="wcu-image-one about-image w-col w-col-6"></div>
+        <div class="wcu-image-one about-image real w-col w-col-6"></div>
       </div>
     </div>
     <Carousel />
-    <div class="contact-section about-contact wf-section">
+    <div class="contact-section about-contact wf-section desktop-view">
       <div class="contact-container about-contact-container w-container">
         <div class="w-row">
           <div class="contact-table w-col w-col-4">

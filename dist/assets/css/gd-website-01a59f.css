@@ -38,9 +38,9 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/aboutHero.7583128e.png');
+  background-image: url('../images/about main.jpg');
   background-position: 0px 0px;
-  background-size: auto;
+  background-size: cover;
 }
 .page-hero.practice {
   background-image: url('../images/Mask Group 34.jpg');
@@ -832,6 +832,16 @@
 .wcu-image-one.about-image.about-image-two {
   height: 400px;
   background-image: url('../images/Mask Group 23.jpg');
+}
+
+.wcu-image-one.about-image.real {
+  height: 400px;
+  background-image: url('../images/aboutimage2.839e161e.png');
+}
+
+.wcu-image-one.about-image.about-image-two.real {
+  height: 400px;
+  background-image: url('../images/Mask Group 22-a.jpg');
 }
 
 .wcu-image-two {
@@ -2029,7 +2039,7 @@ textarea {
     flex-direction: column;
   }
   .expand {
-    text-align: center;
+    text-align: right;
     font-size: 14px;
     margin-top: 0px;
     margin-right: 5px;
@@ -2068,7 +2078,7 @@ textarea {
   }
 
   .page-hero.sub-page-hero {
-    height: 500px;
+    height: 250px;
     background-position: 50% 50%;
     background-size: cover;
   }
@@ -2079,6 +2089,8 @@ textarea {
   }
   .overlay-section.about-us {
     height: 200px;
+    bottom: -190px;
+    opacity: 1;
   }
 
   .hero-text {
@@ -2154,6 +2166,8 @@ textarea {
   }
 
   .why-choose-us.about-us-contact-banner {
+    width: 100vw !important;
+    padding: 0px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -2170,8 +2184,7 @@ textarea {
   }
 
   .why-choose-us-title-container.about-us-dupe {
-    display: block;
-    width: 100%;
+    width: 100vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2181,7 +2194,11 @@ textarea {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 26px;
+    font-size: 50px;
+    padding: 80px 0px 50px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
   }
 
   .why-choose-us-title-container.attorney {
@@ -2460,9 +2477,12 @@ textarea {
   .column-9 {
     padding-top: 40px;
   }
+  .credentials {
+    margin-top: 20px;
+  }
   .text-credentials {
     font-family: CusCormorant !important;
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
     padding-top: 10px;
   }
