@@ -138,7 +138,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 40vh;
+  height: 350px;
   max-width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -157,7 +157,6 @@
   opacity: 1;
   position: static;
   display: block;
-  height: 40vh;
   text-align: center;
 }
 .overlay-section.attorney-home {
