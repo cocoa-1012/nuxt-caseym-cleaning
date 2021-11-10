@@ -49,6 +49,7 @@
   background-position: center;
 }
 .page-hero.sub-page-hero {
+  position: relative;
   height: 90vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -73,6 +74,7 @@
 }
 
 .page-hero.home {
+  position: relative;
   background-image: url('../images/homehero.839f5b8a.png');
   background-size: cover;
 }
