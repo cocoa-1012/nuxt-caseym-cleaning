@@ -81,7 +81,7 @@
       </div>
     </div>
     <br />
-    <div class="why-choose-us wf-section">
+    <div class="why-choose-us wf-section desktop-view">
       <div class="wcu-images w-row">
         <div class="column-6 w-col w-col-4"></div>
         <div class="wcu-image-one w-col w-col-5"></div>
@@ -89,7 +89,13 @@
       </div>
       <h1 class="why-choose-us-title-container">Why Choose Us</h1>
     </div>
-    <div class="about-grey wf-section">
+    <div class="why-choose-us wf-section mobile-view">
+      <div class="wcu-images w-row">
+        <div class="wcu-image-one-home w-col w-col-3"></div>
+      </div>
+      <h1 class="why-choose-us-title-container">Why <br />Choose Us</h1>
+    </div>
+    <div class="about-grey home-mobile wf-section">
       <div class="about-grey-text-section w-row">
         <div class="w-col w-col-6 w-col-medium-6">
           <p class="about-grey-text">
@@ -98,7 +104,11 @@
             Livingston and the rest of Acadiana with personalized local service
             since 2006.<strong><br /></strong>
           </p>
-          <a href="about.html" class="button w-button">
+          <a
+            href="about.html"
+            class="button w-button desktop-view"
+            style="width: fit-content"
+          >
             <strong>MEET OUR ATTORNEYS</strong>
           </a>
         </div>
@@ -110,10 +120,11 @@
             class="circle-image"
           />
           <p class="about-grey-text title">
-            Gabe A. Duhon<strong><br /></strong>
-          </p>
-          <p class="about-grey-text title sub-title">
-            attorney/owner<strong><br /></strong>
+            Gabe&nbsp;A.&nbsp;Duhon<strong><br /></strong>
+
+            <span class="about-grey-text title sub-title">
+              attorney/owner<strong><br /></strong
+            ></span>
           </p>
         </div>
         <div class="column-9 w-col w-col-3 w-col-medium-3 second-image">
@@ -125,18 +136,24 @@
           />
           <p class="about-grey-text title">
             Kimberly K. Souriyakhamphong<strong><br /></strong>
-          </p>
-          <p class="about-grey-text title sub-title">
-            associate attorney<strong><br /></strong>
+            <span class="about-grey-text title sub-title">
+              associate&nbsp;attorney<strong><br /></strong>
+            </span>
           </p>
         </div>
       </div>
+    </div>
+    <div class="why-choose-us wf-section mobile-view">
+      <div class="wcu-images w-row">
+        <div class="wcu-image-two w-col w-col-3"></div>
+      </div>
+      <div style="height: 190px"></div>
     </div>
     <div class="contact-section wf-section">
       <div class="contact-container w-container home-contact-container">
         <div class="w-row home-contact-form">
           <div class="w-col w-col-4">
-            <p class="contact-section-text description">
+            <p class="contact-section-text description padding">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               aliquam cursus metus, at accumsan massa ornare id. Aliquam
               facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
@@ -150,7 +167,7 @@
               at. Donec et eros eros. Phasellus arcu mi, hendrerit eu nibh eu,
               condimentum iaculis sapien.<br />
             </p>
-            <p class="contact-section-text description mobile-view">
+            <p class="contact-section-text description padding mobile-view">
               Donec eu blandit elit, in ultrices tellus. Maecenas ultricies
               bibendum sodales. Morbi in tincidunt eros. Vivamus nec ipsum
               suscipit, sagittis libero eget, vehicula leo. Aliquam erat
@@ -239,7 +256,7 @@
     <div class="real-estate-title-services-section wf-section">
       <div class="workingwithtextsection real-estate-title-services w-row">
         <div class="w-col w-col-4">
-          <h1 class="working-with-header regular-font">
+          <h1 class="working-with-header regular-font" style="margin-top: 0px">
             Our Real <br />Estate Title <br />Services
           </h1>
         </div>

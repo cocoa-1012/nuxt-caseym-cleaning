@@ -746,8 +746,8 @@
   background-color: rgba(137, 36, 50, 0.9);
   font-family: 'Nunito Sans', sans-serif;
   color: #fff;
-  font-size: 48px;
-  font-weight: 600;
+  font-size: 60px;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
 }
@@ -807,6 +807,12 @@
 
 .wcu-image-one {
   height: 300px;
+  background-image: url('../images/whychooseus1.dac66566-1.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.wcu-image-one-home {
+  height: 250px;
   background-image: url('../images/whychooseus1.dac66566-1.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -1893,6 +1899,12 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .contact-us-title.description.mobile-view {
+    text-align: center;
+  }
+  .contact-section-text.description.padding {
+    padding: 20px;
+  }
   .practice-sidebar {
     margin-top: -70px;
   }
@@ -1949,6 +1961,7 @@ textarea {
   }
   .footer-contact-form-title {
     width: 100%;
+    justify-content: center;
   }
   .footer-contact-form {
     width: 100%;
@@ -2050,16 +2063,22 @@ textarea {
     font-style: italic;
     font-weight: 300;
   }
+  .page-hero {
+    height: 500px;
+  }
 
   .page-hero.sub-page-hero {
-    height: 100vh;
+    height: 500px;
     background-position: 50% 50%;
     background-size: cover;
   }
 
   .overlay-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .overlay-section.about-us {
+    height: 200px;
   }
 
   .hero-text {
@@ -2143,9 +2162,11 @@ textarea {
 
   .why-choose-us-title-container {
     margin-left: 0px;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-size: 26px;
+    margin-top: 0px;
+    padding: 30px 60px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
   }
 
   .why-choose-us-title-container.about-us-dupe {
@@ -2182,7 +2203,17 @@ textarea {
   }
 
   .about-grey-text.title {
-    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    width: min-content;
+  }
+  .about-grey-text.title span {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .about-grey.home-mobile {
+    padding-bottom: 50px;
   }
 
   .about-grey-text.title.sub-title {

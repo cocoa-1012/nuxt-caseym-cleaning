@@ -133,7 +133,10 @@
         class="w-col footer-contact-form-title"
         @click="isOpenContact = true"
       >
-        <p class="contact-us-title description">
+        <p class="contact-us-title description desktop-view">
+          Contact Us<strong><br /></strong>
+        </p>
+        <p class="contact-us-title description mobile-view">
           Contact Us<strong><br /></strong>
         </p>
       </div>
