@@ -1,13 +1,16 @@
 <template>
   <div>
     <div class="overlay-section about-us resources r-header w-container">
-      <h1 class="hero-text sub-page-hero resources" style="position: relative">
+      <h1
+        class="hero-text sub-page-hero resources"
+        style="position: relative; margin-left: 0px"
+      >
         <img
           src="assets/images/Logo Icon.png"
           loading="lazy"
           alt=""
           class="desktop-view"
-          style="position: absolute; left: -80%"
+          style="position: absolute; left: -70%"
         />
         Contact Us<br />
       </h1>
@@ -134,7 +137,7 @@
             loading="lazy"
           ></iframe>
         </div>
-        <h1 class="resources-title other address">
+        <h1 class="resources-title other address" style="margin-top: 30px">
           105 Tivoli Street<br />Abbeville, LA<br />337-893-3423<br />
         </h1>
       </div>
