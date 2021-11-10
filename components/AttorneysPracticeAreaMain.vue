@@ -187,7 +187,21 @@
       </div>
     </div>
     <Carousel />
-    <AttorneysContactUsToday />
+    <div class="contact-section about-contact wf-section">
+      <div
+        class="
+          contact-container
+          about-contact-container
+          w-container w-row
+          contact-attorney
+        "
+      >
+        <AttorneysContactUsToday />
+        <div class="w-col w-col-5">
+          <img src="assets/images/Mask Group 25.jpg" loading="lazy" alt="" />
+        </div>
+      </div>
+    </div>
     <div class="faq-top wf-section" style="margin-top: -50px">
       <div
         class="faq-container w-row"

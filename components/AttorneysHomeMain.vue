@@ -22,12 +22,12 @@
       style="position: relative; align-items: center"
     >
       <div class="wcu-images attorney w-row" style="max-width: 1230px">
-        <div class="wcu-image-one w-col w-col-6"></div>
-        <div class="wcu-image-two w-col w-col-6"></div>
+        <div class="wcu-image-one-attr w-col w-col-6"></div>
+        <div class="wcu-image-two-attr w-col w-col-6"></div>
       </div>
       <h1
         class="why-choose-us-title-container attorney"
-        style="position: absolute; bottom: 20%; right: 0"
+        style="position: absolute; bottom: 20%; right: 0; font-size: 70px"
       >
         WHO WE ARE
       </h1>

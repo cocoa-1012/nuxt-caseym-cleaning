@@ -811,20 +811,32 @@
   background-position: 0px 0px;
   background-size: cover;
 }
+.wcu-image-one-attr {
+  height: 300px;
+  background-image: url('../images/Mask Group 16.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
 
 .wcu-image-one.about-image {
   height: 400px;
-  background-image: url('../images/aboutimage2.839e161e.png');
+  background-image: url('../images/Mask Group 22.jpg');
 }
 
 .wcu-image-one.about-image.about-image-two {
   height: 400px;
-  background-image: url('../images/aboutimage1.bd629355.png');
+  background-image: url('../images/Mask Group 23.jpg');
 }
 
 .wcu-image-two {
   height: 300px;
   background-image: url('../images/whychooseus2.ff04622a-1.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.wcu-image-two-attr {
+  height: 300px;
+  background-image: url('../images/Mask Group 17.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
