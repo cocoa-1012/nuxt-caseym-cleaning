@@ -1595,7 +1595,7 @@ textarea {
 
 ._w-accordion-item:hover {
   border-color: rgba(93, 195, 163, 0.25);
-  box-shadow: 1px 1px 15px 0 rgba(33, 159, 163, 0.75);
+  /* box-shadow: 1px 1px 15px 0 rgba(33, 159, 163, 0.75); */
 }
 
 .subheader {
