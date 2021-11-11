@@ -1927,6 +1927,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .spec03 {
+    margin: 0px !important;
+  }
   .spec02 {
     margin-bottom: 50px;
   }

@@ -60,12 +60,12 @@
             class="circle-image about-image"
           />
           <p class="about-grey-text title attorney">
-            Gabe A. Duhon<strong><br /></strong>
+            Gabe&nbsp;A.&nbsp;Duhon<strong><br /></strong>
           </p>
           <p class="about-grey-text title sub-title attorney">
             attorney/owner<strong><br /></strong>
           </p>
-          <p class="working-with-subtext about-page-subtext">
+          <p class="working-with-subtext about-page-subtext spec03">
             <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Aliquam aliquam cursus metus, at accumsan massa ornare id. Aliquam
             facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna
@@ -86,7 +86,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct">
+          <a href="mailto:email@example.com" class="email-direct desktop-view">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -143,9 +143,9 @@
             Kimberly K. <br />Souriyakhamphong<strong><br /></strong>
           </p>
           <p class="about-grey-text title sub-title attorney">
-            associate attorney<strong><br /></strong>
+            associate&nbsp;attorney<strong><br /></strong>
           </p>
-          <p class="working-with-subtext about-page-subtext">
+          <p class="working-with-subtext about-page-subtext spec03">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
             ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna nec quam
@@ -166,7 +166,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct">
+          <a href="mailto:email@example.com" class="email-direct desktop-view">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -214,6 +214,27 @@
         </div>
       </div>
     </div>
+    <div class="contact-section about-contact wf-section mobile-view">
+      <div
+        class="
+          contact-container
+          about-contact-container
+          w-container w-row
+          contact-attorney
+        "
+        style="margin-bottom: 0px"
+      >
+        <AttorneysContactUsToday />
+      </div>
+    </div>
+    <img
+      src="assets/images/Mask Group 20.jpg"
+      loading="lazy"
+      width="100%"
+      height="250px"
+      alt=""
+      class="mobile-view"
+    />
     <div class="why-choose-us about-us-contact-banner wf-section">
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe attorney-box">
@@ -229,7 +250,7 @@
       </div>
     </div>
     <Carousel />
-    <div class="contact-section about-contact wf-section">
+    <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="
           contact-container
