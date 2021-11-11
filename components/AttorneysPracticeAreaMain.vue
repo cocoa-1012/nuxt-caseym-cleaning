@@ -1,6 +1,9 @@
 <template>
   <div class="home-mobile">
-    <div class="page-hero practice attorneys wf-section">
+    <div
+      class="page-hero practice attorneys wf-section"
+      style="position: relative"
+    >
       <div class="overlay-section w-container home">
         <img
           src="assets/images/Logo Icon.png"
@@ -9,8 +12,18 @@
           class="desktop-view"
         />
         <h1 class="hero-text desktop-view">Personal Injury</h1>
-
-        <h1 class="hero-text mobile-view">Personal Injury</h1>
+      </div>
+      <div
+        class="overlay-section w-container home mobile-view"
+        style="opacity: 1; top: 250px; height: 150px"
+      >
+        <h1
+          class="hero-text"
+          style="font-weight: 400; font-size: 40px; margin-left: -20px"
+        >
+          Personal <br />
+          Injury
+        </h1>
       </div>
     </div>
 
@@ -97,6 +110,24 @@
         />
       </div>
     </div>
+    <div class="contact-section about-contact wf-section mobile-view">
+      <div
+        class="
+          contact-container
+          about-contact-container
+          w-container w-row
+          contact-attorney
+        "
+      >
+        <AttorneysContactUsToday />
+      </div>
+    </div>
+    <div
+      class="contact-table w-col w-col-4 mobile-view"
+      style="margin-top: -50px; margin-bottom: -20px"
+    >
+      <img src="assets/images/Mask Group 22.jpg" loading="lazy" alt="" />
+    </div>
     <div class="why-choose-us about-us-contact-banner wf-section">
       <div class="main-content-container w-container" style="">
         <h1 class="why-choose-us-title-container about-us-dupe attorney-box">
@@ -115,7 +146,7 @@
       </div>
     </div>
     <div
-      class="real-estate-title-services-section wf-section"
+      class="real-estate-title-services-section wf-section spec04"
       style="margin-top: 200px; margin-bottom: -100px"
     >
       <div
@@ -186,8 +217,11 @@
         </div>
       </div>
     </div>
-    <Carousel />
-    <div class="contact-section about-contact wf-section">
+    <div class="spec05">
+      <Carousel />
+    </div>
+
+    <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="
           contact-container
@@ -202,11 +236,8 @@
         </div>
       </div>
     </div>
-    <div class="faq-top wf-section" style="margin-top: -50px">
-      <div
-        class="faq-container w-row"
-        style="padding-bottom: 0px; min-height: 700px"
-      >
+    <div class="faq-top wf-section spec06">
+      <div class="faq-container w-row spec07">
         <div class="faq-column-one w-col w-col-8">
           <!-- <h1 class="faq-heading commercial attorney">{{ sectionTitle }}</h1> -->
           <h1 class="faq-heading commercial attorney">FAQ</h1>
@@ -557,7 +588,7 @@
             </div>
           </div>
         </div>
-        <div class="faq-sidebar attorney w-col w-col-4 practice-sidebar">
+        <div class="faq-sidebar attorney w-col w-col-4 practice-sidebar spec05">
           <h1 class="faq-heading sidebar attorney">
             Other Practice&nbsp;Areas
           </h1>
