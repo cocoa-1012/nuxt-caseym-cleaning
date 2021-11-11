@@ -1,13 +1,16 @@
 <template>
   <div>
     <div class="overlay-section about-us resources r-header w-container">
-      <img
-        src="assets/images/Logo Icon.png"
-        loading="lazy"
-        alt=""
-        class="desktop-view"
-      />
-      <h1 class="hero-text sub-page-hero resources">Resources<br /></h1>
+      <h1 class="hero-text sub-page-hero resources" style="position: relative">
+        <img
+          src="assets/images/Logo Icon.png"
+          loading="lazy"
+          alt=""
+          class="desktop-view"
+          style="position: absolute; left: -100%"
+        />
+        Resources<br />
+      </h1>
     </div>
     <div class="resources-top wf-section">
       <div class="resources-top-container attorney w-row">
@@ -52,22 +55,48 @@
           </p>
         </div>
       </div>
+      <div style="display: flex; max-width: 1230px">
+        <div style="width: 110px"></div>
+        <div style="height: 1px; width: 100vw; background: #000"></div>
+        <div style="width: 60px"></div>
+      </div>
       <div
-        class="resources-top-container other-resources final section-1 w-row"
+        class="resources-top-container other-resources final w-row"
+        style="justify-content: space-between; display: flex"
       >
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
       </div>
       <div
-        class="resources-top-container other-resources final section-2 w-row"
+        class="resources-top-container other-resources final w-row"
+        style="justify-content: space-between; display: flex"
       >
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
+      </div>
+      <div style="display: flex; max-width: 1230px">
+        <div style="width: 110px"></div>
+        <div style="height: 1px; width: 100vw; background: #000"></div>
+        <div style="width: 60px"></div>
       </div>
     </div>
     <Carousel />
-    <AttorneysContactUsToday />
+    <div class="contact-section about-contact wf-section">
+      <div
+        class="
+          contact-container
+          about-contact-container
+          w-container w-row
+          contact-attorney
+        "
+      >
+        <AttorneysContactUsToday />
+        <div class="w-col w-col-5">
+          <img src="assets/images/Mask Group 26.jpg" loading="lazy" alt="" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>

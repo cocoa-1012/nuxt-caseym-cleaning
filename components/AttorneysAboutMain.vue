@@ -100,12 +100,13 @@
                 </div>
               </div>
             </div>
-            <nav
-              v-show="isOpen1"
-              id="myDropdown1"
-              class="w-dropdown-list credential-exp"
-            >
-              <p class="working-with-subtext about-page-subtext">
+            <nav class="w-dropdown-credential">
+              <p
+                id="myDropdown1"
+                class="working-with-subtext about-page-subtext"
+                style="overflow: hidden; transition: all 0.5s"
+              >
+                <br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 aliquam cursus metus, at accumsan massa ornare id. Aliquam
                 facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
@@ -126,6 +127,7 @@
                 blandit lobortis, neque nisi aliquam nunc, eget vehicula lectus
                 augue interdum leo. Nam vestibulum a sem id ornare. Praesent
                 convallis mollis elementum.<br />
+                <br />
               </p>
             </nav>
           </div>
@@ -178,12 +180,13 @@
                 </div>
               </div>
             </div>
-            <nav
-              v-show="isOpen2"
-              id="myDropdown2"
-              class="w-dropdown-list credential-exp"
-            >
-              <p class="working-with-subtext about-page-subtext">
+            <nav class="w-dropdown-credential">
+              <p
+                id="myDropdown2"
+                class="working-with-subtext about-page-subtext"
+                style="overflow: hidden; transition: all 0.5s"
+              >
+                <br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 aliquam cursus metus, at accumsan massa ornare id. Aliquam
                 facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
@@ -204,6 +207,7 @@
                 blandit lobortis, neque nisi aliquam nunc, eget vehicula lectus
                 augue interdum leo. Nam vestibulum a sem id ornare. Praesent
                 convallis mollis elementum.<br />
+                <br />
               </p>
             </nav>
           </div>
@@ -225,7 +229,21 @@
       </div>
     </div>
     <Carousel />
-    <AttorneysContactUsToday />
+    <div class="contact-section about-contact wf-section">
+      <div
+        class="
+          contact-container
+          about-contact-container
+          w-container w-row
+          contact-attorney
+        "
+      >
+        <AttorneysContactUsToday />
+        <div class="w-col w-col-5">
+          <img src="assets/images/Mask Group 20.jpg" loading="lazy" alt="" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -240,14 +258,28 @@ export default {
     toggle1() {
       this.isOpen1 = !this.isOpen1
       this.isOpen2 = this.isOpen1 ? false : this.isOpen2
-      document.getElementById('myDropdown1').classList.toggle('show')
-      document.getElementById('myDropdown1').classList.add('w--open')
+      if (this.isOpen1) {
+        document.getElementById('myDropdown1').style.maxHeight = '600px'
+        document.getElementById('myDropdown1').style.paddingTop = '0px'
+        document.getElementById('myDropdown2').style.maxHeight = '0px'
+        document.getElementById('myDropdown2').style.paddingTop = '0px'
+      } else {
+        document.getElementById('myDropdown1').style.maxHeight = '0px'
+        document.getElementById('myDropdown1').style.paddingTop = '0px'
+      }
     },
     toggle2() {
       this.isOpen2 = !this.isOpen2
       this.isOpen1 = this.isOpen2 ? false : this.isOpen1
-      document.getElementById('myDropdown2').classList.toggle('show')
-      document.getElementById('myDropdown2').classList.add('w--open')
+      if (this.isOpen2) {
+        document.getElementById('myDropdown2').style.maxHeight = '600px'
+        document.getElementById('myDropdown2').style.paddingTop = '0px'
+        document.getElementById('myDropdown1').style.maxHeight = '0px'
+        document.getElementById('myDropdown1').style.paddingTop = '0px'
+      } else {
+        document.getElementById('myDropdown2').style.maxHeight = '0px'
+        document.getElementById('myDropdown2').style.paddingTop = '0px'
+      }
     },
   },
 }

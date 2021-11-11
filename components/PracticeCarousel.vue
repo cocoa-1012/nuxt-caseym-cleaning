@@ -1,12 +1,12 @@
 <template>
-  <div class="working-with-section wf-section">
+  <div class="working-with-section wf-section" style="width: 100%">
     <div
       data-current="WORKING WITH HOME BUYERS"
       data-easing="ease-in-out"
       data-duration-in="300"
       data-duration-out="100"
       class="tabs w-tabs"
-      style="width: 80%"
+      style="width: 90%"
     >
       <div class="tabs-menu w-tab-menu home-carousel practice">
         <a

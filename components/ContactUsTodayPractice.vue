@@ -7,27 +7,15 @@
       class="contact-container about-contact-container w-container"
       style="background: #892432; padding-top: 0px"
     >
-      <div class="w-row">
+      <div class="w-row desktop-view">
         <div class="contact-table w-col w-col-4">
-          <img
-            src="assets/images/aboutimage2.839e161e.png"
-            loading="lazy"
-            alt=""
-          />
+          <img src="assets/images/about-contact-3.png" loading="lazy" alt="" />
         </div>
         <div class="contact-table w-col w-col-4">
-          <img
-            src="assets/images/aboutimage1.bd629355.png"
-            loading="lazy"
-            alt=""
-          />
+          <img src="assets/images/Mask Group 37.jpg" loading="lazy" alt="" />
         </div>
         <div class="contact-table w-col w-col-4">
-          <img
-            src="assets/images/aboutimage2.839e161e.png"
-            loading="lazy"
-            alt=""
-          />
+          <img src="assets/images/faq-contact-3.png" loading="lazy" alt="" />
         </div>
       </div>
       <div class="w-row">

@@ -1,9 +1,9 @@
 @font-face {
-  font-family: CormorantItalic;
+  font-family: CusCormorantItalic;
   src: url('../fonts/CormorantGaramond-MediumItalic.ttf');
 }
 @font-face {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   src: url('../fonts/CormorantGaramond-Medium.ttf');
 }
 .nav-contain {
@@ -38,17 +38,21 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/aboutHero.7583128e.png');
+  background-image: url('../images/about main.jpg');
   background-position: 0px 0px;
-  background-size: auto;
+  background-size: cover;
 }
 .page-hero.practice {
   background-image: url('../images/Mask Group 34.jpg');
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+.page-hero.practice.attorneys {
+  background-image: url('../images/Mask Group 21.jpg');
+}
 .page-hero.sub-page-hero {
+  position: relative;
   height: 90vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -73,6 +77,7 @@
 }
 
 .page-hero.home {
+  position: relative;
   background-image: url('../images/homehero.839f5b8a.png');
   background-size: cover;
 }
@@ -136,7 +141,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 40vh;
+  height: 350px;
   max-width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -155,7 +160,6 @@
   opacity: 1;
   position: static;
   display: block;
-  height: 40vh;
   text-align: center;
 }
 .overlay-section.attorney-home {
@@ -209,7 +213,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #fff;
   font-size: 70px;
   line-height: 70px;
@@ -323,7 +327,9 @@
 .text-block-3 {
   font-family: 'Nunito Sans', sans-serif;
 }
-
+.practice-mobile {
+  display: none;
+}
 .nav-link {
   padding-bottom: 12px;
   font-family: 'Nunito Sans', sans-serif;
@@ -572,14 +578,17 @@
 }
 
 .working-with-header {
-  font-family: CormorantItalic;
+  font-family: CusCormorantItalic;
   color: #4f748b;
   font-size: 60px;
   line-height: 60px;
   font-weight: 400;
 }
+.working-with-header.home-title {
+  margin: 0px 20px;
+}
 .working-with-header.regular-font {
-  font-family: Cormorant;
+  font-family: CusCormorant;
 }
 .working-with-header.practice {
   margin-left: 70px;
@@ -587,11 +596,11 @@
   margin-right: 50px;
   font-size: 50px;
   color: #fff;
-  font-family: Cormorant;
+  font-family: CusCormorant;
 }
 .working-with-header.attorney {
   color: #892432;
-  font-family: Cormorant;
+  font-family: CusCormorant;
 }
 
 .working-with-subtext {
@@ -631,9 +640,9 @@
 }
 
 .bold-text {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .button {
@@ -739,8 +748,8 @@
   background-color: rgba(137, 36, 50, 0.9);
   font-family: 'Nunito Sans', sans-serif;
   color: #fff;
-  font-size: 48px;
-  font-weight: 600;
+  font-size: 60px;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
 }
@@ -804,20 +813,56 @@
   background-position: 0px 0px;
   background-size: cover;
 }
+.wcu-image-one-home {
+  height: 250px;
+  background-image: url('../images/whychooseus1.dac66566-1.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.wcu-image-one-practice {
+  height: 250px;
+  background-image: url('../images/Mask Group 35.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: -200px;
+}
+.wcu-image-one-attr {
+  height: 300px;
+  background-image: url('../images/Mask Group 16.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
 
 .wcu-image-one.about-image {
   height: 400px;
-  background-image: url('../images/aboutimage2.839e161e.png');
+  background-image: url('../images/Mask Group 22.jpg');
 }
 
 .wcu-image-one.about-image.about-image-two {
   height: 400px;
-  background-image: url('../images/aboutimage1.bd629355.png');
+  background-image: url('../images/Mask Group 23.jpg');
+}
+
+.wcu-image-one.about-image.real {
+  height: 400px;
+  background-image: url('../images/aboutimage2.839e161e.png');
+}
+
+.wcu-image-one.about-image.about-image-two.real {
+  height: 400px;
+  background-image: url('../images/Mask Group 22-a.jpg');
 }
 
 .wcu-image-two {
   height: 300px;
   background-image: url('../images/whychooseus2.ff04622a-1.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.wcu-image-two-attr {
+  height: 300px;
+  background-image: url('../images/Mask Group 17.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -864,7 +909,7 @@
 
 .about-grey-text {
   margin-bottom: 30px;
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #4f748b;
   font-size: 40px;
   line-height: 50px;
@@ -882,6 +927,7 @@
 .about-grey-text.title.sub-title {
   font-size: 15px;
   line-height: 15px;
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 
 .about-grey-text.title.meet {
@@ -1001,6 +1047,7 @@
 }
 .consultation .contact-description {
   font-size: 20px;
+  font-weight: 400;
 }
 .description {
   line-height: 1.5;
@@ -1033,7 +1080,7 @@
 }
 
 .contact-section-text.about {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #4f748b;
   font-size: 45px;
   line-height: 45px;
@@ -1108,13 +1155,15 @@
 }
 
 .experienced-attorneys-text {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #892432;
   font-size: 44px;
   line-height: 40px;
   text-align: left;
 }
 .experienced-attorneys-text.about-subtext-hero {
+  font-size: 54px;
+  line-height: 54px;
   position: relative;
   top: auto;
   bottom: 165px;
@@ -1211,7 +1260,7 @@
   border-width: 1px 0px;
   border-color: #892432;
   background-color: hsla(0, 0%, 100%, 0);
-  /* font-family: Cormorant, sans-serif; */
+  /* font-family: CusCormorant, sans-serif; */
   color: #892432;
   font-size: 25px;
   text-transform: uppercase;
@@ -1277,7 +1326,7 @@
 .testimonial-text {
   margin: 0 50px;
   margin-bottom: 30px;
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #2c3e50;
   font-size: 22px;
   line-height: 1.7em;
@@ -1359,20 +1408,10 @@ textarea {
 .resources-top-container.other-resources {
   background-color: #fff;
 }
-
-.resources-top-container.other-resources.final.section-2 {
-  margin-bottom: 80px;
-  border-style: solid;
-  border-width: 0px 0px 1px;
-  border-color: #000;
+.resources-items {
+  justify-content: space-between;
+  display: flex;
 }
-
-.resources-top-container.other-resources.final.section-1 {
-  border-style: solid;
-  border-width: 1px 0px 0px;
-  border-color: #000;
-}
-
 .resources-top-container.other-resources.contact-bottom {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1425,26 +1464,29 @@ textarea {
 }
 
 .resources-page-subtext.other.document-subtext {
-  width: 75%;
   font-weight: 300;
 }
-
+.margin-top {
+  margin-top: 0px;
+}
 .resources-title {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #fff;
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 400;
   text-align: left;
 }
 .resources-title.covid {
   font-size: 55px;
   margin-left: 30px;
+  margin-top: 0px;
 }
 
 .resources-title.other {
   font-size: 55px;
   margin-left: 30px;
   color: #892432;
+  margin-top: 0px;
 }
 
 .resources-title.other.document {
@@ -1588,7 +1630,7 @@ textarea {
 
 ._w-accordion-item:hover {
   border-color: rgba(93, 195, 163, 0.25);
-  box-shadow: 1px 1px 15px 0 rgba(33, 159, 163, 0.75);
+  /* box-shadow: 1px 1px 15px 0 rgba(33, 159, 163, 0.75); */
 }
 
 .subheader {
@@ -1599,7 +1641,7 @@ textarea {
 }
 
 .text-credentials {
-  font-family: Cormorant !important;
+  font-family: CusCormorant !important;
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: left;
@@ -1695,7 +1737,7 @@ textarea {
 }
 
 .faq-heading {
-  font-family: Cormorant;
+  font-family: CusCormorant;
   color: #c3e1ff;
   font-size: 45px;
   line-height: 45px;
@@ -1748,7 +1790,7 @@ textarea {
 .contact-image {
   position: absolute;
   bottom: auto;
-  z-index: 1000;
+  z-index: 800;
   width: 30%;
   right: 0;
 }
@@ -1757,6 +1799,9 @@ textarea {
 }
 .mobile-view {
   display: none;
+}
+.resources-document {
+  margin: 10px 0px 10px 30px;
 }
 @media screen and (max-width: 991px) {
   .page-hero.sub-page-hero {
@@ -1882,6 +1927,80 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .spec02 {
+    margin-bottom: 50px;
+  }
+  .spec01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .attr-home-sidebar {
+    display: none;
+  }
+  .attorneys-meet-container {
+    margin-top: 300px;
+    padding: 50px 30px;
+  }
+  .about-grey-text.attorney {
+    font-size: 26px;
+  }
+  .working-with-header.attorney {
+    margin-bottom: 20px;
+  }
+  .item-actived .tabs-heading-mobile {
+    color: #333 !important;
+  }
+  .tabs-menu.attorney {
+    background-color: #ededed;
+    margin-bottom: 20px;
+  }
+  .mobile-carousel-home {
+    display: flex;
+    background-color: #ededed;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .mobile-carousel-home a {
+    margin: 10px;
+    font-weight: 600;
+  }
+  .tabs-heading-mobile {
+    color: #4f748b;
+  }
+  .practice-detail-group {
+    margin-top: -150px;
+    margin-left: -10px;
+  }
+  .practice-detail-group p {
+    margin: 0px;
+  }
+  .page-hero.practice {
+    height: 250px;
+    background-size: cover;
+  }
+  .resources-document {
+    margin: 10px 0px 30px 0px;
+    padding: 0px;
+  }
+  .resources-items {
+    justify-content: space-between;
+    display: block;
+  }
+  .resources-title.covid {
+    font-size: 45px;
+    margin-left: 0px;
+  }
+  .resources-title.other {
+    font-size: 45px;
+    margin-left: 0px;
+  }
+  .contact-us-title.description.mobile-view {
+    text-align: center;
+  }
+  .contact-section-text.description.padding {
+    padding: 20px;
+  }
   .practice-sidebar {
     margin-top: -70px;
   }
@@ -1892,6 +2011,7 @@ textarea {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: -100px;
   }
   .experienced-attorneys-text.about-subtext-hero {
     position: relative;
@@ -1938,12 +2058,13 @@ textarea {
   }
   .footer-contact-form-title {
     width: 100%;
+    justify-content: center;
   }
   .footer-contact-form {
     width: 100%;
   }
   .carousel-main {
-    margin: 50px !important;
+    margin: 0px 50px !important;
   }
   .consultation {
     padding: 0px 30px;
@@ -1976,6 +2097,10 @@ textarea {
     font-weight: 400;
     margin-left: 20px;
   }
+  .mobile-practice-header {
+    margin-left: 20px !important;
+    padding: 0px;
+  }
   .footer-font {
     font-size: 45px !important;
     line-height: 1.1;
@@ -2005,7 +2130,7 @@ textarea {
     flex-direction: column;
   }
   .expand {
-    text-align: center;
+    text-align: right;
     font-size: 14px;
     margin-top: 0px;
     margin-right: 5px;
@@ -2039,16 +2164,24 @@ textarea {
     font-style: italic;
     font-weight: 300;
   }
+  .page-hero {
+    height: 500px;
+  }
 
   .page-hero.sub-page-hero {
-    height: 100vh;
+    height: 250px;
     background-position: 50% 50%;
     background-size: cover;
   }
 
   .overlay-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .overlay-section.about-us {
+    height: 200px;
+    bottom: -190px;
+    opacity: 1;
   }
 
   .hero-text {
@@ -2058,7 +2191,7 @@ textarea {
   }
 
   .workingwithtextsection {
-    padding-top: 0px;
+    padding-top: 20px;
     display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2119,11 +2252,15 @@ textarea {
   }
 
   .working-with-subtext {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px 20px;
   }
-
+  .working-with-subtext.attr {
+    margin: 0px;
+  }
   .why-choose-us.about-us-contact-banner {
+    width: 100vw !important;
+    padding: 0px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -2132,14 +2269,15 @@ textarea {
 
   .why-choose-us-title-container {
     margin-left: 0px;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-size: 26px;
+    margin-top: 0px;
+    padding: 30px 60px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
   }
 
   .why-choose-us-title-container.about-us-dupe {
-    display: block;
-    width: 100%;
+    width: 100vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2149,11 +2287,19 @@ textarea {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 26px;
+    font-size: 50px;
+    padding: 80px 0px 50px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
   }
 
   .why-choose-us-title-container.attorney {
     width: 100%;
+    position: relative;
+    font-size: 40px !important;
+    padding-top: 80px;
+    padding-bottom: 50px;
   }
 
   .wcu-image-one {
@@ -2168,14 +2314,25 @@ textarea {
 
   .about-grey.attorney {
     padding-top: 100px;
+    padding-bottom: 50px;
   }
 
   .about-grey-text.title {
-    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    width: min-content;
+  }
+  .about-grey-text.title span {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .about-grey.home-mobile {
+    padding-bottom: 50px;
   }
 
   .about-grey-text.title.sub-title {
-    text-align: center;
+    text-align: left;
   }
 
   .about-grey-text.title.attorney {
@@ -2227,6 +2384,12 @@ textarea {
     padding-left: 20px;
     font-size: 18px;
     line-height: 22px;
+  }
+  .experienced-attorneys-text.about-subtext-hero.practice {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
   }
 
   .main-content-container {
@@ -2325,6 +2488,11 @@ textarea {
     padding-left: 30px;
   }
 
+  .mobile-faq {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
   .accordion-item-q-text {
     font-size: 1.1em;
     line-height: 1.3em;
@@ -2338,7 +2506,39 @@ textarea {
     margin-top: -50px;
     padding: 20px 30px;
   }
-
+  .faq-sidebar.real {
+    display: none;
+  }
+  .practice-mobile {
+    display: block;
+  }
+  .practice-mobile h1 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 20px auto;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    text-transform: uppercase;
+    font-family: CusCormorant !important;
+    font-weight: 400;
+    color: #4f748b;
+  }
+  .practice-mobile span {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .list-group {
+    width: 85%;
+    margin: auto;
+  }
+  .practice-mobile p {
+    text-transform: none;
+    border-bottom: solid 1px #777;
+    color: #555;
+    font-weight: 400;
+    font-size: 20px;
+  }
   .faq-column-one {
     padding-right: 10px;
   }
@@ -2418,15 +2618,18 @@ textarea {
   .column-9 {
     padding-top: 40px;
   }
+  .credentials {
+    margin-top: 20px;
+  }
   .text-credentials {
-    font-family: Cormorant !important;
-    text-align: center;
+    font-family: CusCormorant !important;
+    text-align: left;
     padding-bottom: 10px;
     padding-top: 10px;
   }
   /* 
   .text-block-10 {
-    font-family: Cormorant !important;
+    font-family: CusCormorant !important;
     text-align: center;
   } */
 

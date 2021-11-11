@@ -1,13 +1,14 @@
 <template>
   <div>
-    <div class="overlay-section about-us resources contact w-container">
-      <img
-        src="assets/images/Logo Icon.png"
-        loading="lazy"
-        alt=""
-        class="desktop-view"
-      />
-      <h1 class="hero-text sub-page-hero contact-us" style="margin-left: 20px">
+    <div class="overlay-section about-us resources r-header w-container">
+      <h1 class="hero-text sub-page-hero resources" style="position: relative">
+        <img
+          src="assets/images/Logo Icon.png"
+          loading="lazy"
+          alt=""
+          class="desktop-view"
+          style="position: absolute; left: -80%"
+        />
         Contact Us<br />
       </h1>
     </div>

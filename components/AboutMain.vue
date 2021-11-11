@@ -1,17 +1,18 @@
 <template>
   <div>
     <div class="page-hero sub-page-hero wf-section">
-      <div
-        class="overlay-section about-us w-container"
-        style="justify-content: start; padding-left: 30%"
-      >
-        <img
-          src="assets/images/Logo Icon.png"
-          loading="lazy"
-          alt=""
-          class="desktop-view"
-        />
-        <h1 class="hero-text" style="width: auto; margin-left: 50px">
+      <div class="overlay-section about-us w-container">
+        <h1
+          class="hero-text sub-page-hero resources"
+          style="position: relative"
+        >
+          <img
+            src="assets/images/Logo Icon.png"
+            loading="lazy"
+            alt=""
+            class="desktop-view"
+            style="position: absolute; left: -100%"
+          />
           About Us<br />
         </h1>
       </div>
@@ -33,7 +34,7 @@
         "
       >
         <div class="experienced-attorneys-text about-subtext-hero mobile-view">
-          Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
+          Vestibulum Mattis&nbsp;Laoreet Est, Scelerisque Hehicula Enim Laoreet
         </div>
         <div class="w-col w-col-6 real-estate-intro">
           <img
@@ -43,10 +44,11 @@
             class="circle-image about-image"
           />
           <p class="about-grey-text title">
-            Gabe A. Duhon<strong><br /></strong>
-          </p>
-          <p class="about-grey-text title sub-title">
-            attorney/owner<strong><br /></strong>
+            Gabe&nbsp;A.&nbsp;Duhon<strong><br /></strong>
+
+            <span class="about-grey-text title sub-title">
+              attorney/owner<strong><br /></strong
+            ></span>
           </p>
           <p class="working-with-subtext about-page-subtext">
             <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -69,7 +71,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct">
+          <a href="mailto:email@example.com" class="email-direct desktop-view">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -86,12 +88,13 @@
                 </div>
               </div>
             </div>
-            <nav
-              v-show="isOpen1"
-              id="myDropdown1"
-              class="w-dropdown-list credential-exp"
-            >
-              <p class="working-with-subtext about-page-subtext">
+            <nav class="w-dropdown-credential">
+              <p
+                id="myDropdown1"
+                class="working-with-subtext about-page-subtext"
+                style="overflow: hidden; transition: all 0.5s"
+              >
+                <br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 aliquam cursus metus, at accumsan massa ornare id. Aliquam
                 facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
@@ -112,6 +115,7 @@
                 blandit lobortis, neque nisi aliquam nunc, eget vehicula lectus
                 augue interdum leo. Nam vestibulum a sem id ornare. Praesent
                 convallis mollis elementum.<br />
+                <br />
               </p>
             </nav>
           </div>
@@ -124,12 +128,13 @@
             class="circle-image about-image"
           />
           <p class="about-grey-text title">
-            Kimberly K. <br />Souriyakhamphong<strong><br /></strong>
-          </p>
-          <p class="about-grey-text title sub-title">
-            associate attorney<strong><br /></strong>
+            Kimberly K. Souriyakhamphong<strong><br /></strong>
+            <span class="about-grey-text title sub-title">
+              associate&nbsp;attorney<strong><br /></strong>
+            </span>
           </p>
           <p class="working-with-subtext about-page-subtext">
+            <br />
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
             ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna nec quam
@@ -150,7 +155,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct">
+          <a href="mailto:email@example.com" class="email-direct desktop-view">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -166,12 +171,13 @@
                 </div>
               </div>
             </div>
-            <nav
-              v-show="isOpen2"
-              id="myDropdown2"
-              class="w-dropdown-list credential-exp"
-            >
-              <p class="working-with-subtext about-page-subtext">
+            <nav class="w-dropdown-credential">
+              <p
+                id="myDropdown2"
+                class="working-with-subtext about-page-subtext"
+                style="overflow: hidden; transition: all 0.5s"
+              >
+                <br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 aliquam cursus metus, at accumsan massa ornare id. Aliquam
                 facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
@@ -192,28 +198,65 @@
                 blandit lobortis, neque nisi aliquam nunc, eget vehicula lectus
                 augue interdum leo. Nam vestibulum a sem id ornare. Praesent
                 convallis mollis elementum.<br />
+                <br />
               </p>
             </nav>
           </div>
         </div>
       </div>
     </div>
+    <div class="contact-section about-contact wf-section mobile-view">
+      <div class="contact-container about-contact-container w-container">
+        <ContactUsToday />
+      </div>
+    </div>
+    <div class="contact-table mobile-view">
+      <img src="assets/images/about-contact-3.png" loading="lazy" alt="" />
+    </div>
     <div class="why-choose-us about-us-contact-banner wf-section">
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe">
           Cras Et <br />Fringilla <br />Libero <br />
+          <br />
           <button>Contact Us Today</button>
         </h1>
       </div>
       <div class="wcu-images wcu-section-about w-row">
         <div
-          class="wcu-image-one about-image about-image-two w-col w-col-6"
+          class="wcu-image-one about-image real about-image-two w-col w-col-6"
         ></div>
-        <div class="wcu-image-one about-image w-col w-col-6"></div>
+        <div class="wcu-image-one about-image real w-col w-col-6"></div>
       </div>
     </div>
     <Carousel />
-    <ContactUsToday />
+    <div class="contact-section about-contact wf-section desktop-view">
+      <div class="contact-container about-contact-container w-container">
+        <div class="w-row">
+          <div class="contact-table w-col w-col-4">
+            <img
+              src="assets/images/resources-contact-3.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div class="contact-table w-col w-col-4">
+            <img
+              src="assets/images/about-contact-2.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div class="contact-table w-col w-col-4">
+            <img
+              src="assets/images/about-contact-3.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+        </div>
+        <ContactUsToday />
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -228,14 +271,28 @@ export default {
     toggle1() {
       this.isOpen1 = !this.isOpen1
       this.isOpen2 = this.isOpen1 ? false : this.isOpen2
-      document.getElementById('myDropdown1').classList.toggle('show')
-      document.getElementById('myDropdown1').classList.add('w--open')
+      if (this.isOpen1) {
+        document.getElementById('myDropdown1').style.maxHeight = '600px'
+        document.getElementById('myDropdown1').style.paddingTop = '0px'
+        document.getElementById('myDropdown2').style.maxHeight = '0px'
+        document.getElementById('myDropdown2').style.paddingTop = '0px'
+      } else {
+        document.getElementById('myDropdown1').style.maxHeight = '0px'
+        document.getElementById('myDropdown1').style.paddingTop = '0px'
+      }
     },
     toggle2() {
       this.isOpen2 = !this.isOpen2
       this.isOpen1 = this.isOpen2 ? false : this.isOpen1
-      document.getElementById('myDropdown2').classList.toggle('show')
-      document.getElementById('myDropdown2').classList.add('w--open')
+      if (this.isOpen2) {
+        document.getElementById('myDropdown2').style.maxHeight = '600px'
+        document.getElementById('myDropdown2').style.paddingTop = '0px'
+        document.getElementById('myDropdown1').style.maxHeight = '0px'
+        document.getElementById('myDropdown1').style.paddingTop = '0px'
+      } else {
+        document.getElementById('myDropdown2').style.maxHeight = '0px'
+        document.getElementById('myDropdown2').style.paddingTop = '0px'
+      }
     },
   },
 }

@@ -1,30 +1,78 @@
 <template>
   <div>
     <div class="overlay-section about-us resources faq w-container">
-      <img
-        src="assets/images/Logo Icon.png"
-        loading="lazy"
-        alt=""
-        class="desktop-view"
-      />
-      <h1 class="hero-text sub-page-hero faq">FAQ<br /></h1>
+      <h1 class="hero-text sub-page-hero resources" style="position: relative">
+        <img
+          src="assets/images/Logo Icon.png"
+          loading="lazy"
+          alt=""
+          class="desktop-view"
+          style="position: absolute; left: -100%"
+        />
+        &nbsp;&nbsp; FAQ &nbsp; &nbsp;<br />
+      </h1>
     </div>
+    <div class="practice-mobile">
+      <h1 @click="listGroup = !listGroup">
+        Practice area <span>&#x25BC;</span>
+      </h1>
+      <ul v-show="listGroup" role="list" class="w-list-unstyled list-group">
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Commercial'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Commercial</p>
+        </li>
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Residential'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Residential</p>
+        </li>
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Title Settlement'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Title Settlement</p>
+        </li>
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Estate Planning'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Estate Planning</p>
+        </li>
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Loan Closing'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Loan Closing</p>
+        </li>
+      </ul>
+    </div>
+
     <div class="faq-top wf-section">
-      <div class="faq-container w-row">
+      <div class="faq-container w-row mobile-faq">
         <div class="faq-column-one w-col w-col-8">
           <h1 class="faq-heading commercial">{{ sectionTitle }}</h1>
           <div class="cloneable-area">
             <div class="c-accordion-list">
-              <div
-                id="accordion-item0"
-                class="c-accordion-item"
-                @click="toggle(0)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(0)"
-                  @mouseleave="mouseLeave(0)"
-                >
+              <div class="c-accordion-item" @click="toggle(0)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -61,16 +109,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="accordion-item1"
-                class="c-accordion-item"
-                @click="toggle(1)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(1)"
-                  @mouseleave="mouseLeave(1)"
-                >
+              <div class="c-accordion-item" @click="toggle(1)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -107,16 +147,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="accordion-item2"
-                class="c-accordion-item"
-                @click="toggle(2)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(2)"
-                  @mouseleave="mouseLeave(2)"
-                >
+              <div class="c-accordion-item" @click="toggle(2)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -153,16 +185,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="accordion-item3"
-                class="c-accordion-item"
-                @click="toggle(3)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(3)"
-                  @mouseleave="mouseLeave(3)"
-                >
+              <div class="c-accordion-item" @click="toggle(3)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -199,16 +223,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="accordion-item4"
-                class="c-accordion-item"
-                @click="toggle(4)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(4)"
-                  @mouseleave="mouseLeave(4)"
-                >
+              <div class="c-accordion-item" @click="toggle(4)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -245,16 +261,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="accordion-item5"
-                class="c-accordion-item"
-                @click="toggle(5)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(5)"
-                  @mouseleave="mouseLeave(5)"
-                >
+              <div class="c-accordion-item" @click="toggle(5)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -291,16 +299,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="accordion-item6"
-                class="c-accordion-item"
-                @click="toggle(6)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(6)"
-                  @mouseleave="mouseLeave(6)"
-                >
+              <div class="c-accordion-item" @click="toggle(6)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -337,16 +337,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="accordion-item7"
-                class="c-accordion-item"
-                @click="toggle(7)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(7)"
-                  @mouseleave="mouseLeave(7)"
-                >
+              <div class="c-accordion-item" @click="toggle(7)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -383,16 +375,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="accordion-item8"
-                class="c-accordion-item"
-                @click="toggle(8)"
-              >
-                <div
-                  class="_w-accordion-item"
-                  @mouseover="mouseOver(8)"
-                  @mouseleave="mouseLeave(8)"
-                >
+              <div class="c-accordion-item" @click="toggle(8)">
+                <div class="_w-accordion-item">
                   <div class="c-accordion-item-q">
                     <div class="_w-accordion-item-q">
                       <div class="c-accordion-item-q-text">
@@ -432,7 +416,7 @@
             </div>
           </div>
         </div>
-        <div class="faq-sidebar w-col w-col-4">
+        <div class="faq-sidebar w-col w-col-4 real">
           <h1 class="faq-heading sidebar">Practice Areas</h1>
           <ul role="list" class="w-list-unstyled">
             <li class="practice-list-item" @click="sectionTitle = 'Commercial'">
@@ -466,8 +450,36 @@
         </div>
       </div>
     </div>
+    <div class="contact-section about-contact wf-section mobile-view">
+      <div
+        class="contact-container about-contact-container w-container"
+        style="margin-bottom: -200px"
+      >
+        <ContactUsToday />
+      </div>
+    </div>
     <Carousel />
-    <ContactUsToday />
+    <div class="contact-section about-contact wf-section desktop-view">
+      <div class="contact-container about-contact-container w-container">
+        <div class="w-row">
+          <div class="contact-table w-col w-col-4">
+            <img
+              src="assets/images/faq-contact-1.png"
+              height="100%"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div class="contact-table w-col w-col-4">
+            <img src="assets/images/faq-contact-2.png" loading="lazy" alt="" />
+          </div>
+          <div class="contact-table w-col w-col-4">
+            <img src="assets/images/faq-contact-3.png" loading="lazy" alt="" />
+          </div>
+        </div>
+        <ContactUsToday />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -487,17 +499,11 @@ export default {
         false,
       ],
       temp: '',
-      sectionTitle: '',
+      sectionTitle: 'Commercial',
+      listGroup: false,
     }
   },
-  mounted() {
-    this.$nextTick(function () {
-      this.sectionTitle = 'Commercial'
-      for (let i = 0; i < this.itemArrays.length; i++) {
-        document.getElementById('accordion-item' + i).style.zIndex = i + 50
-      }
-    })
-  },
+
   methods: {
     toggle(index) {
       this.itemArrays[index] = !this.itemArrays[index]
@@ -512,26 +518,6 @@ export default {
       } else {
         document.getElementById(this.iconTemp).classList.remove('icon-opened')
         document.getElementById(this.temp).classList.remove('item-opened')
-      }
-    },
-    mouseOver(item) {
-      if (window.matchMedia('(min-width: 768px)').matches) {
-        for (let i = 0; i < this.itemArrays.length; i++) {
-          if (i !== item) {
-            document.getElementById('accordion-item' + i).style.opacity = '0.2'
-            document.getElementById('accordion-item' + i).style.transition =
-              'all 1s ease'
-          }
-        }
-      }
-    },
-    mouseLeave(item) {
-      for (let i = 0; i < this.itemArrays.length; i++) {
-        if (i !== item) {
-          document.getElementById('accordion-item' + i).style.opacity = '1'
-          document.getElementById('accordion-item' + i).style.transition =
-            'all 1s ease'
-        }
       }
     },
   },

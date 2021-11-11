@@ -5,9 +5,8 @@
   >
     <div class="workingwithtextsection w-row practice">
       <div class="w-col w-col-6">
-        <h1 class="working-with-header practice">
+        <h1 class="working-with-header practice mobile-practice-header">
           Vestibulum Mattis Laoreet Est, Scelerisque Hehicula Enim Laoreet
-          Vestibulum Mattis
         </h1>
       </div>
       <div class="w-col w-col-6">

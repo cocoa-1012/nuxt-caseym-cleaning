@@ -1108,6 +1108,16 @@ textarea.w-select {
   width: 1em;
   height: 1em;
 }
+.w-dropdown-credential {
+  padding: 0px 40px;
+  position: relative !important;
+  background: #f5f5f5 !important;
+  opacity: 1;
+  min-width: 100%;
+}
+.w-dropdown-credential p {
+  max-height: 0px;
+}
 .w-dropdown-list {
   padding: 30px 40px;
   position: absolute;
@@ -1115,22 +1125,6 @@ textarea.w-select {
   display: none;
   min-width: 233%;
 }
-.w-dropdown-list.credential-exp {
-  padding: 30px 40px;
-  position: relative !important;
-  background: #f5f5f5 !important;
-  opacity: 1;
-  display: none;
-  min-width: 100%;
-}
-/* .credential-exp {
-  padding: 30px 40px;
-  position: relative !important;
-  background: #f5f5f5 !important;
-  opacity: 1;
-  display: none;
-  min-width: 100%;
-} */
 .w-dropdown-list.attorney {
   background: rgba(137, 36, 50, 0.7);
 }

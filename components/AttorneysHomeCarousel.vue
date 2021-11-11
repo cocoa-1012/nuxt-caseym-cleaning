@@ -7,7 +7,7 @@
       data-duration-out="100"
       class="tabs w-tabs"
     >
-      <div class="tabs-menu attorney w-tab-menu home-carousel">
+      <div class="tabs-menu attorney w-tab-menu home-carousel desktop-view">
         <a
           id="carousel-item0"
           data-w-tab="WORKING WITH HOME BUYERS"
@@ -70,6 +70,55 @@
         >
           <div class="tabs-heading">MARITIME<strong></strong></div>
         </a>
+      </div>
+      <div class="tabs-menu attorney w-tab-menu home-carousel mobile-view">
+        <div class="mobile-carousel-home">
+          <a
+            id="carousel-item0"
+            data-w-tab="WORKING WITH HOME BUYERS"
+            @click="showPage(0)"
+          >
+            <div class="tabs-heading-mobile">
+              CRIMINAL DEFENSE <strong></strong>
+            </div>
+          </a>
+          <a
+            id="carousel-item1"
+            data-w-tab="WORKING WITH LENDERS"
+            class=""
+            @click="showPage(1)"
+          >
+            <div class="text-block-2 tabs-heading-mobile">
+              IMMIGRATION<strong></strong>
+            </div>
+          </a>
+          <a
+            id="carousel-item4"
+            data-w-tab="WORKING WITH REALTORS"
+            class=""
+            @click="showPage(4)"
+          >
+            <div class="tabs-heading-mobile">MARITIME<strong></strong></div>
+          </a>
+          <a
+            id="carousel-item2"
+            data-w-tab="WORKING WITH REALTORS"
+            class=""
+            @click="showPage(2)"
+          >
+            <div class="tabs-heading-mobile">
+              PERSONAL INJURY<strong></strong>
+            </div>
+          </a>
+          <a
+            id="carousel-item3"
+            data-w-tab="WORKING WITH REALTORS"
+            class=""
+            @click="showPage(3)"
+          >
+            <div class="tabs-heading-mobile">ADOPTION<strong></strong></div>
+          </a>
+        </div>
       </div>
       <div class="carousel-main">
         <VueSlickCarousel ref="carousel" class="w-tab-content" :fade="true">
