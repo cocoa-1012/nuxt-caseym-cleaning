@@ -12,6 +12,135 @@
         &nbsp;&nbsp; FAQ &nbsp; &nbsp;<br />
       </h1>
     </div>
+    <div class="practice-mobile">
+      <h1
+        style="color: #892432; text-transform: none"
+        @click="listGroup = !listGroup"
+      >
+        Practice area <span>&#x25BC;</span>
+      </h1>
+      <ul v-show="listGroup" role="list" class="w-list-unstyled list-group">
+        <li
+          class="practice-list-item attorney"
+          @click="
+            sectionTitle = 'Adoption'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Adoption</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Family law'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Family Law</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Divorce'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Divorce</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Wills / Succession'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Wills / Succession</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Criminal Defense'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Criminal Defense</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Personal Injury'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Personal Injury</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'DUI / DWI'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">DUI / DWI</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = `Workers' Comp`
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Workers&#x27; Comp</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Auto'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">AUTO</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = '18-Wheeler Accident'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">18-Wheeler Accident</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Maritime'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">Maritime</p>
+        </li>
+
+        <li
+          class="practice-list-item"
+          @click="
+            sectionTitle = 'Irrevocable / Revocable trust'
+            listGroup = false
+          "
+        >
+          <p class="practice-area-list">IRREVOCABLE / Revocable trust</p>
+        </li>
+      </ul>
+    </div>
     <div class="faq-top wf-section">
       <div class="faq-container w-row">
         <div class="faq-column-one w-col w-col-8">
@@ -363,7 +492,7 @@
             </div>
           </div>
         </div>
-        <div class="faq-sidebar attorney w-col w-col-4">
+        <div class="faq-sidebar attorney w-col w-col-4 real">
           <h1 class="faq-heading sidebar attorney">Practice Areas</h1>
           <ul role="list" class="w-list-unstyled">
             <li
@@ -452,8 +581,21 @@
         </div>
       </div>
     </div>
+    <div class="contact-section about-contact wf-section mobile-view">
+      <div
+        class="
+          contact-container
+          about-contact-container
+          w-container w-row
+          contact-attorney
+        "
+        style="margin-bottom: -100px; margin-top: -120px"
+      >
+        <AttorneysContactUsToday />
+      </div>
+    </div>
     <Carousel />
-    <div class="contact-section about-contact wf-section">
+    <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="
           contact-container
@@ -487,7 +629,8 @@ export default {
         false,
       ],
       temp: '',
-      sectionTitle: '',
+      sectionTitle: 'Adoption',
+      listGroup: false,
     }
   },
   methods: {

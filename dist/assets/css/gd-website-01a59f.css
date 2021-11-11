@@ -234,7 +234,13 @@
   max-width: auto;
   margin-left: 50px;
 }
-
+.spec06 {
+  margin-top: -50px;
+}
+.spec07 {
+  padding-bottom: 0px;
+  min-height: 700px;
+}
 .workingwithtextsection {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1927,6 +1933,22 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .spec07 {
+    min-height: 570px;
+    padding-bottom: 0px;
+  }
+  .spec06 {
+    margin-top: 50px;
+  }
+  .spec05 {
+    display: none;
+  }
+  .spec04 {
+    margin-top: 0px !important;
+  }
+  .spec03 {
+    margin: 0px !important;
+  }
   .spec02 {
     margin-bottom: 50px;
   }
