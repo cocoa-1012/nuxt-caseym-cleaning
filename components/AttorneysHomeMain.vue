@@ -11,7 +11,7 @@
         <h1 class="hero-text desktop-view">
           Experienced&nbsp;and Local<br />Attorneys Here for You
         </h1>
-        <h1 class="hero-text mobile-view">
+        <h1 class="hero-text mobile-view" style="margin-left: 20px">
           Experienced&nbsp;and Local&nbsp;Attorneys Here&nbsp;for&nbsp;You
         </h1>
       </div>
@@ -22,7 +22,7 @@
       style="position: relative; align-items: center"
     >
       <div class="wcu-images attorney w-row" style="max-width: 1230px">
-        <div class="wcu-image-one-attr w-col w-col-6"></div>
+        <div class="wcu-image-one-attr w-col w-col-6 desktop-view"></div>
         <div class="wcu-image-two-attr w-col w-col-6"></div>
       </div>
       <h1
@@ -43,7 +43,7 @@
           </p>
         </div>
         <div class="w-col w-col-5">
-          <p class="working-with-subtext">
+          <p class="working-with-subtext attr">
             We understand when faced with a legal situation it can be a
             stressful and confusing time and may leave you wondering if you need
             an atorney. Don't let the greed and callous demeanor of other law
@@ -60,6 +60,7 @@
         </div>
       </div>
     </div>
+    <div class="wcu-image-one-attr w-col w-col-6 mobile-view"></div>
     <div class="attorneys-meet-container">
       <div class="w-row">
         <div class="w-col w-col-6">
@@ -70,7 +71,7 @@
             active member in the community, with membershop and volunteer
             experience in many different programs.
           </p>
-          <div class="w-col w-col-6 w-col-medium-3">
+          <div class="w-col w-col-6 w-col-medium-3 spec01">
             <img
               src="assets/images/person1.046db6ca.png"
               loading="lazy"
@@ -79,7 +80,7 @@
               class="circle-image"
             />
             <p class="about-grey-text title meet">
-              Gabe A. Duhon<strong><br /></strong>
+              Gabe&nbsp;A.&nbsp;Duhon<strong><br /></strong>
             </p>
             <p class="about-grey-text title sub-title meet">
               attorney/owner<strong><br /></strong>
@@ -97,11 +98,11 @@
               Kimberly K. Souriyakhamphong<strong><br /></strong>
             </p>
             <p class="about-grey-text title sub-title meet">
-              associate attorney<strong><br /></strong>
+              associate&nbsp;attorney<strong><br /></strong>
             </p>
             <a
               href="#"
-              class="button w-button"
+              class="button w-button desktop-view"
               style="
                 background: #892432;
                 position: absolute;
@@ -113,7 +114,7 @@
             </a>
           </div>
         </div>
-        <div class="w-col w-col-6"><Carousel-meet /></div>
+        <div class="w-col w-col-6 attr-home-sidebar"><Carousel-meet /></div>
       </div>
     </div>
   </div>

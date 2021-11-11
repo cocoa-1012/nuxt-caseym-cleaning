@@ -927,6 +927,7 @@
 .about-grey-text.title.sub-title {
   font-size: 15px;
   line-height: 15px;
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 
 .about-grey-text.title.meet {
@@ -1046,6 +1047,7 @@
 }
 .consultation .contact-description {
   font-size: 20px;
+  font-weight: 400;
 }
 .description {
   line-height: 1.5;
@@ -1925,6 +1927,47 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .spec02 {
+    margin-bottom: 50px;
+  }
+  .spec01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .attr-home-sidebar {
+    display: none;
+  }
+  .attorneys-meet-container {
+    margin-top: 300px;
+    padding: 50px 30px;
+  }
+  .about-grey-text.attorney {
+    font-size: 26px;
+  }
+  .working-with-header.attorney {
+    margin-bottom: 20px;
+  }
+  .item-actived .tabs-heading-mobile {
+    color: #333 !important;
+  }
+  .tabs-menu.attorney {
+    background-color: #ededed;
+    margin-bottom: 20px;
+  }
+  .mobile-carousel-home {
+    display: flex;
+    background-color: #ededed;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .mobile-carousel-home a {
+    margin: 10px;
+    font-weight: 600;
+  }
+  .tabs-heading-mobile {
+    color: #4f748b;
+  }
   .practice-detail-group {
     margin-top: -150px;
     margin-left: -10px;
@@ -2148,7 +2191,7 @@ textarea {
   }
 
   .workingwithtextsection {
-    padding-top: 0px;
+    padding-top: 20px;
     display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2209,10 +2252,12 @@ textarea {
   }
 
   .working-with-subtext {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px 20px;
   }
-
+  .working-with-subtext.attr {
+    margin: 0px;
+  }
   .why-choose-us.about-us-contact-banner {
     width: 100vw !important;
     padding: 0px;
@@ -2251,6 +2296,10 @@ textarea {
 
   .why-choose-us-title-container.attorney {
     width: 100%;
+    position: relative;
+    font-size: 40px !important;
+    padding-top: 80px;
+    padding-bottom: 50px;
   }
 
   .wcu-image-one {
@@ -2265,6 +2314,7 @@ textarea {
 
   .about-grey.attorney {
     padding-top: 100px;
+    padding-bottom: 50px;
   }
 
   .about-grey-text.title {
@@ -2282,7 +2332,7 @@ textarea {
   }
 
   .about-grey-text.title.sub-title {
-    text-align: center;
+    text-align: left;
   }
 
   .about-grey-text.title.attorney {

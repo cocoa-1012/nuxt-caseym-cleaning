@@ -97,7 +97,7 @@
               <div class="image-one w-col w-col-6"></div>
               <div class="image-two w-col w-col-6"></div>
             </div>
-            <div class="workingwithtextsection w-row">
+            <div class="workingwithtextsection w-row spec02">
               <div class="w-col w-col-4">
                 <h1 class="working-with-header home-title">
                   <em>Working</em><br /><em>with</em><br />
