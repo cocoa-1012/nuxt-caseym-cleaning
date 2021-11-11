@@ -55,35 +55,80 @@
           </p>
         </div>
       </div>
-      <div style="display: flex; max-width: 1230px">
+      <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>
         <div style="height: 1px; width: 100vw; background: #000"></div>
         <div style="width: 60px"></div>
       </div>
       <div
-        class="resources-top-container other-resources final w-row"
-        style="justify-content: space-between; display: flex"
+        class="
+          resources-top-container
+          other-resources
+          final
+          w-row
+          resources-items
+        "
       >
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
       </div>
       <div
-        class="resources-top-container other-resources final w-row"
-        style="justify-content: space-between; display: flex"
+        class="
+          resources-top-container
+          other-resources
+          final
+          w-row
+          resources-items
+        "
       >
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
       </div>
-      <div style="display: flex; max-width: 1230px">
+      <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>
         <div style="height: 1px; width: 100vw; background: #000"></div>
         <div style="width: 60px"></div>
       </div>
     </div>
+    <div class="contact-section about-contact wf-section mobile-view">
+      <div
+        class="
+          contact-container
+          about-contact-container
+          w-container w-row
+          contact-attorney
+        "
+        style="margin-bottom: 0px"
+      >
+        <AttorneysContactUsToday />
+      </div>
+    </div>
+    <img
+      src="assets/images/Mask Group 26.jpg"
+      loading="lazy"
+      width="100%"
+      height="250px"
+      alt=""
+      class="mobile-view"
+    />
+    <div class="why-choose-us about-us-contact-banner wf-section">
+      <div class="main-content-container w-container">
+        <h1 class="why-choose-us-title-container about-us-dupe attorney-box">
+          Cras Et <br />Fringilla <br />Libero <br />
+          <button>Contact Us Today</button>
+        </h1>
+      </div>
+      <div class="wcu-images wcu-section-about w-row">
+        <div
+          class="wcu-image-one about-image about-image-two w-col w-col-6"
+        ></div>
+        <div class="wcu-image-one about-image w-col w-col-6"></div>
+      </div>
+    </div>
     <Carousel />
-    <div class="contact-section about-contact wf-section">
+    <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="
           contact-container

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-col w-col-4" style="margin: 10px 0px 10px 30px">
+  <div class="w-col w-col-4 resources-document">
     <h1 class="resources-title other document attorney">
       Document<br />title<br />
     </h1>
