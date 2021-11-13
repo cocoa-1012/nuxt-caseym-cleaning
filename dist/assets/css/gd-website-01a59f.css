@@ -1936,6 +1936,10 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .email-direct img {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
   .working-with-subtext.practice {
     margin-right: 30px;
   }

@@ -71,7 +71,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct desktop-view">
+          <a href="mailto:email@example.com" class="email-direct">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -155,7 +155,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct desktop-view">
+          <a href="mailto:email@example.com" class="email-direct">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
