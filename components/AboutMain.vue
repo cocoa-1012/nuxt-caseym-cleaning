@@ -213,7 +213,10 @@
     <div class="contact-table mobile-view">
       <img src="assets/images/about-contact-3.png" loading="lazy" alt="" />
     </div>
-    <div class="why-choose-us about-us-contact-banner wf-section">
+    <div
+      class="why-choose-us about-us-contact-banner wf-section"
+      style="margin-top: -30px"
+    >
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe">
           Cras Et <br />Fringilla <br />Libero <br />

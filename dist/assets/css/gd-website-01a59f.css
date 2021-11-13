@@ -1955,6 +1955,11 @@ textarea {
   .slick-track {
     position: fixed;
   }
+  .spec11 {
+    font-size: 45px;
+    margin-top: 0px;
+    text-transform: uppercase;
+  }
   .spec10 {
     display: flex;
     align-items: center;
