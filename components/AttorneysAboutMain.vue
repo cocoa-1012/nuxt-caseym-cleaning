@@ -1,20 +1,18 @@
 <template>
   <div>
     <div class="page-hero sub-page-hero wf-section">
-      <div
-        class="overlay-section about-us w-container"
-        style="justify-content: start; padding-left: 20%"
-      >
-        <img
-          src="assets/images/Logo Icon.png"
-          loading="lazy"
-          alt=""
-          class="desktop-view"
-        />
+      <div class="overlay-section about-us w-container">
         <h1
-          class="hero-text sub-page-hero"
-          style="width: auto; margin-left: 50px"
+          class="hero-text sub-page-hero resources"
+          style="position: relative"
         >
+          <img
+            src="assets/images/Logo Icon.png"
+            loading="lazy"
+            alt=""
+            class="desktop-view"
+            style="position: absolute; left: -100%"
+          />
           About Us<br />
         </h1>
       </div>
