@@ -235,7 +235,7 @@
   margin-left: 50px;
 }
 .spec12 {
-  display: none;
+  display: none !important;
 }
 .spec06 {
   margin-top: -50px;
