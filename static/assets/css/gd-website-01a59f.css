@@ -1948,6 +1948,11 @@ textarea {
   .slick-track {
     position: fixed;
   }
+  .spec08 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .spec07 {
     min-height: 570px;
     padding-bottom: 0px;
@@ -2214,6 +2219,12 @@ textarea {
   .overlay-section {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+  .overlay-section.home {
+    opacity: 1;
+  }
+  .overlay-section.attorney-home {
+    opacity: 1;
   }
   .overlay-section.about-us {
     height: 200px;

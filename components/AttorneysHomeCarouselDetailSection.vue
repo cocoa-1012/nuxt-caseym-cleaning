@@ -19,8 +19,10 @@
       aliquam nunc, eget vehicula lectus augue interdum leo. Nam vestibulum a
       sem id ornare. Praesent convallis mollis elementum.<br />
     </p>
-    <a href="#" class="button w-button learn-more attorney">
-      <strong>LEARN MORE</strong>
-    </a>
+    <div class="spec08">
+      <a href="#" class="button w-button learn-more attorney">
+        <strong>LEARN MORE</strong>
+      </a>
+    </div>
   </div>
 </template>

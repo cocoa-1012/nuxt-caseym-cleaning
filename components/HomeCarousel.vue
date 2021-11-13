@@ -209,9 +209,11 @@
                 eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
                 ornare. Praesent convallis mollis elementum.<br />
               </p>
-              <a href="#" class="button w-button learn-more">
-                <strong>LEARN MORE</strong>
-              </a>
+              <div class="spec08">
+                <a href="#" class="button w-button learn-more"
+                  ><strong>LEARN MORE</strong>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -246,9 +248,11 @@
                 eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
                 ornare. Praesent convallis mollis elementum.<br />
               </p>
-              <a href="#" class="button w-button learn-more"
-                ><strong>LEARN MORE</strong></a
-              >
+              <div class="spec08">
+                <a href="#" class="button w-button learn-more"
+                  ><strong>LEARN MORE</strong>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -283,7 +287,11 @@
                 eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
                 ornare. Praesent convallis mollis elementum.<br />
               </p>
-              <a href="#" class="button w-button learn-more">LEARN MORE</a>
+              <div class="spec08">
+                <a href="#" class="button w-button learn-more"
+                  ><strong>LEARN MORE</strong>
+                </a>
+              </div>
             </div>
           </div>
         </div>
