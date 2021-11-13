@@ -93,16 +93,20 @@
                   width="20px"
                 />
               </button>
-              <NuxtLink to="/">
-                <a aria-current="page" class="nav-link w-nav-link">
-                  <img
-                    src="assets/images/Facebook-logo-gray.png"
-                    loading="lazy"
-                    alt=""
-                    width="20px"
-                  />
-                </a>
-              </NuxtLink>
+              <!-- <NuxtLink to="https://facebook.com/VERMILIONLAWYERS/"> -->
+              <a
+                href="https://facebook.com/VERMILIONLAWYERS/"
+                aria-current="page"
+                class="nav-link w-nav-link"
+              >
+                <img
+                  src="assets/images/Facebook-logo-gray.png"
+                  loading="lazy"
+                  alt=""
+                  width="20px"
+                />
+              </a>
+              <!-- </NuxtLink> -->
             </nav>
           </div>
         </div>
