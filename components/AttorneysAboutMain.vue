@@ -237,7 +237,9 @@
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe attorney-box">
           Cras Et <br />Fringilla <br />Libero <br />
-          <button>Contact Us Today</button>
+          <NuxtLink to="/att-contact">
+            <button>Contact Us Today</button>
+          </NuxtLink>
         </h1>
       </div>
       <div class="wcu-images wcu-section-about w-row">
