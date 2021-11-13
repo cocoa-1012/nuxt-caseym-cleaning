@@ -98,12 +98,14 @@
           spec12
         "
       >
+        <hr />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
+        <hr />
       </div>
       <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>

@@ -98,12 +98,14 @@
           spec12
         "
       >
+        <hr />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
+        <hr />
       </div>
       <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>
