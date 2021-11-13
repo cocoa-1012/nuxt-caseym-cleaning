@@ -1323,14 +1323,14 @@
   max-width: 1000px;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .slick-list {
   overflow: auto !important;
 }
 .testimonial-text {
-  margin: 0 50px;
+  margin: 0 20px 0px 30px;
   margin-bottom: 30px;
   font-family: CusCormorant;
   color: #2c3e50;
