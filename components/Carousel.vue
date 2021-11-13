@@ -1,15 +1,14 @@
 <template>
   <div class="testimonials wf-section">
     <div class="testimonials-section">
-      <div class="w-col w-col-10 slick-carousel">
+      <div class="w-col w-col-11 slick-carousel">
         <div class="w-slider-mask">
           <img
             src="assets/images/carousel quote.png"
             loading="lazy"
             alt=""
             width="35"
-            style="margin-bottom: -30px"
-            class="desktop-view"
+            class="carousel-quote"
           />
           <VueSlickCarousel
             ref="carousel"
@@ -35,11 +34,12 @@
                 Proin eu pulvinar leo. Quisque tempor aliquet convallis. Ut in
                 urna lacinia, viverra ex quis, suscipit sapien. Donec sed ipsum
                 velit. Praesent at faucibus purus. Curabitur pretium nibh vel
-                nisi efficitur viverra. Nullam finibus in lectus ut fermentum.
-                Phasellus hendrerit nec nulla a posuere. Fusce rhoncus ut sem et
-                lobortis. Aenean tempus ut neque eu eleifend. Curabitur quis
-                urna mi. Suspendisse odio justo, lobortis vel auctor ut, ornare
-                eget tortor.<br />LOREM IPSUM
+                nisi efficitur viverra. Praesent at faucibus purus. Curabitur
+                pretium nibh vel nisi efficitur viverra. Nullam finibus in
+                lectus ut fermentum. Phasellus hendrerit nec nulla a posuere.
+                Fusce rhoncus ut sem et lobortis. Aenean tempus ut neque eu
+                eleifend. Curabitur quis urna mi. Suspendisse odio justo,
+                lobortis vel auctor ut, ornare eget tortor.<br />LOREM IPSUM
               </div>
             </div>
           </VueSlickCarousel>

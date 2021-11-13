@@ -31,7 +31,7 @@ export default {}
 }
 .modal-overlay1 {
   position: fixed;
-  top: 55%;
+  top: 50%;
   bottom: 0;
   right: 0;
   left: 0;

@@ -93,7 +93,6 @@
                   width="20px"
                 />
               </button>
-              <!-- <NuxtLink to="https://facebook.com/VERMILIONLAWYERS/"> -->
               <a
                 href="https://facebook.com/VERMILIONLAWYERS/"
                 aria-current="page"
@@ -106,7 +105,6 @@
                   width="20px"
                 />
               </a>
-              <!-- </NuxtLink> -->
             </nav>
           </div>
         </div>

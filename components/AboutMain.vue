@@ -71,7 +71,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct desktop-view">
+          <a href="mailto:email@example.com" class="email-direct">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -155,7 +155,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct desktop-view">
+          <a href="mailto:email@example.com" class="email-direct">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -213,12 +213,17 @@
     <div class="contact-table mobile-view">
       <img src="assets/images/about-contact-3.png" loading="lazy" alt="" />
     </div>
-    <div class="why-choose-us about-us-contact-banner wf-section">
+    <div
+      class="why-choose-us about-us-contact-banner wf-section"
+      style="margin-top: -30px"
+    >
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe">
           Cras Et <br />Fringilla <br />Libero <br />
           <br />
-          <button>Contact Us Today</button>
+          <NuxtLink to="/contact">
+            <button>Contact Us Today</button>
+          </NuxtLink>
         </h1>
       </div>
       <div class="wcu-images wcu-section-about w-row">

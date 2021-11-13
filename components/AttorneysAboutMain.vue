@@ -1,20 +1,18 @@
 <template>
   <div>
     <div class="page-hero sub-page-hero wf-section">
-      <div
-        class="overlay-section about-us w-container"
-        style="justify-content: start; padding-left: 20%"
-      >
-        <img
-          src="assets/images/Logo Icon.png"
-          loading="lazy"
-          alt=""
-          class="desktop-view"
-        />
+      <div class="overlay-section about-us w-container">
         <h1
-          class="hero-text sub-page-hero"
-          style="width: auto; margin-left: 50px"
+          class="hero-text sub-page-hero resources"
+          style="position: relative"
         >
+          <img
+            src="assets/images/Logo Icon.png"
+            loading="lazy"
+            alt=""
+            class="desktop-view"
+            style="position: absolute; left: -100%"
+          />
           About Us<br />
         </h1>
       </div>
@@ -86,7 +84,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct desktop-view">
+          <a href="mailto:email@example.com" class="email-direct">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -166,7 +164,7 @@
             augue interdum leo. Nam vestibulum a sem id ornare. Praesent
             convallis mollis elementum.<br />
           </p>
-          <a href="mailto:email@example.com" class="email-direct desktop-view">
+          <a href="mailto:email@example.com" class="email-direct">
             <img src="assets/images/email.png" loading="lazy" alt="" />
           </a>
           <div data-hover="false" data-delay="0" class="credentials w-dropdown">
@@ -239,7 +237,9 @@
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe attorney-box">
           Cras Et <br />Fringilla <br />Libero <br />
-          <button>Contact Us Today</button>
+          <NuxtLink to="/att-contact">
+            <button>Contact Us Today</button>
+          </NuxtLink>
         </h1>
       </div>
       <div class="wcu-images wcu-section-about w-row">

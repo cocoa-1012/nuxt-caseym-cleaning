@@ -67,6 +67,7 @@
           final
           w-row
           resources-items
+          desktop-view
         "
       >
         <AttorneysResourcesDocumentSection />
@@ -80,11 +81,31 @@
           final
           w-row
           resources-items
+          desktop-view
         "
       >
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
+      </div>
+      <div
+        class="
+          resources-top-container
+          other-resources
+          final
+          w-row
+          resources-items
+          spec12
+        "
+      >
+        <hr />
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
+        <hr />
       </div>
       <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>
@@ -113,20 +134,6 @@
       alt=""
       class="mobile-view"
     />
-    <div class="why-choose-us about-us-contact-banner wf-section">
-      <div class="main-content-container w-container">
-        <h1 class="why-choose-us-title-container about-us-dupe attorney-box">
-          Cras Et <br />Fringilla <br />Libero <br />
-          <button>Contact Us Today</button>
-        </h1>
-      </div>
-      <div class="wcu-images wcu-section-about w-row">
-        <div
-          class="wcu-image-one about-image about-image-two w-col w-col-6"
-        ></div>
-        <div class="wcu-image-one about-image w-col w-col-6"></div>
-      </div>
-    </div>
     <Carousel />
     <div class="contact-section about-contact wf-section desktop-view">
       <div

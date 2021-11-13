@@ -633,6 +633,12 @@ export default {
       listGroup: false,
     }
   },
+  mounted() {
+    this.$nextTick(function () {
+      this.itemArrays[0] = !this.itemArrays[0]
+      this.changeClass(0)
+    })
+  },
   methods: {
     toggle(index) {
       this.itemArrays[index] = !this.itemArrays[index]

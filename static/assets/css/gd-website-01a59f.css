@@ -38,7 +38,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/about main.jpg');
+  background-image: url('../images/aboutHero.7583128e.png');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -234,12 +234,18 @@
   max-width: auto;
   margin-left: 50px;
 }
+.spec12 {
+  display: none !important;
+}
 .spec06 {
   margin-top: -50px;
 }
 .spec07 {
   padding-bottom: 0px;
   min-height: 700px;
+}
+.carousel-quote {
+  margin-bottom: -30px;
 }
 .workingwithtextsection {
   display: -webkit-box;
@@ -1323,14 +1329,14 @@
   max-width: 1000px;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .slick-list {
   overflow: auto !important;
 }
 .testimonial-text {
-  margin: 0 50px;
+  margin: 0 20px 0px 30px;
   margin-bottom: 30px;
   font-family: CusCormorant;
   color: #2c3e50;
@@ -1933,6 +1939,49 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .email-direct img {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .working-with-subtext.practice {
+    margin-right: 30px;
+  }
+  .carousel-quote {
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    width: 20px;
+  }
+  .testimonial-text {
+    margin: 0 50px;
+  }
+  .slick-track {
+    position: fixed;
+  }
+  .spec12 {
+    display: block !important;
+  }
+  .spec11 {
+    font-size: 45px;
+    margin-top: 0px;
+    text-transform: uppercase;
+  }
+  .spec10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .spec09 {
+    padding-top: 100px !important;
+    margin-top: -50px !important;
+    font-size: 45px !important;
+  }
+  .spec08 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .spec07 {
     min-height: 570px;
     padding-bottom: 0px;
@@ -2192,13 +2241,19 @@ textarea {
 
   .page-hero.sub-page-hero {
     height: 250px;
-    background-position: 50% 50%;
+    background-position: top;
     background-size: cover;
   }
 
   .overlay-section {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+  .overlay-section.home {
+    opacity: 1;
+  }
+  .overlay-section.attorney-home {
+    opacity: 1;
   }
   .overlay-section.about-us {
     height: 200px;
@@ -2389,8 +2444,10 @@ textarea {
     padding-left: 30px;
   }
 
-  .contact-section-text.about {
-    font-size: 40px;
+  .contact-section-text.about.practice {
+    font-size: 45px;
+    margin-top: 50px;
+    text-transform: uppercase;
   }
 
   .experienced-attorneys-text {

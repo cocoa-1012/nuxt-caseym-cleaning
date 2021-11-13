@@ -20,7 +20,7 @@
       </div>
       <div class="w-row">
         <div class="contact-table w-col w-col-4">
-          <p class="contact-section-text about" style="color: white">
+          <p class="contact-section-text about practice" style="color: white">
             Contact Us <br />Today!<br />
           </p>
         </div>
@@ -68,13 +68,15 @@
                     data-name="Field"
                     class="textarea w-input"
                   ></textarea>
-                  <input
-                    type="submit"
-                    value="Submit"
-                    data-wait="Please wait..."
-                    class="button contact w-button today-button"
-                    style="background: #fff; color: #4f748c"
-                  />
+                  <div class="spec10">
+                    <input
+                      type="submit"
+                      value="Submit"
+                      data-wait="Please wait..."
+                      class="button contact w-button today-button"
+                      style="background: #fff; color: #4f748c"
+                    />
+                  </div>
                 </div>
               </div>
             </form>

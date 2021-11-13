@@ -93,7 +93,7 @@
       <div class="wcu-images w-row">
         <div class="wcu-image-one-home w-col w-col-3"></div>
       </div>
-      <h1 class="why-choose-us-title-container">Why <br />Choose Us</h1>
+      <h1 class="why-choose-us-title-container spec09">Why <br />Choose Us</h1>
     </div>
     <div class="about-grey home-mobile wf-section">
       <div class="about-grey-text-section w-row">

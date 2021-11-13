@@ -67,6 +67,7 @@
           final
           w-row
           resources-items
+          desktop-view
         "
       >
         <ResourcesDocumentSection />
@@ -80,11 +81,31 @@
           final
           w-row
           resources-items
+          desktop-view
         "
       >
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
+      </div>
+      <div
+        class="
+          resources-top-container
+          other-resources
+          final
+          w-row
+          resources-items
+          spec12
+        "
+      >
+        <hr />
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
+        <hr />
       </div>
       <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>

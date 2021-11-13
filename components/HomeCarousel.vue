@@ -40,7 +40,7 @@
           <div class="tabs-heading">WORKING WITH <strong>REALTORS</strong></div>
         </a>
       </div>
-      <div class="carousel-main">
+      <div class="carousel-main desktop-view">
         <VueSlickCarousel
           ref="carousel"
           class="w-tab-content"
@@ -177,6 +177,125 @@
         </VueSlickCarousel>
         <div class="carousel-overlay"></div>
       </div>
+      <div class="carousel-main mobile-view w-tab-content">
+        <div v-show="tab1" class="w-tab-pane w--tab-active">
+          <div class="workingwithtextsection w-row spec02">
+            <div class="w-col w-col-4">
+              <h1 class="working-with-header home-title">
+                <em>Working</em><br /><em>with</em><br />
+                <strong class="bold-text">Home&nbsp;Buyers</strong>
+              </h1>
+            </div>
+            <div class="w-col w-col-8">
+              <p class="working-with-subtext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                aliquam cursus metus, at accumsan massa ornare id. Aliquam
+                facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
+                urna nec quam elementum ultricies. Vivamus sed sem venenatis
+                nibh lacinia imperdiet sit amet sit amet ex. Nam vehicula
+                venenatis odio, id feugiat libero gravida facilisis. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. Donec commodo ex vitae odio tincidunt
+                sodales vel at massa. Nulla facilisi. Etiam cursus varius urna,
+                vel mattis sapien venenatis at. Donec et eros eros. Phasellus
+                arcu mi, hendrerit eu nibh eu, condimentum iaculis sapien. Donec
+                eu blandit elit, in ultrices tellus.
+                <br /><br />Maecenas ultricies bibendum sodales. Morbi in
+                tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
+                eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
+                diam, id finibus neque pellentesque vitae. Duis pretium ut velit
+                quis cursus. Aliquam vitae leo nec neque luctus gravida. Nulla
+                vestibulum, felis nec blandit lobortis, neque nisi aliquam nunc,
+                eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
+                ornare. Praesent convallis mollis elementum.<br />
+              </p>
+              <div class="spec08">
+                <a href="#" class="button w-button learn-more"
+                  ><strong>LEARN MORE</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div v-show="tab2" class="w-tab-pane w--tab-active">
+          <div class="workingwithtextsection w-row spec02">
+            <div class="w-col w-col-4">
+              <h1 class="working-with-header home-title">
+                <em>Working</em><br /><em>with</em><br />
+                <strong class="bold-text">Lenders </strong>
+              </h1>
+            </div>
+            <div class="w-col w-col-8">
+              <p class="working-with-subtext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                aliquam cursus metus, at accumsan massa ornare id. Aliquam
+                facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
+                urna nec quam elementum ultricies. Vivamus sed sem venenatis
+                nibh lacinia imperdiet sit amet sit amet ex. Nam vehicula
+                venenatis odio, id feugiat libero gravida facilisis. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. Donec commodo ex vitae odio tincidunt
+                sodales vel at massa. Nulla facilisi. Etiam cursus varius urna,
+                vel mattis sapien venenatis at. Donec et eros eros. Phasellus
+                arcu mi, hendrerit eu nibh eu, condimentum iaculis sapien. Donec
+                eu blandit elit, in ultrices tellus.
+                <br /><br />Maecenas ultricies bibendum sodales. Morbi in
+                tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
+                eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
+                diam, id finibus neque pellentesque vitae. Duis pretium ut velit
+                quis cursus. Aliquam vitae leo nec neque luctus gravida. Nulla
+                vestibulum, felis nec blandit lobortis, neque nisi aliquam nunc,
+                eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
+                ornare. Praesent convallis mollis elementum.<br />
+              </p>
+              <div class="spec08">
+                <a href="#" class="button w-button learn-more"
+                  ><strong>LEARN MORE</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div v-show="tab3" class="w-tab-pane w--tab-active">
+          <div class="workingwithtextsection w-row spec02">
+            <div class="w-col w-col-4">
+              <h1 class="working-with-header home-title">
+                <em>Working</em><br /><em>with</em><br />
+                <strong class="bold-text">Realtors </strong>
+              </h1>
+            </div>
+            <div class="w-col w-col-8">
+              <p class="working-with-subtext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                aliquam cursus metus, at accumsan massa ornare id. Aliquam
+                facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
+                urna nec quam elementum ultricies. Vivamus sed sem venenatis
+                nibh lacinia imperdiet sit amet sit amet ex. Nam vehicula
+                venenatis odio, id feugiat libero gravida facilisis. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. Donec commodo ex vitae odio tincidunt
+                sodales vel at massa. Nulla facilisi. Etiam cursus varius urna,
+                vel mattis sapien venenatis at. Donec et eros eros. Phasellus
+                arcu mi, hendrerit eu nibh eu, condimentum iaculis sapien. Donec
+                eu blandit elit, in ultrices tellus.
+                <br /><br />Maecenas ultricies bibendum sodales. Morbi in
+                tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
+                eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
+                diam, id finibus neque pellentesque vitae. Duis pretium ut velit
+                quis cursus. Aliquam vitae leo nec neque luctus gravida. Nulla
+                vestibulum, felis nec blandit lobortis, neque nisi aliquam nunc,
+                eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
+                ornare. Praesent convallis mollis elementum.<br />
+              </p>
+              <div class="spec08">
+                <a href="#" class="button w-button learn-more"
+                  ><strong>LEARN MORE</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -188,19 +307,35 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
   name: 'Carousel',
   components: { VueSlickCarousel },
+  data() {
+    return {
+      tab1: true,
+      tab2: false,
+      tab3: false,
+    }
+  },
   methods: {
     showPage(index) {
       this.$refs.carousel.goTo(index)
       if (index === 0) {
+        this.tab1 = true
+        this.tab2 = false
+        this.tab3 = false
         document.getElementById('carousel-item0').classList.add('w--current')
         document.getElementById('carousel-item1').classList.remove('w--current')
         document.getElementById('carousel-item2').classList.remove('w--current')
       } else if (index === 1) {
+        this.tab1 = false
+        this.tab2 = true
+        this.tab3 = false
         document.getElementById('carousel-item1').classList.add('w--current')
         document.getElementById('carousel-item0').classList.remove('w--current')
         document.getElementById('carousel-item2').classList.remove('w--current')
       }
       if (index === 2) {
+        this.tab1 = false
+        this.tab2 = false
+        this.tab3 = true
         document.getElementById('carousel-item2').classList.add('w--current')
         document.getElementById('carousel-item1').classList.remove('w--current')
         document.getElementById('carousel-item0').classList.remove('w--current')

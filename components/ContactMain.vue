@@ -121,9 +121,17 @@
           </div>
         </div>
         <div class="w-col w-col-6">
-          <h1 class="resources-title other address">
-            105 Tivoli Street<br />Abbeville, LA<br />337-893-3423<br />
-          </h1>
+          <a
+            href="http://maps.google.com/?q=105 Tivoli St, Abbeville, LA 70510"
+            style="text-decoration: none"
+          >
+            <h1 class="resources-title other address">
+              105 Tivoli Street<br />Abbeville, LA
+            </h1>
+          </a>
+          <a href="tel:337-893-3423" style="text-decoration: none">
+            <h1 class="resources-title other address">337-893-3423</h1>
+          </a>
         </div>
       </div>
       <div class="map-view mobile-view">
@@ -137,9 +145,20 @@
             loading="lazy"
           ></iframe>
         </div>
-        <h1 class="resources-title other address" style="margin-top: 30px">
-          105 Tivoli Street<br />Abbeville, LA<br />337-893-3423<br />
-        </h1>
+        <a
+          href="http://maps.google.com/?q=105 Tivoli St, Abbeville, LA 70510"
+          style="text-decoration: none"
+        >
+          <h1 class="resources-title other address" style="margin-top: 30px">
+            105 Tivoli Street<br />Abbeville, LA
+          </h1>
+        </a>
+        <a
+          href="tel:337-893-3423"
+          style="text-decoration: none; margin-right: 50px; z-index: 800"
+        >
+          <h1 class="resources-title other address">337-893-3423</h1>
+        </a>
       </div>
     </div>
     <Carousel />

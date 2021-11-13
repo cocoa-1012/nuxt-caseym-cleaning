@@ -16,11 +16,22 @@
         </div>
         <div class="w-col w-col-8 footer-parent">
           <div class="w-col w-col-3 footer-child">
-            <p class="footer-text">
-              <span class="footer-sub-title">OFFICE</span><br />105 Tivoli
-              Street<br />Abbeville, LA<br />337-893-3423<br />
-            </p>
-            <a href="#" style="cursor: pointer">
+            <a
+              href="http://maps.google.com/?q=105 Tivoli St, Abbeville, LA 70510"
+              style="text-decoration: none"
+            >
+              <p class="footer-text">
+                <span class="footer-sub-title">OFFICE</span><br />105 Tivoli
+                Street<br />Abbeville, LA<br />
+              </p>
+            </a>
+            <a href="tel:337-893-3423" style="text-decoration: none">
+              <p class="footer-text">337-893-3423</p>
+            </a>
+            <a
+              href="https://facebook.com/VERMILIONLAWYERS/"
+              style="cursor: pointer"
+            >
               <img
                 src="assets/images/Facebook-logo-gray.png"
                 loading="lazy"
