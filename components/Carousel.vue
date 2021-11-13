@@ -8,8 +8,7 @@
             loading="lazy"
             alt=""
             width="35"
-            style="margin-bottom: -30px"
-            class="desktop-view"
+            class="carousel-quote"
           />
           <VueSlickCarousel
             ref="carousel"
