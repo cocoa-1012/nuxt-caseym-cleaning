@@ -1951,6 +1951,12 @@ textarea {
   .slick-track {
     position: fixed;
   }
+  .spec10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
   .spec09 {
     padding-top: 100px !important;
     margin-top: -50px !important;
@@ -2423,8 +2429,10 @@ textarea {
     padding-left: 30px;
   }
 
-  .contact-section-text.about {
-    font-size: 40px;
+  .contact-section-text.about.practice {
+    font-size: 45px;
+    margin-top: 50px;
+    text-transform: uppercase;
   }
 
   .experienced-attorneys-text {
