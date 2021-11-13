@@ -113,20 +113,6 @@
       alt=""
       class="mobile-view"
     />
-    <div class="why-choose-us about-us-contact-banner wf-section">
-      <div class="main-content-container w-container">
-        <h1 class="why-choose-us-title-container about-us-dupe attorney-box">
-          Cras Et <br />Fringilla <br />Libero <br />
-          <button>Contact Us Today</button>
-        </h1>
-      </div>
-      <div class="wcu-images wcu-section-about w-row">
-        <div
-          class="wcu-image-one about-image about-image-two w-col w-col-6"
-        ></div>
-        <div class="wcu-image-one about-image w-col w-col-6"></div>
-      </div>
-    </div>
     <Carousel />
     <div class="contact-section about-contact wf-section desktop-view">
       <div
