@@ -20,7 +20,10 @@
               <span class="footer-sub-title">OFFICE</span><br />105 Tivoli
               Street<br />Abbeville, LA<br />337-893-3423<br />
             </p>
-            <a href="#" style="cursor: pointer">
+            <a
+              href="https://facebook.com/VERMILIONLAWYERS/"
+              style="cursor: pointer"
+            >
               <img
                 src="assets/images/Facebook-logo-gray.png"
                 loading="lazy"
