@@ -120,7 +120,7 @@
           </a>
         </div>
       </div>
-      <div class="carousel-main">
+      <div class="carousel-main desktop-view">
         <VueSlickCarousel ref="carousel" class="w-tab-content" :fade="true">
           <div
             data-w-tab="WORKING WITH HOME BUYERS"
@@ -139,7 +139,10 @@
           <div data-w-tab="WORKING WITH LENDERS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-3">
-                <h1 class="working-with-header attorney home-title">
+                <h1
+                  class="working-with-header attorney home-title"
+                  style="font-size: 50px"
+                >
                   Immigration
                 </h1>
               </div>
@@ -183,6 +186,60 @@
         </VueSlickCarousel>
         <div class="carousel-overlay"></div>
       </div>
+      <div class="carousel-main mobile-view w-tab-content">
+        <div v-show="tab1" class="w-tab-pane w--tab-active">
+          <div class="workingwithtextsection w-row">
+            <div class="w-col w-col-3">
+              <h1 class="working-with-header attorney home-title">
+                Criminal<br />Defense
+              </h1>
+            </div>
+            <AttorneysHomeCarouselDetailSection />
+            <AttorneysConsultationSection />
+          </div>
+        </div>
+        <div v-show="tab2" class="w-tab-pane w--tab-active">
+          <div class="workingwithtextsection w-row">
+            <div class="w-col w-col-3">
+              <h1 class="working-with-header attorney home-title">
+                Immigration
+              </h1>
+            </div>
+            <AttorneysHomeCarouselDetailSection />
+            <AttorneysConsultationSection />
+          </div>
+        </div>
+        <div v-show="tab3" class="w-tab-pane w--tab-active">
+          <div class="workingwithtextsection w-row">
+            <div class="w-col w-col-3">
+              <h1 class="working-with-header attorney home-title">
+                Personal<br />Injury
+              </h1>
+            </div>
+            <AttorneysHomeCarouselDetailSection />
+            <AttorneysConsultationSection />
+          </div>
+        </div>
+        <div v-show="tab4" class="w-tab-pane w--tab-active">
+          <div class="workingwithtextsection w-row">
+            <div class="w-col w-col-3">
+              <h1 class="working-with-header attorney home-title">Adoption</h1>
+            </div>
+            <AttorneysHomeCarouselDetailSection />
+            <AttorneysConsultationSection />
+          </div>
+        </div>
+        <div v-show="tab5" class="w-tab-pane w--tab-active">
+          <div class="workingwithtextsection w-row">
+            <div class="w-col w-col-3">
+              <h1 class="working-with-header attorney home-title">Maritime</h1>
+            </div>
+            <AttorneysHomeCarouselDetailSection />
+            <AttorneysConsultationSection />
+          </div>
+        </div>
+        <div class="carousel-overlay"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -194,34 +251,68 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
   name: 'Carousel',
   components: { VueSlickCarousel },
+  data() {
+    return {
+      tab1: true,
+      tab2: false,
+      tab3: false,
+      tab4: false,
+      tab5: false,
+    }
+  },
   methods: {
     showPage(index) {
       this.$refs.carousel.goTo(index)
       if (index === 0) {
+        this.tab1 = true
+        this.tab2 = false
+        this.tab3 = false
+        this.tab4 = false
+        this.tab5 = false
         document.getElementById('carousel-item0').classList.add('w--current')
         document.getElementById('carousel-item1').classList.remove('w--current')
         document.getElementById('carousel-item2').classList.remove('w--current')
         document.getElementById('carousel-item3').classList.remove('w--current')
         document.getElementById('carousel-item4').classList.remove('w--current')
       } else if (index === 1) {
+        this.tab1 = false
+        this.tab2 = true
+        this.tab3 = false
+        this.tab4 = false
+        this.tab5 = false
         document.getElementById('carousel-item1').classList.add('w--current')
         document.getElementById('carousel-item0').classList.remove('w--current')
         document.getElementById('carousel-item2').classList.remove('w--current')
         document.getElementById('carousel-item3').classList.remove('w--current')
         document.getElementById('carousel-item4').classList.remove('w--current')
       } else if (index === 2) {
+        this.tab1 = false
+        this.tab2 = false
+        this.tab3 = true
+        this.tab4 = false
+        this.tab5 = false
         document.getElementById('carousel-item2').classList.add('w--current')
         document.getElementById('carousel-item1').classList.remove('w--current')
         document.getElementById('carousel-item0').classList.remove('w--current')
         document.getElementById('carousel-item3').classList.remove('w--current')
         document.getElementById('carousel-item4').classList.remove('w--current')
       } else if (index === 3) {
+        this.tab1 = false
+        this.tab2 = false
+        this.tab3 = false
+        this.tab4 = true
+        this.tab5 = false
         document.getElementById('carousel-item3').classList.add('w--current')
         document.getElementById('carousel-item1').classList.remove('w--current')
         document.getElementById('carousel-item2').classList.remove('w--current')
         document.getElementById('carousel-item4').classList.remove('w--current')
         document.getElementById('carousel-item0').classList.remove('w--current')
       } else if (index === 4) {
+        this.tab1 = false
+        this.tab2 = false
+        this.tab3 = false
+        this.tab4 = false
+        this.tab5 = true
         document.getElementById('carousel-item4').classList.add('w--current')
         document.getElementById('carousel-item1').classList.remove('w--current')
         document.getElementById('carousel-item2').classList.remove('w--current')
