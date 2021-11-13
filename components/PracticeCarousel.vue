@@ -47,18 +47,53 @@
           <div class="tabs-heading">WORKING WITH <strong>REALTORS</strong></div>
         </a>
       </div>
-      <div class="carousel-main">
+      <div class="carousel-main desktop-view">
         <VueSlickCarousel
           ref="carousel"
           class="w-tab-content"
           :fade="true"
           :draggable="false"
         >
-          <PracticeCarouselSection />
-          <PracticeCarouselSection />
-          <PracticeCarouselSection />
+          <div
+            data-w-tab="WORKING WITH HOME BUYERS"
+            class="w-tab-pane w--tab-active practice"
+          >
+            <PracticeCarouselSection />
+          </div>
+          <div
+            data-w-tab="WORKING WITH HOME BUYERS"
+            class="w-tab-pane w--tab-active practice"
+          >
+            <PracticeCarouselSection />
+          </div>
+          <div
+            data-w-tab="WORKING WITH HOME BUYERS"
+            class="w-tab-pane w--tab-active practice"
+          >
+            <PracticeCarouselSection />
+          </div>
         </VueSlickCarousel>
         <div class="carousel-overlay" style="background-color: #707070"></div>
+      </div>
+      <div class="carousel-main mobile-view">
+        <div
+          v-show="tab1"
+          class="w-tab-pane w--tab-active practice w-tab-content"
+        >
+          <PracticeCarouselSection />
+        </div>
+        <div
+          v-show="tab2"
+          class="w-tab-pane w--tab-active practice w-tab-content"
+        >
+          <PracticeCarouselSection />
+        </div>
+        <div
+          v-show="tab3"
+          class="w-tab-pane w--tab-active practice w-tab-content"
+        >
+          <PracticeCarouselSection />
+        </div>
       </div>
     </div>
   </div>
@@ -71,19 +106,35 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
   name: 'Carousel',
   components: { VueSlickCarousel },
+  data() {
+    return {
+      tab1: true,
+      tab2: false,
+      tab3: false,
+    }
+  },
   methods: {
     showPage(index) {
       this.$refs.carousel.goTo(index)
       if (index === 0) {
+        this.tab1 = true
+        this.tab2 = false
+        this.tab3 = false
         document.getElementById('carousel-item0').classList.add('w--current')
         document.getElementById('carousel-item1').classList.remove('w--current')
         document.getElementById('carousel-item2').classList.remove('w--current')
       } else if (index === 1) {
+        this.tab1 = false
+        this.tab2 = true
+        this.tab3 = false
         document.getElementById('carousel-item1').classList.add('w--current')
         document.getElementById('carousel-item0').classList.remove('w--current')
         document.getElementById('carousel-item2').classList.remove('w--current')
       }
       if (index === 2) {
+        this.tab1 = false
+        this.tab2 = false
+        this.tab3 = true
         document.getElementById('carousel-item2').classList.add('w--current')
         document.getElementById('carousel-item1').classList.remove('w--current')
         document.getElementById('carousel-item0').classList.remove('w--current')
