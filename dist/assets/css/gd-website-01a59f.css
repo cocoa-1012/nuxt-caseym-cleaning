@@ -1933,6 +1933,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .testimonial-text {
+    margin: 0 50px;
+  }
   .slick-track {
     position: fixed;
   }
