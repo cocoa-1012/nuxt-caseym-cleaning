@@ -234,6 +234,9 @@
   max-width: auto;
   margin-left: 50px;
 }
+.spec12 {
+  display: none;
+}
 .spec06 {
   margin-top: -50px;
 }
@@ -1954,6 +1957,9 @@ textarea {
   }
   .slick-track {
     position: fixed;
+  }
+  .spec12 {
+    display: block;
   }
   .spec11 {
     font-size: 45px;

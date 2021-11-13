@@ -67,6 +67,7 @@
           final
           w-row
           resources-items
+          desktop-view
         "
       >
         <ResourcesDocumentSection />
@@ -80,8 +81,26 @@
           final
           w-row
           resources-items
+          desktop-view
         "
       >
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
+      </div>
+      <div
+        class="
+          resources-top-container
+          other-resources
+          final
+          w-row
+          resources-items
+          spec12
+        "
+      >
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
+        <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />
         <ResourcesDocumentSection />

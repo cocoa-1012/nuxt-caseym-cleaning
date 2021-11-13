@@ -67,6 +67,7 @@
           final
           w-row
           resources-items
+          desktop-view
         "
       >
         <AttorneysResourcesDocumentSection />
@@ -80,8 +81,26 @@
           final
           w-row
           resources-items
+          desktop-view
         "
       >
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
+      </div>
+      <div
+        class="
+          resources-top-container
+          other-resources
+          final
+          w-row
+          resources-items
+          spec12
+        "
+      >
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
+        <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
         <AttorneysResourcesDocumentSection />
