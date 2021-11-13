@@ -1936,6 +1936,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .working-with-subtext.practice {
+    margin-right: 30px;
+  }
   .carousel-quote {
     position: absolute;
     top: 110px;

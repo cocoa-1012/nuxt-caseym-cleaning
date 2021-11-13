@@ -25,6 +25,13 @@
         blandit lobortis, neque nisi aliquam nunc, eget vehicula lectus augue
         interdum leo. Nam vestibulum a sem id ornare. Praesent convallis mollis
         elementum.<br />
+        <img
+          src="assets/images/Mask Group 36.jpg"
+          loading="lazy"
+          alt=""
+          class="mobile-view"
+          style="margin-bottom: -50px; margin-top: 20px"
+        />
       </p>
     </div>
   </div>
