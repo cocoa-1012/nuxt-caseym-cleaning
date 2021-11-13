@@ -218,7 +218,9 @@
         <h1 class="why-choose-us-title-container about-us-dupe">
           Cras Et <br />Fringilla <br />Libero <br />
           <br />
-          <button>Contact Us Today</button>
+          <NuxtLink to="/contact">
+            <button>Contact Us Today</button>
+          </NuxtLink>
         </h1>
       </div>
       <div class="wcu-images wcu-section-about w-row">
