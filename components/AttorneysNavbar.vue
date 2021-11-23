@@ -87,7 +87,7 @@
                 @click="showModal = true"
               >
                 <img
-                  src="assets/images/search.png"
+                  src="assets/images/search-legal.png"
                   loading="lazy"
                   alt=""
                   width="20px"
