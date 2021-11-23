@@ -21,7 +21,7 @@
               class="nav-link w-nav-link w--nav-link-open"
               style="max-width: 728px"
             >
-              Homes
+              Home
             </NuxtLink>
             <NuxtLink
               to="/att-about"

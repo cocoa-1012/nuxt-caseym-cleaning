@@ -23,7 +23,6 @@ export default {
   },
   methods: {
     handleScroll() {
-      console.log('SFAS')
       document.getElementById('searchInput').value = ''
       this.$emit('close-modal')
     },
