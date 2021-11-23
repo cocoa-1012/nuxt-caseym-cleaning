@@ -3,12 +3,12 @@
     <div class="modal-overlay" @click="$emit('close-modal')"></div>
     <div class="modal">
       <div class="search-div">
-        <p>SEARCH</p>
-        <input type="text" value="" />
+        <input type="text" placeholder="SEARCH" value="" />
       </div>
       <div class="submit">
         <button @click="$emit('close-modal')">SUBMIT</button>
       </div>
+      <button class="close" @click="$emit('close-modal')">&times;</button>
     </div>
   </div>
 </template>
@@ -52,6 +52,7 @@ export default {}
 
 .modal {
   display: flex;
+  position: relative;
   flex-direction: column;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
@@ -61,26 +62,46 @@ export default {}
   padding: 20px 50px;
   z-index: 2000;
 }
-
-p {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0px;
+.close {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  width: 30px;
+  font-size: 22px !important;
 }
+button:hover {
+  background-color: #892432 !important;
+  color: white !important;
+}
+
 input {
   width: 100%;
-  margin-left: 20px;
+  margin-left: 0px;
+  margin-top: 20px;
   background: none;
   outline: none;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+::placeholder {
+  color: #1c1818;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  color: #1c1818;
+}
+
+::-ms-input-placeholder {
+  color: #1c1818;
 }
 button {
   background: none;
   width: 150px;
   color: #892432;
-  font-size: 18px;
-  margin-top: 10px;
-  font-weight: 600;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 400;
   border-radius: 16px;
   width: 20%;
 }
