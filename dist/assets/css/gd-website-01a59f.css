@@ -2151,6 +2151,7 @@ textarea {
   }
   .contact-section-text.description.padding {
     padding: 20px;
+    font-size: 16px;
   }
   .practice-sidebar {
     margin-top: -70px;
