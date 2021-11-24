@@ -1956,6 +1956,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .sub-phone.left {
+    border-top-left-radius: 0px;
+  }
   .email-direct img {
     margin-top: 20px;
     margin-bottom: 0px;
