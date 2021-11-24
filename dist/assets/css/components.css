@@ -1121,12 +1121,12 @@ textarea.w-select {
 .w-dropdown-list {
   padding: 30px 40px;
   position: absolute;
-  background: rgba(79, 116, 139, 0.7);
+  background: rgba(79, 116, 139, 0.9);
   display: none;
   min-width: 233%;
 }
 .w-dropdown-list.attorney {
-  background: rgba(137, 36, 50, 0.7);
+  background: rgba(137, 36, 50, 0.9);
 }
 .w-dropdown-list-sub {
   width: 50%;
