@@ -1956,6 +1956,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .item-opened {
+    height: 420px;
+  }
   .sub-phone.left {
     border-top-left-radius: 0px;
   }
