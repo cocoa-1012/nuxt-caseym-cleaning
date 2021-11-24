@@ -60,7 +60,10 @@
           <p class="about-grey-text title attorney">
             Gabe&nbsp;A.&nbsp;Duhon<strong><br /></strong>
           </p>
-          <p class="about-grey-text title sub-title attorney">
+          <p
+            class="about-grey-text title sub-title attorney"
+            style="margin-top: 10px; margin-bottom: 20px"
+          >
             attorney/owner<strong><br /></strong>
           </p>
           <p class="working-with-subtext about-page-subtext spec03">
@@ -140,7 +143,10 @@
           <p class="about-grey-text title attorney">
             Kimberly K. <br />Souriyakhamphong<strong><br /></strong>
           </p>
-          <p class="about-grey-text title sub-title attorney">
+          <p
+            class="about-grey-text title sub-title attorney"
+            style="margin-top: 10px; margin-bottom: 20px"
+          >
             associate&nbsp;attorney<strong><br /></strong>
           </p>
           <p class="working-with-subtext about-page-subtext spec03">
