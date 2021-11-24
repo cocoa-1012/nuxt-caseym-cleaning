@@ -608,7 +608,7 @@
   font-weight: 400;
 }
 .working-with-header.home-title {
-  margin: 0px 20px;
+  margin: 0px;
 }
 .working-with-header.regular-font {
   font-family: CusCormorant;
@@ -624,6 +624,7 @@
 .working-with-header.attorney {
   color: #892432;
   font-family: CusCormorant;
+  font-size: 56px;
 }
 
 .working-with-subtext {
@@ -1968,6 +1969,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .working-with-header.home-title {
+    margin: 0px 20px;
+  }
   .overlay-section.home h1 {
     width: 0px;
     margin-left: 0px;

@@ -139,10 +139,7 @@
           <div data-w-tab="WORKING WITH LENDERS" class="w-tab-pane">
             <div class="workingwithtextsection w-row">
               <div class="w-col w-col-3">
-                <h1
-                  class="working-with-header attorney home-title"
-                  style="font-size: 50px"
-                >
+                <h1 class="working-with-header attorney home-title">
                   Immigration
                 </h1>
               </div>
