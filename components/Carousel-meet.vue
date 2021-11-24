@@ -13,6 +13,8 @@
         ref="carousel"
         class="testimonial w-slider"
         :css-ease="ease"
+        :autoplay="true"
+        :autoplay-speed="5000"
       >
         <div class="w-slide">
           <div class="testimonial-text meet">
