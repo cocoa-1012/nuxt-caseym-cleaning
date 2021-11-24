@@ -717,7 +717,12 @@
 .dropdown-toggle-2 {
   padding-bottom: 12px;
 }
-
+.mobile-nav-phone {
+  display: none;
+}
+.mobile-nav-practice {
+  display: none;
+}
 .why-choose-us {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2303,7 +2308,7 @@ textarea {
     font-weight: 300;
   }
   .page-hero {
-    height: 500px;
+    height: 500px !important;
   }
 
   .page-hero.sub-page-hero {
@@ -2311,7 +2316,29 @@ textarea {
     background-position: top;
     background-size: cover;
   }
-
+  .mobile-nav-hidden {
+    display: none;
+  }
+  .mobile-nav-phone {
+    display: block;
+  }
+  .mobile-nav-practice {
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+  .mobile-practice-dropdown {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    background: rgba(137, 36, 50, 0.9);
+    padding: 10px 20px 0px 20px;
+    margin-bottom: 0px;
+  }
+  .mobile-practice-dropdown p {
+    line-height: 10px;
+  }
   .overlay-section {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -2320,6 +2347,8 @@ textarea {
     opacity: 1;
   }
   .overlay-section.attorney-home {
+    position: relative;
+    padding-left: 0px;
     opacity: 1;
   }
   .overlay-section.about-us {

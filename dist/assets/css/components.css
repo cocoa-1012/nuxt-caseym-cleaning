@@ -1757,6 +1757,9 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+  .w-dropdown-list-sub.mobile-legal {
+    margin: 0px 10px;
+  }
   .w-nav-button {
     display: block;
   }

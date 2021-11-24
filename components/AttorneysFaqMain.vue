@@ -1,5 +1,6 @@
 <template>
   <div>
+    <AttorneysMobileNavPractiseFaq />
     <div class="overlay-section about-us resources faq w-container">
       <h1 class="hero-text sub-page-hero resources" style="position: relative">
         <img
@@ -12,6 +13,7 @@
         &nbsp;&nbsp; FAQ &nbsp; &nbsp;<br />
       </h1>
     </div>
+    <AttorneysMobileNavPhone />
     <div class="practice-mobile">
       <h1
         style="color: #892432; text-transform: none"

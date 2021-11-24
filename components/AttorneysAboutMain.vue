@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="page-hero sub-page-hero wf-section">
-      <div class="overlay-section about-us w-container">
+      <AttorneysMobileNavPractise />
+      <div class="overlay-section about-us w-container desktop-view">
         <h1
           class="hero-text sub-page-hero resources"
           style="position: relative"
@@ -10,17 +11,22 @@
             src="assets/images/Logo Icon.png"
             loading="lazy"
             alt=""
-            class="desktop-view"
             style="position: absolute; left: -100%"
           />
           About Us<br />
         </h1>
       </div>
+      <div
+        class="overlay-section attorney-home w-container"
+        style="width: 100%; padding: 45px"
+      >
+        <h1 class="hero-text mobile-view" style="margin-left: 0px">About Us</h1>
+      </div>
     </div>
-
+    <AttorneysMobileNavPhone />
     <div
       class="real-estate-title-services-section wf-section"
-      style="margin-top: 200px"
+      style="margin-top: 100px"
     >
       <div
         class="

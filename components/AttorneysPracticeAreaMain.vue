@@ -4,32 +4,25 @@
       class="page-hero practice attorneys wf-section"
       style="position: relative"
     >
-      <div class="overlay-section w-container home">
-        <img
-          src="assets/images/Logo Icon.png"
-          loading="lazy"
-          alt=""
-          class="desktop-view"
-        />
-        <h1 class="hero-text desktop-view">Personal Injury</h1>
+      <AttorneysMobileNavPractise />
+      <div class="overlay-section w-container home desktop-view">
+        <img src="assets/images/Logo Icon.png" loading="lazy" alt="" />
+        <h1 class="hero-text">Personal Injury</h1>
       </div>
       <div
-        class="overlay-section w-container home mobile-view"
-        style="opacity: 1; top: 250px; height: 150px"
+        class="overlay-section attorney-home w-container"
+        style="width: 100%; padding: 23px"
       >
-        <h1
-          class="hero-text"
-          style="font-weight: 400; font-size: 40px; margin-left: -20px"
-        >
+        <h1 class="hero-text mobile-view" style="margin-left: 0px">
           Personal <br />
           Injury
         </h1>
       </div>
     </div>
-
+    <AttorneysMobileNavPhone />
     <div
       class="real-estate-title-services-section wf-section"
-      style="margin-top: 200px"
+      style="margin-top: 50px"
     >
       <div
         class="experienced-attorneys-text about-subtext-hero desktop-view"

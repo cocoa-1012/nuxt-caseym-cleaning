@@ -1,5 +1,6 @@
 <template>
   <div>
+    <AttorneysMobileNavPractiseFaq />
     <div class="overlay-section about-us resources r-header w-container">
       <h1 class="hero-text sub-page-hero resources" style="position: relative">
         <img
@@ -12,6 +13,7 @@
         Contact Us<br />
       </h1>
     </div>
+    <AttorneysMobileNavPhone />
     <div class="resources-top contact wf-section">
       <div class="resources-top-container contact-top attorney w-row">
         <div class="w-col w-col-8">

@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="page-hero home attorney wf-section">
+      <AttorneysMobileNavPractise />
       <div class="overlay-section attorney-home w-container">
         <img
           src="assets/images/Logo Icon.png"
@@ -11,11 +12,12 @@
         <h1 class="hero-text desktop-view">
           Experienced&nbsp;and Local<br />Attorneys Here for You
         </h1>
-        <h1 class="hero-text mobile-view" style="margin-left: 20px">
+        <h1 class="hero-text mobile-view">
           Experienced&nbsp;and Local&nbsp;Attorneys Here&nbsp;for&nbsp;You
         </h1>
       </div>
     </div>
+    <AttorneysMobileNavPhone />
     <AttorneysHomeCarousel />
     <div
       class="why-choose-us attorney wf-section"
