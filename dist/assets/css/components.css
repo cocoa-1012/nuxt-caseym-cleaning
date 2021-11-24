@@ -1656,7 +1656,7 @@ textarea.w-select {
   left: 0;
   right: 0;
   /* background: #c8c8c8; */
-  background-color: rgba(107, 96, 90, 0.6);
+  background-color: rgba(107, 96, 90, 0.8);
   text-align: center;
   overflow: visible;
   min-width: 200px;
