@@ -245,7 +245,7 @@
   min-height: 700px;
 }
 .carousel-quote {
-  margin-bottom: -30px;
+  margin-bottom: -50px;
 }
 .attor-contact-image {
   padding-left: 72px;
@@ -1356,7 +1356,7 @@
   overflow: auto !important;
 }
 .testimonial-text {
-  margin: 0 20px 0px 30px;
+  margin: 0 20px 0px 50px;
   margin-bottom: 30px;
   font-family: CusCormorant;
   color: #4f748b;
