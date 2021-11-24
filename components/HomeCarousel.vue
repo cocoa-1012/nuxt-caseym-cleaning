@@ -40,7 +40,7 @@
           <div class="tabs-heading">WORKING WITH <strong>REALTORS</strong></div>
         </a>
       </div>
-      <div class="carousel-main desktop-view">
+      <div class="carousel-main desktop-view" style="margin-top: -15px">
         <VueSlickCarousel
           ref="carousel"
           class="w-tab-content"

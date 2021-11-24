@@ -33,7 +33,7 @@
     >
       <div
         class="experienced-attorneys-text about-subtext-hero desktop-view"
-        style="margin-top: -25px"
+        style="margin-top: -35px"
       >
         <div class="image-one w-col w-col-5"></div>
         <div class="image-two w-col w-col-5"></div>
