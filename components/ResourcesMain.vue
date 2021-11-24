@@ -1,5 +1,6 @@
 <template>
   <div>
+    <MobileNavPractiseFaq />
     <div class="overlay-section about-us resources r-header w-container">
       <h1 class="hero-text sub-page-hero resources" style="position: relative">
         <img
@@ -12,6 +13,7 @@
         Resources<br />
       </h1>
     </div>
+    <MobileNavPhone />
     <div class="resources-top wf-section">
       <div class="resources-top-container w-row">
         <div class="w-col w-col-5">

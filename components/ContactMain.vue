@@ -1,5 +1,6 @@
 <template>
   <div>
+    <MobileNavPractiseFaq />
     <div class="overlay-section about-us resources r-header w-container">
       <h1
         class="hero-text sub-page-hero resources"
@@ -15,6 +16,7 @@
         Contact Us<br />
       </h1>
     </div>
+    <MobileNavPhone />
     <div class="resources-top contact wf-section">
       <div class="resources-top-container contact-top w-row">
         <div class="w-col w-col-8 w-col-stack">

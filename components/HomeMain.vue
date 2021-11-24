@@ -1,6 +1,7 @@
 <template>
   <div class="home-mobile">
     <div class="page-hero home wf-section">
+      <MobileNavPractise />
       <div class="overlay-section w-container home" style="padding-right: 50px">
         <img
           src="assets/images/Logo Icon.png"
@@ -17,6 +18,7 @@
         </h1>
       </div>
     </div>
+    <MobileNavPhone />
     <HomeCarousel />
     <div class="w-col mobile-contact-form">
       <div style="display: flex; justify-content: space-between">
