@@ -18,7 +18,7 @@
           <h1 class="resources-title covid">Covid-19 Policy<br /></h1>
         </div>
         <div class="w-col w-col-7">
-          <p class="resources-page-subtext">
+          <p class="resources-page-subtext" style="color: #ededed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
             ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna nec quam
@@ -57,7 +57,7 @@
       </div>
       <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>
-        <div style="height: 1px; width: 100vw; background: #000"></div>
+        <div style="height: 1px; width: 100vw; background: #707070"></div>
         <div style="width: 60px"></div>
       </div>
       <div
@@ -109,7 +109,7 @@
       </div>
       <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>
-        <div style="height: 1px; width: 100vw; background: #000"></div>
+        <div style="height: 1px; width: 100vw; background: #707070"></div>
         <div style="width: 60px"></div>
       </div>
     </div>
