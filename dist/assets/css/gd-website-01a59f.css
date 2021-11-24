@@ -813,8 +813,11 @@
 }
 
 .why-choose-us-title-container.attorney {
-  text-align: left;
-  padding-left: 7%;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  font-size: 70px;
+  padding: 110px;
   width: 54%;
   font-weight: 400;
   margin-top: -230px;
@@ -852,7 +855,7 @@
   margin-bottom: -200px;
 }
 .wcu-image-one-attr {
-  height: 300px;
+  height: 370px;
   background-image: url('../images/Mask Group 16.jpg');
   background-position: 0px 0px;
   background-size: cover;
@@ -885,7 +888,7 @@
   background-size: cover;
 }
 .wcu-image-two-attr {
-  height: 300px;
+  height: 370px;
   background-image: url('../images/Mask Group 17.jpg');
   background-position: 0px 0px;
   background-size: cover;
@@ -919,8 +922,8 @@
 }
 
 .about-grey.attorney {
-  margin-top: -80px;
-  padding-top: 280px;
+  margin-top: -180px;
+  padding-top: 250px;
 }
 
 .italic-text {
@@ -1969,6 +1972,16 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .wcu-image-one-attr {
+    height: 300px;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .wcu-image-two-attr {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+  }
   .working-with-header.home-title {
     margin: 0px 20px;
   }
@@ -2141,12 +2154,7 @@ textarea {
     line-height: 40px !important;
     text-align: left;
   }
-  .why-choose-us-title-container.attorney {
-    text-align: center;
-    font-weight: 400;
-    font-size: 40px;
-    margin-top: -30px;
-  }
+
   .desktop-view {
     display: none !important;
   }
@@ -2418,11 +2426,13 @@ textarea {
   }
 
   .why-choose-us-title-container.attorney {
+    text-align: center;
+    font-weight: 400;
+    margin-top: -50px;
+    padding: 100px 0px 50px 0px;
     width: 100%;
     position: relative;
     font-size: 40px !important;
-    padding-top: 80px;
-    padding-bottom: 50px;
   }
 
   .wcu-image-one {
@@ -2436,7 +2446,7 @@ textarea {
   }
 
   .about-grey.attorney {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 50px;
   }
 

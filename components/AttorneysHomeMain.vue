@@ -25,12 +25,7 @@
         <div class="wcu-image-one-attr w-col w-col-6 desktop-view"></div>
         <div class="wcu-image-two-attr w-col w-col-6"></div>
       </div>
-      <h1
-        class="why-choose-us-title-container attorney"
-        style="position: absolute; bottom: 20%; right: 0; font-size: 70px"
-      >
-        WHO WE ARE
-      </h1>
+      <h1 class="why-choose-us-title-container attorney">WHO WE ARE</h1>
     </div>
     <div class="about-grey attorney wf-section">
       <div class="about-grey-text-section attorney w-row">
