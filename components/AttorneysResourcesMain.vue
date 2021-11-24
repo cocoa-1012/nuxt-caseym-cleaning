@@ -143,6 +143,7 @@
           w-container w-row
           contact-attorney
         "
+        style="width: 1230px"
       >
         <AttorneysContactUsToday />
         <div class="w-col w-col-5">
