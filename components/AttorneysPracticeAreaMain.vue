@@ -147,10 +147,7 @@
         <div class="wcu-image-one about-image w-col w-col-6"></div>
       </div>
     </div>
-    <div
-      class="real-estate-title-services-section wf-section spec04"
-      style="margin-top: 200px; margin-bottom: -100px"
-    >
+    <div class="real-estate-title-services-section wf-section spec04">
       <div
         class="experienced-attorneys-text about-subtext-hero desktop-view"
         style="margin-top: 30px; margin-bottom: -30px; color: #892432"
@@ -167,7 +164,7 @@
       >
         <div
           class="experienced-attorneys-text about-subtext-hero mobile-view"
-          style="margin-top: 500px; margin-bottom: -150px; color: #892432"
+          style="margin-top: 300px; margin-bottom: -150px; color: #892432"
         >
           Donec Euismod Ornare Sodales Morbi Gravida Er Metus Eget Fermentum
         </div>

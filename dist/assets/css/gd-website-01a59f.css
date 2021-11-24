@@ -817,7 +817,7 @@
   bottom: 10%;
   right: 0;
   font-size: 70px;
-  padding: 110px;
+  padding: 110px 80px;
   width: 54%;
   font-weight: 400;
   margin-top: -230px;
@@ -901,7 +901,11 @@
 .wcu-images.wcu-section-about {
   margin-top: -149px;
 }
-
+.spec04 {
+  padding-top: 200px;
+  padding-bottom: 0px;
+  background-color: #ededed;
+}
 .about-grey {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2053,6 +2057,7 @@ textarea {
   }
   .spec04 {
     margin-top: 0px !important;
+    margin-bottom: -50px;
   }
   .spec03 {
     margin: 0px !important;
