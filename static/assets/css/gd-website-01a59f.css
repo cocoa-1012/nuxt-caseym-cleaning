@@ -1959,6 +1959,13 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .overlay-section.home h1 {
+    width: 0px;
+    margin-left: 0px;
+  }
+  .hero-text.sub-page-hero.resources {
+    margin-left: 0px;
+  }
   .item-opened {
     height: 420px;
   }
