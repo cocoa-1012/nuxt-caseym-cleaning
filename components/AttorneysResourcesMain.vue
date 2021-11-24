@@ -134,7 +134,7 @@
       alt=""
       class="mobile-view"
     />
-    <Carousel />
+    <AttorneysCarousel />
     <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="

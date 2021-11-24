@@ -46,10 +46,14 @@
         </div>
         <div class="slider-arrow">
           <div class="left-arrow" @click="showBefore">
-            <div class="icon-4 w-icon-slider-left">&#9668;</div>
+            <div class="icon-4 w-icon-slider-left" style="color: #4f748b">
+              &#9668;
+            </div>
           </div>
           <div class="right-arrow" @click="showNext">
-            <div class="icon-3 w-icon-slider-right">&#9658;</div>
+            <div class="icon-3 w-icon-slider-right" style="color: #4f748b">
+              &#9658;
+            </div>
           </div>
         </div>
       </div>

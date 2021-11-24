@@ -166,6 +166,6 @@
         </a>
       </div>
     </div>
-    <Carousel />
+    <AttorneysCarousel />
   </div>
 </template>

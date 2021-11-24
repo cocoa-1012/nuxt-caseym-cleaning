@@ -249,7 +249,7 @@
         <div class="wcu-image-one about-image w-col w-col-6"></div>
       </div>
     </div>
-    <Carousel />
+    <AttorneysCarousel />
     <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="

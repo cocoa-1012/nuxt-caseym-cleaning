@@ -594,7 +594,7 @@
         <AttorneysContactUsToday />
       </div>
     </div>
-    <Carousel />
+    <AttorneysCarousel />
     <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="

@@ -220,7 +220,7 @@
       </div>
     </div>
     <div class="spec05">
-      <Carousel />
+      <AttorneysCarousel />
     </div>
 
     <div class="contact-section about-contact wf-section desktop-view">
