@@ -783,7 +783,10 @@
   text-align: center;
   text-transform: uppercase;
 }
-
+.why-choose-us-title-container.real-home {
+  padding: 80px;
+  margin-top: -200px;
+}
 .why-choose-us-title-container.about-us-dupe {
   position: relative;
   z-index: 100;
@@ -841,7 +844,7 @@
 }
 
 .wcu-image-one {
-  height: 300px;
+  height: 400px;
   background-image: url('../images/whychooseus1.dac66566-1.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -888,7 +891,7 @@
 }
 
 .wcu-image-two {
-  height: 300px;
+  height: 400px;
   background-image: url('../images/whychooseus2.ff04622a-1.png');
   background-position: 0px 0px;
   background-size: cover;

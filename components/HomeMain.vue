@@ -83,13 +83,19 @@
       </div>
     </div>
     <br />
-    <div class="why-choose-us wf-section desktop-view">
-      <div class="wcu-images w-row">
-        <div class="column-6 w-col w-col-4"></div>
-        <div class="wcu-image-one w-col w-col-5"></div>
-        <div class="wcu-image-two w-col w-col-3"></div>
+    <div class="why-choose-us wf-section desktop-view" style="overflow: hidden">
+      <div class="wcu-images w-row" style="width: 1230px">
+        <div class="w-col w-col-4"></div>
+        <div class="w-col w-col-8">
+          <div class="wcu-image-one w-col w-col-9" style="position: relative">
+            <div
+              class="wcu-image-two w-col w-col-8"
+              style="position: absolute; left: 100%"
+            ></div>
+          </div>
+        </div>
       </div>
-      <h1 class="why-choose-us-title-container">Why Choose Us</h1>
+      <h1 class="why-choose-us-title-container real-home">Why Choose Us</h1>
     </div>
     <div class="why-choose-us wf-section mobile-view">
       <div class="wcu-images w-row">
