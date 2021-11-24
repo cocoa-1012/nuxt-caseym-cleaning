@@ -231,9 +231,10 @@
           w-container w-row
           contact-attorney
         "
+        style="width: 1230px"
       >
         <AttorneysContactUsToday />
-        <div class="w-col w-col-5">
+        <div class="w-col w-col-5 attor-contact-image">
           <img src="assets/images/Mask Group 25.jpg" loading="lazy" alt="" />
         </div>
       </div>
