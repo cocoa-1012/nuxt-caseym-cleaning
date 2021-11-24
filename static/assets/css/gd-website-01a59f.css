@@ -1295,7 +1295,24 @@
   margin-top: 30px;
   margin-right: 5px;
 }
+
 .expand:hover {
+  cursor: pointer;
+}
+
+.footer-expand {
+  text-transform: uppercase;
+  color: #892432;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 5px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footer-expand:hover {
   cursor: pointer;
 }
 
