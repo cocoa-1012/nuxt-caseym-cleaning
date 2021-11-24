@@ -295,3 +295,30 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+input {
+  border-radius: 3px;
+}
+textarea {
+  border-radius: 3px;
+}
+::placeholder {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: #231f20;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: #231f20;
+}
+
+::-ms-input-placeholder {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: #231f20;
+}
+</style>
