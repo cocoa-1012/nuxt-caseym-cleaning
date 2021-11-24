@@ -94,8 +94,9 @@
   background-image: url('../images/Attorney-Header.jpg');
 }
 .required-field {
-  color: #fff;
+  color: #ededed;
   text-align: right;
+  font-family: Montserrat;
 }
 .overlay-section {
   position: absolute;
@@ -1525,6 +1526,11 @@ textarea {
   font-size: 55px;
   font-weight: 400;
   text-align: left;
+}
+.schedule {
+  font-family: CusCormorant;
+  line-height: 1.05em;
+  color: #ededed;
 }
 .resources-title.covid {
   font-size: 55px;

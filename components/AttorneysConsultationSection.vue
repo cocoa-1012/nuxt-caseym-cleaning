@@ -71,10 +71,14 @@
 }
 
 :-ms-input-placeholder {
+  font-family: Montserrat;
+  font-size: 13px;
   color: #231f20;
 }
 
 ::-ms-input-placeholder {
+  font-family: Montserrat;
+  font-size: 13px;
   color: #231f20;
 }
 </style>
