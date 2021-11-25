@@ -1992,6 +1992,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .resources-page-subtext {
+    font-size: 16px;
+  }
   .tabs-menu.practice {
     background-color: #ededed;
   }
