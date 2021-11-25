@@ -1992,6 +1992,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .tabs-menu.practice {
+    background-color: #ededed;
+  }
   .wcu-image-one-attr {
     height: 300px;
     background-position: 0px 0px;
@@ -2411,14 +2414,25 @@ textarea {
     padding-bottom: 10px;
   }
   .tab-link-working-with-practice-buyers {
+    border-bottom: solid 5px rgba(134, 34, 48, 0);
     /* background-color: #892432; */
-    border-bottom: 5px solid rgba(134, 34, 48, 0);
+    background-color: #ededed;
+    color: #4f748b !important;
+  }
+  .tab-link-working-with-practice-buyers .tabs-heading {
+    /* background-color: #892432; */
+    color: #4f748b !important;
   }
 
   .tab-link-working-with-practice-buyers.w--current {
+    background-color: #ededed;
     width: 100vw;
     padding-bottom: 10px;
-    border-bottom: 5px solid #fff;
+    border-bottom: 5px solid rgba(134, 34, 48, 0);
+  }
+  .tab-link-working-with-practice-buyers.w--current .tabs-heading {
+    /* background-color: #892432; */
+    color: #892432 !important;
   }
 
   .tab-link-working-with-realtors.attorney {
