@@ -1121,12 +1121,12 @@ textarea.w-select {
 .w-dropdown-list {
   padding: 30px 40px;
   position: absolute;
-  background: rgba(79, 116, 139, 0.7);
+  background: rgba(79, 116, 139, 0.9);
   display: none;
   min-width: 233%;
 }
 .w-dropdown-list.attorney {
-  background: rgba(137, 36, 50, 0.7);
+  background: rgba(137, 36, 50, 0.9);
 }
 .w-dropdown-list-sub {
   width: 50%;
@@ -1656,7 +1656,7 @@ textarea.w-select {
   left: 0;
   right: 0;
   /* background: #c8c8c8; */
-  background-color: rgba(107, 96, 90, 0.6);
+  background-color: rgba(107, 96, 90, 0.8);
   text-align: center;
   overflow: visible;
   min-width: 200px;
@@ -1757,6 +1757,9 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+  .w-dropdown-list-sub.mobile-legal {
+    margin: 0px 10px;
+  }
   .w-nav-button {
     display: block;
   }

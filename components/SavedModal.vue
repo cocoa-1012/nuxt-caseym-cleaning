@@ -1,20 +1,37 @@
 <template>
   <div class="modal-overlay1">
-    <div class="modal-overlay" @click="$emit('close-modal')"></div>
+    <div class="modal-overlay" @click="closeEmit"></div>
     <div class="modal">
       <div class="search-div">
-        <input type="text" placeholder="SEARCH" value="" />
+        <input id="searchInput" type="text" placeholder="SEARCH" value="" />
       </div>
       <div class="submit">
-        <button @click="$emit('close-modal')">SUBMIT</button>
+        <button @click="closeEmit">SUBMIT</button>
       </div>
-      <button class="close" @click="$emit('close-modal')">&times;</button>
+      <button class="close" @click="closeEmit">&times;</button>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll() {
+      document.getElementById('searchInput').value = ''
+      this.$emit('close-modal')
+    },
+    closeEmit() {
+      document.getElementById('searchInput').value = ''
+      this.$emit('close-modal')
+    },
+  },
+}
 </script>
 
 <style scoped>

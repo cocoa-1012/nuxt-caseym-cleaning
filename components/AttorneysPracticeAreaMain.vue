@@ -4,32 +4,25 @@
       class="page-hero practice attorneys wf-section"
       style="position: relative"
     >
-      <div class="overlay-section w-container home">
-        <img
-          src="assets/images/Logo Icon.png"
-          loading="lazy"
-          alt=""
-          class="desktop-view"
-        />
-        <h1 class="hero-text desktop-view">Personal Injury</h1>
+      <AttorneysMobileNavPractise />
+      <div class="overlay-section w-container home desktop-view">
+        <img src="assets/images/Logo Icon.png" loading="lazy" alt="" />
+        <h1 class="hero-text">Personal Injury</h1>
       </div>
       <div
-        class="overlay-section w-container home mobile-view"
-        style="opacity: 1; top: 250px; height: 150px"
+        class="overlay-section attorney-home w-container"
+        style="width: 100%; padding: 23px"
       >
-        <h1
-          class="hero-text"
-          style="font-weight: 400; font-size: 40px; margin-left: -20px"
-        >
+        <h1 class="hero-text mobile-view" style="margin-left: 0px">
           Personal <br />
           Injury
         </h1>
       </div>
     </div>
-
+    <AttorneysMobileNavPhone />
     <div
       class="real-estate-title-services-section wf-section"
-      style="margin-top: 200px"
+      style="margin-top: 50px"
     >
       <div
         class="experienced-attorneys-text about-subtext-hero desktop-view"
@@ -147,10 +140,7 @@
         <div class="wcu-image-one about-image w-col w-col-6"></div>
       </div>
     </div>
-    <div
-      class="real-estate-title-services-section wf-section spec04"
-      style="margin-top: 200px; margin-bottom: -100px"
-    >
+    <div class="real-estate-title-services-section wf-section spec04">
       <div
         class="experienced-attorneys-text about-subtext-hero desktop-view"
         style="margin-top: 30px; margin-bottom: -30px; color: #892432"
@@ -167,7 +157,7 @@
       >
         <div
           class="experienced-attorneys-text about-subtext-hero mobile-view"
-          style="margin-top: 500px; margin-bottom: -150px; color: #892432"
+          style="margin-top: 300px; margin-bottom: -150px; color: #892432"
         >
           Donec Euismod Ornare Sodales Morbi Gravida Er Metus Eget Fermentum
         </div>
@@ -220,7 +210,7 @@
       </div>
     </div>
     <div class="spec05">
-      <Carousel />
+      <AttorneysCarousel />
     </div>
 
     <div class="contact-section about-contact wf-section desktop-view">
@@ -231,9 +221,10 @@
           w-container w-row
           contact-attorney
         "
+        style="width: 1230px"
       >
         <AttorneysContactUsToday />
-        <div class="w-col w-col-5">
+        <div class="w-col w-col-5 attor-contact-image">
           <img src="assets/images/Mask Group 25.jpg" loading="lazy" alt="" />
         </div>
       </div>

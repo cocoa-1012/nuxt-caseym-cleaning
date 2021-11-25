@@ -21,7 +21,7 @@
               class="nav-link w-nav-link w--nav-link-open"
               style="max-width: 728px"
             >
-              Homes
+              Home
             </NuxtLink>
             <NuxtLink
               to="/about"
@@ -108,7 +108,7 @@
             </nav>
           </div>
         </div>
-        <div class="w-row">
+        <div class="w-row mobile-nav-hidden">
           <div class="sub-phone left w-col w-col-3 w-col-stack">
             <div
               data-hover="true"

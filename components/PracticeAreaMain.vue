@@ -1,6 +1,7 @@
 <template>
   <div class="home-mobile">
     <div class="page-hero practice wf-section" style="position: relative">
+      <MobileNavPractise />
       <div class="overlay-section w-container home desktop-view">
         <img
           src="assets/images/Logo Icon.png"
@@ -11,18 +12,16 @@
         <h1 class="hero-text">Residential Closings</h1>
       </div>
       <div
-        class="overlay-section w-container home mobile-view"
-        style="opacity: 1; top: 200px; height: 150px"
+        class="overlay-section attorney-home w-container"
+        style="width: 100%; padding: 23px"
       >
-        <h1
-          class="hero-text"
-          style="font-weight: 400; font-size: 40px; margin-left: -20px"
-        >
+        <h1 class="hero-text mobile-view" style="margin-left: 0px">
           Residential <br />
           Closings
         </h1>
       </div>
     </div>
+    <MobileNavPhone />
     <div class="why-choose-us wf-section mobile-view">
       <div class="wcu-images w-row">
         <div class="wcu-image-one-practice w-col w-col-3"></div>
@@ -34,7 +33,7 @@
     >
       <div
         class="experienced-attorneys-text about-subtext-hero desktop-view"
-        style="margin-top: -25px"
+        style="margin-top: -35px"
       >
         <div class="image-one w-col w-col-5"></div>
         <div class="image-two w-col w-col-5"></div>

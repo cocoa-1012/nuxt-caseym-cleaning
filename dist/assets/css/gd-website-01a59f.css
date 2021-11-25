@@ -6,6 +6,14 @@
   font-family: CusCormorant;
   src: url('../fonts/CormorantGaramond-Medium.ttf');
 }
+@font-face {
+  font-family: NunitoSans;
+  src: url('../fonts/NunitoSans-Regular.ttf');
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
 .nav-contain {
   display: -webkit-box;
   display: -webkit-flex;
@@ -86,8 +94,9 @@
   background-image: url('../images/Attorney-Header.jpg');
 }
 .required-field {
-  color: #fff;
+  color: #ededed;
   text-align: right;
+  font-family: Montserrat;
 }
 .overlay-section {
   position: absolute;
@@ -245,7 +254,10 @@
   min-height: 700px;
 }
 .carousel-quote {
-  margin-bottom: -30px;
+  margin-bottom: -50px;
+}
+.attor-contact-image {
+  padding-left: 72px;
 }
 .workingwithtextsection {
   display: -webkit-box;
@@ -320,7 +332,7 @@
 }
 
 .text-block {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
 }
 
 .text-block.tabs-heading {
@@ -328,7 +340,7 @@
 }
 
 .text-block-2 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
 }
 
 .text-block-2.tabs-heading {
@@ -337,14 +349,14 @@
 }
 
 .text-block-3 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
 }
 .practice-mobile {
   display: none;
 }
 .nav-link {
   padding-bottom: 12px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -363,7 +375,7 @@
 }
 
 .text-block-4 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -371,7 +383,7 @@
 
 .phone {
   border: 0px solid #000;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-weight: 800;
   text-decoration: none;
@@ -423,7 +435,7 @@
 }
 
 .text-block-5 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-weight: 400;
   text-transform: uppercase;
@@ -454,7 +466,7 @@
 }
 
 .tabs-heading {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-size: 19px;
   font-weight: 300;
@@ -597,7 +609,7 @@
   font-weight: 400;
 }
 .working-with-header.home-title {
-  margin: 0px 20px;
+  margin: 0px;
 }
 .working-with-header.regular-font {
   font-family: CusCormorant;
@@ -613,10 +625,11 @@
 .working-with-header.attorney {
   color: #892432;
   font-family: CusCormorant;
+  font-size: 56px;
 }
 
 .working-with-subtext {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #707070;
   font-size: 16px;
   line-height: 1.7em;
@@ -628,7 +641,7 @@
 }
 
 .footer-text {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #47587c;
   font-size: 16px;
   line-height: 1.7em;
@@ -661,7 +674,7 @@
   padding: 8px 20px;
   border-radius: 5px 0px;
   background-color: #4f748b;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -691,7 +704,7 @@
 }
 
 .phone-number {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   text-decoration: none;
 }
@@ -704,7 +717,12 @@
 .dropdown-toggle-2 {
   padding-bottom: 12px;
 }
-
+.mobile-nav-phone {
+  display: none;
+}
+.mobile-nav-practice {
+  display: none;
+}
 .why-choose-us {
   display: -webkit-box;
   display: -webkit-flex;
@@ -758,14 +776,17 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: rgba(137, 36, 50, 0.9);
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-size: 60px;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
 }
-
+.why-choose-us-title-container.real-home {
+  padding: 80px;
+  margin-top: -200px;
+}
 .why-choose-us-title-container.about-us-dupe {
   position: relative;
   z-index: 100;
@@ -801,8 +822,11 @@
 }
 
 .why-choose-us-title-container.attorney {
-  text-align: left;
-  padding-left: 7%;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  font-size: 70px;
+  padding: 110px 80px;
   width: 54%;
   font-weight: 400;
   margin-top: -230px;
@@ -810,7 +834,7 @@
 }
 
 .why-choose-us-title {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-size: 60px;
   line-height: 60px;
@@ -820,7 +844,7 @@
 }
 
 .wcu-image-one {
-  height: 300px;
+  height: 400px;
   background-image: url('../images/whychooseus1.dac66566-1.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -836,11 +860,11 @@
   background-image: url('../images/Mask Group 35.jpg');
   background-position: 0px 0px;
   background-size: cover;
-  margin-top: 100px;
+  margin-top: 0px;
   margin-bottom: -200px;
 }
 .wcu-image-one-attr {
-  height: 300px;
+  height: 370px;
   background-image: url('../images/Mask Group 16.jpg');
   background-position: 0px 0px;
   background-size: cover;
@@ -867,13 +891,13 @@
 }
 
 .wcu-image-two {
-  height: 300px;
+  height: 400px;
   background-image: url('../images/whychooseus2.ff04622a-1.png');
   background-position: 0px 0px;
   background-size: cover;
 }
 .wcu-image-two-attr {
-  height: 300px;
+  height: 370px;
   background-image: url('../images/Mask Group 17.jpg');
   background-position: 0px 0px;
   background-size: cover;
@@ -886,7 +910,11 @@
 .wcu-images.wcu-section-about {
   margin-top: -149px;
 }
-
+.spec04 {
+  padding-top: 200px;
+  padding-bottom: 0px;
+  background-color: #ededed;
+}
 .about-grey {
   display: -webkit-box;
   display: -webkit-flex;
@@ -907,8 +935,8 @@
 }
 
 .about-grey.attorney {
-  margin-top: -80px;
-  padding-top: 280px;
+  margin-top: -180px;
+  padding-top: 250px;
 }
 
 .italic-text {
@@ -939,7 +967,7 @@
 .about-grey-text.title.sub-title {
   font-size: 15px;
   line-height: 15px;
-  font-family: 'Nunito Sans', sans-serif !important;
+  font-family: NunitoSans !important;
 }
 
 .about-grey-text.title.meet {
@@ -1067,13 +1095,14 @@
 }
 
 .contact-description {
-  color: #777;
+  color: #060f21;
   font-size: 16px;
   font-weight: 600;
+  font-family: NunitoSans;
 }
 .contact-container {
   max-width: 1230px;
-  padding: 50px;
+  padding: 50px 0px;
   background-color: #707070;
 }
 
@@ -1087,7 +1116,7 @@
 }
 
 .contact-section-text {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
 }
 
@@ -1131,7 +1160,7 @@
   padding-bottom: 10px;
   padding-left: 25px;
   background-color: #892432;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   text-align: left;
   text-transform: uppercase;
   text-decoration: none;
@@ -1199,14 +1228,14 @@
 }
 .attorneys-meet-container {
   margin: auto;
-  margin-top: -200px;
-  margin-bottom: 100px;
+  margin-top: -150px;
+  margin-bottom: 150px;
   padding: 50px;
-  background-color: #060f21;
+  background-color: #16223b;
   max-width: 1230px;
 }
 .meet-description {
-  font-family: 'Nunito Sans', sans-serif !important;
+  font-family: NunitoSans !important;
   color: #ccc !important;
   font-size: 26px;
   font-weight: 400;
@@ -1240,7 +1269,7 @@
 }
 
 .contact-us-title {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-size: 20px;
   letter-spacing: 1px;
@@ -1295,7 +1324,24 @@
   margin-top: 30px;
   margin-right: 5px;
 }
+
 .expand:hover {
+  cursor: pointer;
+}
+
+.footer-expand {
+  text-transform: uppercase;
+  color: #892432;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 5px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footer-expand:hover {
   cursor: pointer;
 }
 
@@ -1336,10 +1382,10 @@
   overflow: auto !important;
 }
 .testimonial-text {
-  margin: 0 20px 0px 30px;
+  margin: 0 20px 0px 50px;
   margin-bottom: 30px;
   font-family: CusCormorant;
-  color: #2c3e50;
+  color: #4f748b;
   font-size: 22px;
   line-height: 1.7em;
   font-style: italic;
@@ -1347,7 +1393,7 @@
 }
 .testimonial-text.meet {
   color: #eee;
-  line-height: 1.3em;
+  line-height: 1.5em;
 }
 .testimonial-text.attorney-testimonials {
   color: #4f748b;
@@ -1466,13 +1512,14 @@ textarea {
 }
 
 .resources-page-subtext {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   line-height: 1.5em;
 }
 
 .resources-page-subtext.other {
-  color: #000;
+  color: #707070;
+  font-family: NunitoSans;
 }
 
 .resources-page-subtext.other.document-subtext {
@@ -1488,10 +1535,16 @@ textarea {
   font-weight: 400;
   text-align: left;
 }
+.schedule {
+  font-family: CusCormorant;
+  line-height: 1.05em;
+  color: #ededed;
+}
 .resources-title.covid {
   font-size: 55px;
   margin-left: 30px;
   margin-top: 0px;
+  color: #ededed;
 }
 
 .resources-title.other {
@@ -1559,7 +1612,7 @@ textarea {
 }
 
 .faq-question {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
 }
 
@@ -1582,7 +1635,7 @@ textarea {
 }
 
 .accordion-item-q-text {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-size: 14px;
   line-height: 1.4em;
@@ -1614,7 +1667,7 @@ textarea {
 
 .accordion-item-a-text {
   margin-bottom: 0px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #ededed;
   line-height: 24px;
   opacity: 1;
@@ -1687,7 +1740,7 @@ textarea {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   font-weight: 300;
 }
@@ -1776,7 +1829,7 @@ textarea {
 }
 
 .practice-area-list {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: NunitoSans;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -1939,6 +1992,38 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .resources-page-subtext {
+    font-size: 16px;
+  }
+  .tabs-menu.practice {
+    background-color: #ededed;
+  }
+  .wcu-image-one-attr {
+    height: 300px;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .wcu-image-two-attr {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+  }
+  .working-with-header.home-title {
+    margin: 0px 20px;
+  }
+  .overlay-section.home h1 {
+    width: 0px;
+    margin-left: 0px;
+  }
+  .hero-text.sub-page-hero.resources {
+    margin-left: 0px;
+  }
+  .item-opened {
+    height: 420px;
+  }
+  .sub-phone.left {
+    border-top-left-radius: 0px;
+  }
   .email-direct img {
     margin-top: 20px;
     margin-bottom: 0px;
@@ -1994,6 +2079,7 @@ textarea {
   }
   .spec04 {
     margin-top: 0px !important;
+    margin-bottom: -50px;
   }
   .spec03 {
     margin: 0px !important;
@@ -2071,6 +2157,7 @@ textarea {
   }
   .contact-section-text.description.padding {
     padding: 20px;
+    font-size: 16px;
   }
   .practice-sidebar {
     margin-top: -70px;
@@ -2095,12 +2182,7 @@ textarea {
     line-height: 40px !important;
     text-align: left;
   }
-  .why-choose-us-title-container.attorney {
-    text-align: center;
-    font-weight: 400;
-    font-size: 40px;
-    margin-top: -30px;
-  }
+
   .desktop-view {
     display: none !important;
   }
@@ -2179,15 +2261,24 @@ textarea {
   }
   .tab-link-working-with-realtors.w--current {
     padding-bottom: 10px;
-    border-bottom: 10px solid #707070;
+    border-bottom: 5px solid #707070;
   }
   .tab-link-working-with-lenders.w--current {
     padding-bottom: 10px;
-    border-bottom: 10px solid #707070;
+    border-bottom: 5px solid #707070;
   }
   .tab-link-working-with-home-buyers.w--current {
     padding-bottom: 10px;
-    border-bottom: 10px solid #707070;
+    border-bottom: 5px solid #707070;
+  }
+  .tab-link-working-with-realtors {
+    border-bottom: 5px solid rgba(134, 34, 48, 0);
+  }
+  .tab-link-working-with-lenders {
+    border-bottom: 5px solid rgba(134, 34, 48, 0);
+  }
+  .tab-link-working-with-home-buyers {
+    border-bottom: 5px solid rgba(134, 34, 48, 0);
   }
   .contact-table input {
     width: 100%;
@@ -2236,7 +2327,7 @@ textarea {
     font-weight: 300;
   }
   .page-hero {
-    height: 500px;
+    height: 500px !important;
   }
 
   .page-hero.sub-page-hero {
@@ -2244,15 +2335,41 @@ textarea {
     background-position: top;
     background-size: cover;
   }
-
+  .mobile-nav-hidden {
+    display: none;
+  }
+  .mobile-nav-phone {
+    display: block;
+  }
+  .mobile-nav-practice {
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+  .mobile-practice-dropdown {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    background: rgba(137, 36, 50, 0.9);
+    padding: 10px 20px 0px 20px;
+    margin-bottom: 0px;
+  }
+  .mobile-practice-dropdown p {
+    line-height: 10px;
+  }
   .overlay-section {
     padding-top: 0px;
     padding-bottom: 0px;
   }
   .overlay-section.home {
+    position: relative;
+    width: 100%;
     opacity: 1;
   }
   .overlay-section.attorney-home {
+    position: relative;
+    padding-left: 0px;
     opacity: 1;
   }
   .overlay-section.about-us {
@@ -2300,12 +2417,25 @@ textarea {
     padding-bottom: 10px;
   }
   .tab-link-working-with-practice-buyers {
+    border-bottom: solid 5px rgba(134, 34, 48, 0);
     /* background-color: #892432; */
+    background-color: #ededed;
+    color: #4f748b !important;
+  }
+  .tab-link-working-with-practice-buyers .tabs-heading {
+    /* background-color: #892432; */
+    color: #4f748b !important;
   }
 
   .tab-link-working-with-practice-buyers.w--current {
+    background-color: #ededed;
     width: 100vw;
     padding-bottom: 10px;
+    border-bottom: 5px solid rgba(134, 34, 48, 0);
+  }
+  .tab-link-working-with-practice-buyers.w--current .tabs-heading {
+    /* background-color: #892432; */
+    color: #892432 !important;
   }
 
   .tab-link-working-with-realtors.attorney {
@@ -2372,11 +2502,13 @@ textarea {
   }
 
   .why-choose-us-title-container.attorney {
+    text-align: center;
+    font-weight: 400;
+    margin-top: -50px;
+    padding: 100px 0px 50px 0px;
     width: 100%;
     position: relative;
     font-size: 40px !important;
-    padding-top: 80px;
-    padding-bottom: 50px;
   }
 
   .wcu-image-one {
@@ -2390,7 +2522,7 @@ textarea {
   }
 
   .about-grey.attorney {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 50px;
   }
 
@@ -2401,7 +2533,7 @@ textarea {
     width: min-content;
   }
   .about-grey-text.title span {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: NunitoSans;
   }
 
   .about-grey.home-mobile {

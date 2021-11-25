@@ -66,7 +66,7 @@
               information; and how it administers opt-outs.
             </p>
             <div class="w-col w-col-3" @click="toggle">
-              <div class="expand" style="text-align: left; margin-bottom: 20px">
+              <div class="footer-expand">
                 {{ expandText }}
                 {{ isOpen ? `&#x25B2;` : `&#x25BC;` }}
               </div>

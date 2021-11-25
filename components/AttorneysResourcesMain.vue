@@ -1,5 +1,6 @@
 <template>
   <div>
+    <AttorneysMobileNavPractiseFaq />
     <div class="overlay-section about-us resources r-header w-container">
       <h1 class="hero-text sub-page-hero resources" style="position: relative">
         <img
@@ -12,13 +13,14 @@
         Resources<br />
       </h1>
     </div>
+    <AttorneysMobileNavPhone />
     <div class="resources-top wf-section">
       <div class="resources-top-container attorney w-row">
         <div class="w-col w-col-5">
           <h1 class="resources-title covid">Covid-19 Policy<br /></h1>
         </div>
         <div class="w-col w-col-7">
-          <p class="resources-page-subtext">
+          <p class="resources-page-subtext" style="color: #ededed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
             ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna nec quam
@@ -57,7 +59,7 @@
       </div>
       <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>
-        <div style="height: 1px; width: 100vw; background: #000"></div>
+        <div style="height: 1px; width: 100vw; background: #707070"></div>
         <div style="width: 60px"></div>
       </div>
       <div
@@ -109,7 +111,7 @@
       </div>
       <div style="display: flex; max-width: 1230px" class="desktop-view">
         <div style="width: 110px"></div>
-        <div style="height: 1px; width: 100vw; background: #000"></div>
+        <div style="height: 1px; width: 100vw; background: #707070"></div>
         <div style="width: 60px"></div>
       </div>
     </div>
@@ -134,7 +136,7 @@
       alt=""
       class="mobile-view"
     />
-    <Carousel />
+    <AttorneysCarousel />
     <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="
@@ -143,6 +145,7 @@
           w-container w-row
           contact-attorney
         "
+        style="width: 1230px"
       >
         <AttorneysContactUsToday />
         <div class="w-col w-col-5">

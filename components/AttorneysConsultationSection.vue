@@ -61,3 +61,24 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+::placeholder {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: #231f20;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: #231f20;
+}
+
+::-ms-input-placeholder {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: #231f20;
+}
+</style>

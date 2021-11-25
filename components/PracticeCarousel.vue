@@ -6,7 +6,7 @@
       data-duration-in="300"
       data-duration-out="100"
       class="tabs w-tabs"
-      style="width: 90%"
+      style="width: 85%"
     >
       <div class="tabs-menu w-tab-menu home-carousel practice">
         <a

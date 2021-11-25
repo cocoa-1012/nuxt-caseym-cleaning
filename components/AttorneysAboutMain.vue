@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="page-hero sub-page-hero wf-section">
-      <div class="overlay-section about-us w-container">
+      <AttorneysMobileNavPractise />
+      <div class="overlay-section about-us w-container desktop-view">
         <h1
           class="hero-text sub-page-hero resources"
           style="position: relative"
@@ -10,17 +11,22 @@
             src="assets/images/Logo Icon.png"
             loading="lazy"
             alt=""
-            class="desktop-view"
             style="position: absolute; left: -100%"
           />
           About Us<br />
         </h1>
       </div>
+      <div
+        class="overlay-section attorney-home w-container"
+        style="width: 100%; padding: 45px"
+      >
+        <h1 class="hero-text mobile-view" style="margin-left: 0px">About Us</h1>
+      </div>
     </div>
-
+    <AttorneysMobileNavPhone />
     <div
       class="real-estate-title-services-section wf-section"
-      style="margin-top: 200px"
+      style="margin-top: 100px"
     >
       <div
         class="
@@ -60,7 +66,10 @@
           <p class="about-grey-text title attorney">
             Gabe&nbsp;A.&nbsp;Duhon<strong><br /></strong>
           </p>
-          <p class="about-grey-text title sub-title attorney">
+          <p
+            class="about-grey-text title sub-title attorney"
+            style="margin-top: 10px; margin-bottom: 20px"
+          >
             attorney/owner<strong><br /></strong>
           </p>
           <p class="working-with-subtext about-page-subtext spec03">
@@ -140,7 +149,10 @@
           <p class="about-grey-text title attorney">
             Kimberly K. <br />Souriyakhamphong<strong><br /></strong>
           </p>
-          <p class="about-grey-text title sub-title attorney">
+          <p
+            class="about-grey-text title sub-title attorney"
+            style="margin-top: 10px; margin-bottom: 20px"
+          >
             associate&nbsp;attorney<strong><br /></strong>
           </p>
           <p class="working-with-subtext about-page-subtext spec03">
@@ -233,7 +245,10 @@
       alt=""
       class="mobile-view"
     />
-    <div class="why-choose-us about-us-contact-banner wf-section">
+    <div
+      class="why-choose-us about-us-contact-banner wf-section"
+      style="margin-bottom: 50px"
+    >
       <div class="main-content-container w-container">
         <h1 class="why-choose-us-title-container about-us-dupe attorney-box">
           Cras Et <br />Fringilla <br />Libero <br />
@@ -249,7 +264,7 @@
         <div class="wcu-image-one about-image w-col w-col-6"></div>
       </div>
     </div>
-    <Carousel />
+    <AttorneysCarousel />
     <div class="contact-section about-contact wf-section desktop-view">
       <div
         class="
@@ -258,6 +273,7 @@
           w-container w-row
           contact-attorney
         "
+        style="width: 1230px"
       >
         <AttorneysContactUsToday />
         <div class="w-col w-col-5">

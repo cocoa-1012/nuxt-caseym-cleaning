@@ -34,22 +34,25 @@
                 Proin eu pulvinar leo. Quisque tempor aliquet convallis. Ut in
                 urna lacinia, viverra ex quis, suscipit sapien. Donec sed ipsum
                 velit. Praesent at faucibus purus. Curabitur pretium nibh vel
-                nisi efficitur viverra. Praesent at faucibus purus. Curabitur
-                pretium nibh vel nisi efficitur viverra. Nullam finibus in
-                lectus ut fermentum. Phasellus hendrerit nec nulla a posuere.
-                Fusce rhoncus ut sem et lobortis. Aenean tempus ut neque eu
-                eleifend. Curabitur quis urna mi. Suspendisse odio justo,
-                lobortis vel auctor ut, ornare eget tortor.<br />LOREM IPSUM
+                nisi efficitur viverra. Nullam finibus in lectus ut fermentum.
+                Phasellus hendrerit nec nulla a posuere. Fusce rhoncus ut sem et
+                lobortis. Aenean tempus ut neque eu eleifend. Curabitur quis
+                urna mi. Suspendisse odio justo, lobortis vel auctor ut, ornare
+                eget tortor.<br />LOREM IPSUM <br /><br />
               </div>
             </div>
           </VueSlickCarousel>
         </div>
         <div class="slider-arrow">
           <div class="left-arrow" @click="showBefore">
-            <div class="icon-4 w-icon-slider-left">&#9668;</div>
+            <div class="icon-4 w-icon-slider-left" style="color: #4f748b">
+              &#9668;
+            </div>
           </div>
           <div class="right-arrow" @click="showNext">
-            <div class="icon-3 w-icon-slider-right">&#9658;</div>
+            <div class="icon-3 w-icon-slider-right" style="color: #4f748b">
+              &#9658;
+            </div>
           </div>
         </div>
       </div>
