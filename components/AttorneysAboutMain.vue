@@ -17,7 +17,7 @@
         </h1>
       </div>
       <div
-        class="overlay-section attorney-home w-container"
+        class="overlay-section attorney-home w-container mobile-view"
         style="width: 100%; padding: 45px"
       >
         <h1 class="hero-text mobile-view" style="margin-left: 0px">About Us</h1>
