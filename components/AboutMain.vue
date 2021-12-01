@@ -25,10 +25,7 @@
     </div>
     <AttorneysMobileNavPhone />
 
-    <div
-      class="real-estate-title-services-section wf-section"
-      style="margin-top: 50px"
-    >
+    <div class="real-estate-title-services-section wf-section spec13">
       <div class="experienced-attorneys-text about-subtext-hero desktop-view">
         Vestibulum Mattis Laoreet Est, Scelerisque <br />Hehicula Enim Laoreet
       </div>
