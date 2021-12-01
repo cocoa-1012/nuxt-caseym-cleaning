@@ -1995,6 +1995,10 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .workingwithtextsection.real-estate-title-services.about-page-content {
+    margin-top: 0px;
+  }
+
   .spec13 {
     margin-top: 0px;
   }
