@@ -246,6 +246,9 @@
 .spec12 {
   display: none !important;
 }
+.spec13 {
+  margin-top: 200px;
+}
 .spec06 {
   margin-top: -50px;
 }
@@ -1992,6 +1995,9 @@ textarea {
 }
 
 @media screen and (max-width: 479px) {
+  .spec13 {
+    margin-top: 0px;
+  }
   .resources-page-subtext {
     font-size: 16px;
   }
