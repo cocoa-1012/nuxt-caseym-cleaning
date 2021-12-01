@@ -17,7 +17,7 @@
         </h1>
       </div>
       <div
-        class="overlay-section attorney-home w-container"
+        class="overlay-section attorney-home w-container mobile-view"
         style="width: 100%; padding: 45px"
       >
         <h1 class="hero-text mobile-view" style="margin-left: 0px">About Us</h1>
@@ -25,10 +25,7 @@
     </div>
     <AttorneysMobileNavPhone />
 
-    <div
-      class="real-estate-title-services-section wf-section"
-      style="margin-top: 50px"
-    >
+    <div class="real-estate-title-services-section wf-section spec13">
       <div class="experienced-attorneys-text about-subtext-hero desktop-view">
         Vestibulum Mattis Laoreet Est, Scelerisque <br />Hehicula Enim Laoreet
       </div>

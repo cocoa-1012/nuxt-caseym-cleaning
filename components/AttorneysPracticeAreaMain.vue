@@ -10,7 +10,7 @@
         <h1 class="hero-text">Personal Injury</h1>
       </div>
       <div
-        class="overlay-section attorney-home w-container"
+        class="overlay-section attorney-home w-container mobile-view"
         style="width: 100%; padding: 23px"
       >
         <h1 class="hero-text mobile-view" style="margin-left: 0px">
@@ -20,10 +20,7 @@
       </div>
     </div>
     <AttorneysMobileNavPhone />
-    <div
-      class="real-estate-title-services-section wf-section"
-      style="margin-top: 50px"
-    >
+    <div class="real-estate-title-services-section wf-section spec13">
       <div
         class="experienced-attorneys-text about-subtext-hero desktop-view"
         style="margin-top: 30px; margin-bottom: -30px; color: #892432"
