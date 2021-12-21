@@ -49,21 +49,86 @@
           </div>
           <div class="w-col w-col-6 footer-policy">
             <p class="footer-text">
-              <span class="footer-sub-title">PRIVACY POLICY</span
-              ><br />‍Purpose<br />‍Federal and state laws and regulations
-              require Gabe A. Duhon, L.L.C. (“the Company”) to disclose how it
-              collects, shares, and protects any personal information obtained
-              during the course of normal business operations. This Privacy
-              Policy and Notice is to be distributed pursuant to Title V of the
+              <span class="footer-sub-title"> PRIVACY POLICY </span>
+              <br />‍Purpose<br />Federal and state laws and regulations require
+              Gabe A. Duhon, L.L.C. (“the Company”) to disclose how it collects,
+              shares, and protects any personal information obtained during the
+              course of normal business operations. This Privacy Policy and
+              Notice is to be distributed pursuant to Title V of the
               Gramm-Leach-Bliley Act (GLBA). Any information collected will only
               be used in accordance with this privacy statement.<br />
             </p>
+            <p v-show="isOpen" class="footer-text" style="margin-top: 20px">
+              Personal Information<br />
+              The types of information collected may depend upon the services or
+              products provided. Information collected may include, but is not
+              limited to:
+            </p>
+            <p v-show="isOpen" class="footer-text" style="margin-left: 20px">
+              • Driver's License Numbers;<br />
+              • Social Security Numbers:<br />
+              • Phone Numbers; <br />
+              • Property and Mailing Address(es);<br />
+              • Account Numbers, including bank accounts and mortgage accounts;
+              <br />
+              • Credit Card Numbers;<br />
+              • Full Legal Names; <br />
+              • Marital Status <br />
+            </p>
             <p v-show="isOpen" class="footer-text">
-              Through discussions with management and review of available
-              information, identify the institution’s information sharing
-              practices (and changes to those practices) with affiliates and
-              nonaffiliated third parties; how it treats nonpublic personal
-              information; and how it administers opt-outs.
+              This nonpublic, personal information may be collected from a
+              variety of sources including, but not limited to:
+            </p>
+            <p v-show="isOpen" class="footer-text" style="margin-left: 20px">
+              • Information on loan applications;<br />
+              • Information from our files, or other files regarding legal
+              transactions;
+              <br />
+              • Information from consumer reporting agencies, real estate
+              agents, or lenders;
+              <br />
+              • Information from Investigators and/or investigative services.
+              <br />
+            </p>
+            <p v-show="isOpen" class="footer-text">
+              Disclosure of Personal Information The Company may need to share
+              personal information in the process of handling and completing a
+              transaction and maintaining customer/client accounts. This
+              information may be disclosed to both affiliated and non-affiliated
+              companies that perform services on behalf of the Company, as
+              permitted by law. These companies include:
+            </p>
+            <p v-show="isOpen" class="footer-text" style="margin-left: 20px">
+              • Title abstractors; <br />
+              • Legal counsel; <br />
+              • Contract closers;<br />
+              • Survey companies; <br />
+              • Real estate lien holders;<br />
+              • Private Investigators.<br />
+            </p>
+            <p v-show="isOpen" class="footer-text">
+              The Company may also disclose personal information when necessary
+              to comply with the law; protect the safety of consumers,
+              employees, or property; and/or to comply with judicial
+              proceedings, court orders, or the legal process.<br />
+              In-House Protection The Company restricts the sharing of personal
+              information to employees and staff that need the information to
+              provide services required to process a transaction. Physical,
+              electronic, and process safeguards are in place to protect
+              personal information and to comply with regulations and industry
+              standards. <br />
+              <br />
+            </p>
+            <p v-show="isOpen" class="footer-text">
+              Privacy Policy & Notice Questions
+            </p>
+            <p v-show="isOpen" class="footer-text">
+              Questions regarding this Policy should be directed to:
+            </p>
+            <p v-show="isOpen" class="footer-text" style="margin-left: 20px">
+              Gabe A. Duhon, Owner<br />
+              P.O. Box 478<br />
+              Abbeville, Louisiana 70511-0478
             </p>
             <div class="w-col w-col-3" @click="toggle">
               <div class="footer-expand">
