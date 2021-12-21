@@ -113,7 +113,7 @@
             since 2006.<strong><br /></strong>
           </p>
           <a
-            href="about.html"
+            href="meet-our-attorneys.html"
             class="button w-button desktop-view"
             style="width: fit-content"
           >
@@ -148,6 +148,17 @@
               associate&nbsp;attorney<strong><br /></strong>
             </span>
           </p>
+        </div>
+        <div
+          class="column-9 w-col w-col-3 w-col-medium-3 second-image mobile-view"
+        >
+          <a
+            href="meet-our-attorneys.html"
+            class="button w-button"
+            style="width: fit-content"
+          >
+            <strong>MEET OUR ATTORNEYS</strong>
+          </a>
         </div>
       </div>
     </div>
