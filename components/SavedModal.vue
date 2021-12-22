@@ -1,5 +1,5 @@
 <template>
-  <div class="modal-overlay1">
+  <div class="modal-overlay1" @click="boxClick">
     <div class="modal-overlay" @click="closeEmit"></div>
     <div class="modal">
       <div class="search-div">
@@ -15,6 +15,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      isClicked: false,
+    }
+  },
   beforeMount() {
     window.addEventListener('scroll', this.handleScroll)
   },
@@ -23,12 +28,18 @@ export default {
   },
   methods: {
     handleScroll() {
-      document.getElementById('searchInput').value = ''
-      this.$emit('close-modal')
+      if (this.isClicked === true) {
+        document.getElementById('searchInput').value = ''
+        this.$emit('close-modal')
+        this.isClicked = false
+      }
     },
     closeEmit() {
       document.getElementById('searchInput').value = ''
       this.$emit('close-modal')
+    },
+    boxClick() {
+      this.isClicked = true
     },
   },
 }
