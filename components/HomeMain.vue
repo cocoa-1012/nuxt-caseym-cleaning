@@ -281,25 +281,21 @@
         </div>
         <div class="w-col w-col-8">
           <p class="working-with-subtext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
-            ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna nec quam
-            elementum ultricies. Vivamus sed sem venenatis nibh lacinia
-            imperdiet sit amet sit amet ex. Nam vehicula venenatis odio, id
-            feugiat libero gravida facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Donec
-            commodo ex vitae odio tincidunt sodales vel at massa. Nulla
-            facilisi. Etiam cursus varius urna, vel mattis sapien venenatis at.
-            Donec et eros eros. Phasellus arcu mi, hendrerit eu nibh eu,
-            condimentum iaculis sapien. <br /><br />Donec eu blandit elit, in
-            ultrices tellus. Maecenas ultricies bibendum sodales. Morbi in
-            tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero eget,
-            vehicula leo. Aliquam erat volutpat. Donec auctor luctus diam, id
-            finibus neque pellentesque vitae. Duis pretium ut velit quis cursus.
-            Aliquam vitae leo nec neque luctus gravida. Nulla vestibulum, felis
-            nec blandit lobortis, neque nisi aliquam nunc, eget vehicula lectus
-            augue interdum leo. Nam vestibulum a sem id ornare. Praesent
-            convallis mollis elementum.<br />
+            Gabe A. Duhon Law Firm is a full-service law firm, serving Acadiana
+            and the surrounding area since 2006. We take pride in helping those
+            in our community find a place to call home. Our skilled attorneys
+            and staff have the experience you need, including standard
+            residential transactions, commercial property purchases, refinances,
+            and other legal representation for all your real estate needs.
+            <br /><br />
+            For buyers, sellers, real estate agents, and mortgage lenders trust
+            the right title attorney for a seamless transaction every time. We
+            provide comprehensive title services and professional legal advice
+            during and after your closing and look forward to many years to come
+            as your trusted title attorney. In addition to our title services,
+            we also provide estate planning assistance like drafting wills,
+            filing successions, title settlements, and more. Contact us today to
+            schedule a consultation, and close with confidence.<br />
           </p>
         </div>
       </div>

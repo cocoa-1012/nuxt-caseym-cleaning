@@ -64,27 +64,22 @@
               </div>
               <div class="w-col w-col-8">
                 <p class="working-with-subtext">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam aliquam cursus metus, at accumsan massa ornare id.
-                  Aliquam facilisis ex aliquet, lacinia nunc at, semper nunc.
-                  Vivamus vel urna nec quam elementum ultricies. Vivamus sed sem
-                  venenatis nibh lacinia imperdiet sit amet sit amet ex. Nam
-                  vehicula venenatis odio, id feugiat libero gravida facilisis.
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos. Donec commodo ex vitae odio
-                  tincidunt sodales vel at massa. Nulla facilisi. Etiam cursus
-                  varius urna, vel mattis sapien venenatis at. <br /><br />Donec
-                  et eros eros. Phasellus arcu mi, hendrerit eu nibh eu,
-                  condimentum iaculis sapien. Donec eu blandit elit, in ultrices
-                  tellus. Maecenas ultricies bibendum sodales. Morbi in
-                  tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
-                  eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
-                  diam, id finibus neque pellentesque vitae. Duis pretium ut
-                  velit quis cursus. Aliquam vitae leo nec neque luctus gravida.
-                  Nulla vestibulum, felis nec blandit lobortis, neque nisi
-                  aliquam nunc, eget vehicula lectus augue interdum leo. Nam
-                  vestibulum a sem id ornare. Praesent convallis mollis
-                  elementum.<br />
+                  Purchasing real estate can be stressful, drawn-out, and
+                  frustrating. For most people, it’s the biggest investment
+                  they’ve ever made, and they want to make sure they’re
+                  protected. Choosing the right title attorney is essential to
+                  avoiding headaches down the road, an experienced lawyer can
+                  ensure that your transaction is performed and recorded
+                  properly. <br /><br />We’ve worked with homeowners across
+                  Acadiana, helping them navigate through the complex legal
+                  framework of real estate purchases. Assisting those in our
+                  community, to find a place to call home. If you’re interested
+                  in purchasing real estate, whether you’re a first-time buyer,
+                  an investment property owner, relocating, or just downsizing,
+                  our staff is ready and available to help you settle in. Have
+                  your realtor or lender contact Gabe A. Duhon Law Firm to
+                  handle the purchase of your next home and close with
+                  confidence.<br /><br />
                 </p>
                 <a href="#" class="button w-button learn-more">
                   <strong>LEARN MORE</strong>
@@ -106,27 +101,20 @@
               </div>
               <div class="w-col w-col-8">
                 <p class="working-with-subtext">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam aliquam cursus metus, at accumsan massa ornare id.
-                  Aliquam facilisis ex aliquet, lacinia nunc at, semper nunc.
-                  Vivamus vel urna nec quam elementum ultricies. Vivamus sed sem
-                  venenatis nibh lacinia imperdiet sit amet sit amet ex. Nam
-                  vehicula venenatis odio, id feugiat libero gravida facilisis.
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos. Donec commodo ex vitae odio
-                  tincidunt sodales vel at massa. Nulla facilisi. Etiam cursus
-                  varius urna, vel mattis sapien venenatis at. Donec et eros
-                  eros. Phasellus arcu mi, hendrerit eu nibh eu, condimentum
-                  iaculis sapien. Donec eu blandit elit, in ultrices tellus.
-                  <br /><br />Maecenas ultricies bibendum sodales. Morbi in
-                  tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
-                  eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
-                  diam, id finibus neque pellentesque vitae. Duis pretium ut
-                  velit quis cursus. Aliquam vitae leo nec neque luctus gravida.
-                  Nulla vestibulum, felis nec blandit lobortis, neque nisi
-                  aliquam nunc, eget vehicula lectus augue interdum leo. Nam
-                  vestibulum a sem id ornare. Praesent convallis mollis
-                  elementum.<br />
+                  Mortgage lenders are responsible for sourcing an appropriate
+                  loan for the homeowner's needs, beginning with your
+                  preapproval and extending far beyond the transaction. Your
+                  lender acts as the middleman between you and the bank or loan
+                  originator, providing the title attorney with the proper
+                  documentation and funding. As the title attorney, we act as
+                  your escrow agent to hold monies involved in the transaction,
+                  including deposits, closing costs, etc. <br />
+                  <br />
+                  At Gabe A. Duhon Law Firm, we work together with mortgage
+                  lenders to help you close with confidence. Whether you’re a
+                  first-time buyer or have closed multiple times, you and your
+                  lender can trust our experienced staff to get the job done
+                  right. <br /><br />
                 </p>
                 <a href="#" class="button w-button learn-more"
                   ><strong>LEARN MORE</strong></a
@@ -148,27 +136,19 @@
               </div>
               <div class="w-col w-col-8">
                 <p class="working-with-subtext">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam aliquam cursus metus, at accumsan massa ornare id.
-                  Aliquam facilisis ex aliquet, lacinia nunc at, semper nunc.
-                  Vivamus vel urna nec quam elementum ultricies. Vivamus sed sem
-                  venenatis nibh lacinia imperdiet sit amet sit amet ex. Nam
-                  vehicula venenatis odio, id feugiat libero gravida facilisis.
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos. Donec commodo ex vitae odio
-                  tincidunt sodales vel at massa. Nulla facilisi. Etiam cursus
-                  varius urna, vel mattis sapien venenatis at. <br /><br />Donec
-                  et eros eros. Phasellus arcu mi, hendrerit eu nibh eu,
-                  condimentum iaculis sapien. Donec eu blandit elit, in ultrices
-                  tellus. Maecenas ultricies bibendum sodales. Morbi in
-                  tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
-                  eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
-                  diam, id finibus neque pellentesque vitae. Duis pretium ut
-                  velit quis cursus. Aliquam vitae leo nec neque luctus gravida.
-                  Nulla vestibulum, felis nec blandit lobortis, neque nisi
-                  aliquam nunc, eget vehicula lectus augue interdum leo. Nam
-                  vestibulum a sem id ornare. Praesent convallis mollis
-                  elementum.<br />
+                  Realtors represent their clients to the best of their
+                  abilities, from the initial showing through closing. These
+                  professionals know that choosing the right title attorney can
+                  make the difference between a smooth closing and a chaotic
+                  one. Acadiana’s real estate agents trust Gabe A. Duhon Law
+                  Firm to handle their client’s real estate investments, both
+                  seasoned veterans and new agents. <br /><br />Agents may
+                  represent both the buyer and the seller, so making the closing
+                  process simple for all parties is paramount to our success.
+                  With all the moving parts of a real estate transaction,
+                  worrying about the title attorney should be low on your
+                  agent's list. We provide peace of mind for both sides,
+                  ensuring that your closing is executed properly.<br /><br />
                 </p>
                 <a href="#" class="button w-button learn-more">LEARN MORE</a>
               </div>
@@ -188,26 +168,22 @@
             </div>
             <div class="w-col w-col-8">
               <p class="working-with-subtext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                aliquam cursus metus, at accumsan massa ornare id. Aliquam
-                facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
-                urna nec quam elementum ultricies. Vivamus sed sem venenatis
-                nibh lacinia imperdiet sit amet sit amet ex. Nam vehicula
-                venenatis odio, id feugiat libero gravida facilisis. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos. Donec commodo ex vitae odio tincidunt
-                sodales vel at massa. Nulla facilisi. Etiam cursus varius urna,
-                vel mattis sapien venenatis at. Donec et eros eros. Phasellus
-                arcu mi, hendrerit eu nibh eu, condimentum iaculis sapien. Donec
-                eu blandit elit, in ultrices tellus.
-                <br /><br />Maecenas ultricies bibendum sodales. Morbi in
-                tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
-                eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
-                diam, id finibus neque pellentesque vitae. Duis pretium ut velit
-                quis cursus. Aliquam vitae leo nec neque luctus gravida. Nulla
-                vestibulum, felis nec blandit lobortis, neque nisi aliquam nunc,
-                eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
-                ornare. Praesent convallis mollis elementum.<br />
+                <br />
+                Purchasing real estate can be stressful, drawn-out, and
+                frustrating. For most people, it’s the biggest investment
+                they’ve ever made, and they want to make sure they’re protected.
+                Choosing the right title attorney is essential to avoiding
+                headaches down the road, an experienced lawyer can ensure that
+                your transaction is performed and recorded properly.
+                <br /><br />We’ve worked with homeowners across Acadiana,
+                helping them navigate through the complex legal framework of
+                real estate purchases. Assisting those in our community, to find
+                a place to call home. If you’re interested in purchasing real
+                estate, whether you’re a first-time buyer, an investment
+                property owner, relocating, or just downsizing, our staff is
+                ready and available to help you settle in. Have your realtor or
+                lender contact Gabe A. Duhon Law Firm to handle the purchase of
+                your next home and close with confidence.<br />
               </p>
               <div class="spec08">
                 <a href="#" class="button w-button learn-more"
@@ -227,26 +203,21 @@
             </div>
             <div class="w-col w-col-8">
               <p class="working-with-subtext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                aliquam cursus metus, at accumsan massa ornare id. Aliquam
-                facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
-                urna nec quam elementum ultricies. Vivamus sed sem venenatis
-                nibh lacinia imperdiet sit amet sit amet ex. Nam vehicula
-                venenatis odio, id feugiat libero gravida facilisis. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos. Donec commodo ex vitae odio tincidunt
-                sodales vel at massa. Nulla facilisi. Etiam cursus varius urna,
-                vel mattis sapien venenatis at. Donec et eros eros. Phasellus
-                arcu mi, hendrerit eu nibh eu, condimentum iaculis sapien. Donec
-                eu blandit elit, in ultrices tellus.
-                <br /><br />Maecenas ultricies bibendum sodales. Morbi in
-                tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
-                eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
-                diam, id finibus neque pellentesque vitae. Duis pretium ut velit
-                quis cursus. Aliquam vitae leo nec neque luctus gravida. Nulla
-                vestibulum, felis nec blandit lobortis, neque nisi aliquam nunc,
-                eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
-                ornare. Praesent convallis mollis elementum.<br />
+                <br />
+                Mortgage lenders are responsible for sourcing an appropriate
+                loan for the homeowner's needs, beginning with your preapproval
+                and extending far beyond the transaction. Your lender acts as
+                the middleman between you and the bank or loan originator,
+                providing the title attorney with the proper documentation and
+                funding. As the title attorney, we act as your escrow agent to
+                hold monies involved in the transaction, including deposits,
+                closing costs, etc. <br />
+                <br />
+                At Gabe A. Duhon Law Firm, we work together with mortgage
+                lenders to help you close with confidence. Whether you’re a
+                first-time buyer or have closed multiple times, you and your
+                lender can trust our experienced staff to get the job done
+                right.<br />
               </p>
               <div class="spec08">
                 <a href="#" class="button w-button learn-more"
@@ -266,26 +237,20 @@
             </div>
             <div class="w-col w-col-8">
               <p class="working-with-subtext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                aliquam cursus metus, at accumsan massa ornare id. Aliquam
-                facilisis ex aliquet, lacinia nunc at, semper nunc. Vivamus vel
-                urna nec quam elementum ultricies. Vivamus sed sem venenatis
-                nibh lacinia imperdiet sit amet sit amet ex. Nam vehicula
-                venenatis odio, id feugiat libero gravida facilisis. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos. Donec commodo ex vitae odio tincidunt
-                sodales vel at massa. Nulla facilisi. Etiam cursus varius urna,
-                vel mattis sapien venenatis at. Donec et eros eros. Phasellus
-                arcu mi, hendrerit eu nibh eu, condimentum iaculis sapien. Donec
-                eu blandit elit, in ultrices tellus.
-                <br /><br />Maecenas ultricies bibendum sodales. Morbi in
-                tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero
-                eget, vehicula leo. Aliquam erat volutpat. Donec auctor luctus
-                diam, id finibus neque pellentesque vitae. Duis pretium ut velit
-                quis cursus. Aliquam vitae leo nec neque luctus gravida. Nulla
-                vestibulum, felis nec blandit lobortis, neque nisi aliquam nunc,
-                eget vehicula lectus augue interdum leo. Nam vestibulum a sem id
-                ornare. Praesent convallis mollis elementum.<br />
+                <br />
+                Realtors represent their clients to the best of their abilities,
+                from the initial showing through closing. These professionals
+                know that choosing the right title attorney can make the
+                difference between a smooth closing and a chaotic one.
+                Acadiana’s real estate agents trust Gabe A. Duhon Law Firm to
+                handle their client’s real estate investments, both seasoned
+                veterans and new agents. <br /><br />Agents may represent both
+                the buyer and the seller, so making the closing process simple
+                for all parties is paramount to our success. With all the moving
+                parts of a real estate transaction, worrying about the title
+                attorney should be low on your agent's list. We provide peace of
+                mind for both sides, ensuring that your closing is executed
+                properly.<br />
               </p>
               <div class="spec08">
                 <a href="#" class="button w-button learn-more"
