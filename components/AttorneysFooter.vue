@@ -42,9 +42,31 @@
             </a>
           </div>
           <div class="w-col w-col-3 footer-child second">
-            <p class="footer-text linked">
-              <span>Contact</span><br />Disclaimer<br />Sitemap<br />Privacy
-              policy<br />
+            <p class="footer-text linked" style="color: #54788e">
+              <a
+                href="/att-contact"
+                style="text-decoration: none; color: #54788e"
+              >
+                Contact
+              </a>
+              <br />
+              <a
+                href="/disclaimer"
+                style="text-decoration: none; color: #54788e"
+              >
+                Disclaimer
+              </a>
+              <br />
+              <a href="/sitemap" style="text-decoration: none; color: #54788e">
+                Sitemap
+              </a>
+              <br />
+              <a
+                href="/privacy-policy"
+                style="text-decoration: none; color: #54788e"
+              >
+                Privacy policy
+              </a>
             </p>
           </div>
           <div class="w-col w-col-6 footer-policy">
