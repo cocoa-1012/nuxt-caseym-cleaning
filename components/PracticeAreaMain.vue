@@ -65,51 +65,23 @@
         </div>
         <div class="w-col w-col-6 real-estate-intro practice-detail-group">
           <p class="working-with-subtext about-page-subtext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
-            ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna nec quam
-            elementum ultricies. Vivamus sed sem venenatis nibh lacinia
-            imperdiet sit amet sit amet ex. Nam vehicula venenatis odio, id
-            feugiat libero gravida facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Donec
-            commodo ex vitae odio tincidunt sodales vel at massa. Nulla
-            facilisi. Etiam cursus varius urna, vel mattis sapien venenatis at.
-            Donec et eros eros. Phasellus arcu mi, hendrerit eu nibh eu,
-            condimentum iaculis sapien. <br /><br />Donec eu blandit elit, in
-            ultrices tellus. Maecenas ultricies bibendum sodales. Morbi in
-            tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero eget,
-            vehicula leo. Aliquam erat volutpat. Donec auctor luctus diam, id
-            finibus neque pellentesque vitae. Duis pretium ut velit quis cursus.
-            Aliquam vitae leo nec neque luctus gravida. Nulla vestibulum, felis
-            nec blandit lobortis, neque nisi aliquam nunc, eget vehicula lectus
-            augue interdum leo. Nam vestibulum a sem id ornare. Praesent
-            convallis mollis elementum.<br />
+            Residential real estate transactions can be daunting, long, and
+            unfamiliar territory for the average home buyer. Just getting to the
+            closing table can be overwhelming, and not feeling comfortable with
+            your title attorney can leave clients feeling unsure. Purchasing a
+            home is one of the biggest investments that you can make, and our
+            title attorneys make your closing easy with the right
+            representation. <br />
           </p>
         </div>
-        <div
-          class="w-col w-col-6 real-estate-intro practice-detail-group"
-          style="margin-top: 20px"
-        >
+        <div class="w-col w-col-6 real-estate-intro practice-detail-group">
           <p class="working-with-subtext about-page-subtext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            aliquam cursus metus, at accumsan massa ornare id. Aliquam facilisis
-            ex aliquet, lacinia nunc at, semper nunc. Vivamus vel urna nec quam
-            elementum ultricies. Vivamus sed sem venenatis nibh lacinia
-            imperdiet sit amet sit amet ex. Nam vehicula venenatis odio, id
-            feugiat libero gravida facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Donec
-            commodo ex vitae odio tincidunt sodales vel at massa. Nulla
-            facilisi. Etiam cursus varius urna, vel mattis sapien venenatis at.
-            Donec et eros eros. Phasellus arcu mi, hendrerit eu nibh eu,
-            condimentum iaculis sapien. <br /><br />Donec eu blandit elit, in
-            ultrices tellus. Maecenas ultricies bibendum sodales. Morbi in
-            tincidunt eros. Vivamus nec ipsum suscipit, sagittis libero eget,
-            vehicula leo. Aliquam erat volutpat. Donec auctor luctus diam, id
-            finibus neque pellentesque vitae. Duis pretium ut velit quis cursus.
-            Aliquam vitae leo nec neque luctus gravida. Nulla vestibulum, felis
-            nec blandit lobortis, neque nisi aliquam nunc, eget vehicula lectus
-            augue interdum leo. Nam vestibulum a sem id ornare. Praesent
-            convallis mollis elementum.<br />
+            Whether you’re buying or selling, trusting professionals to handle
+            the process ensures that your closing is properly handled, from
+            paperwork to recording at the courthouse. Purchasing a home is
+            supposed to be exciting for people and families, and closing doesn’t
+            have to be a pain. Ask your realtor and lender to contact us today,
+            and close with confidence.<br />
           </p>
         </div>
       </div>

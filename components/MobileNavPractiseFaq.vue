@@ -18,7 +18,10 @@
           "
         >
           <div class="w-dropdown-list-sub mobile-legal">
-            <NuxtLink to="/practise-area" style="text-decoration: none">
+            <NuxtLink
+              to="{ name: 'user', params: { userId: 123 }}"
+              style="text-decoration: none"
+            >
               <p class="w-dropdown-link">Commercial</p>
             </NuxtLink>
             <NuxtLink to="/practise-area" style="text-decoration: none">

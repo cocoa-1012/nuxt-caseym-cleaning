@@ -125,18 +125,18 @@
               <nav v-show="isOpen" id="myDropdown" class="w-dropdown-list">
                 <div class="w-dropdown-list-sub">
                   <NuxtLink to="/practise-area" style="text-decoration: none">
-                    <p class="w-dropdown-link">Commercial</p>
+                    <p class="w-dropdown-link">Commercial Closings</p>
                   </NuxtLink>
                   <NuxtLink to="/practise-area" style="text-decoration: none">
-                    <p class="w-dropdown-link">Title Settlement</p>
+                    <p class="w-dropdown-link">Title Insurance</p>
                   </NuxtLink>
                   <NuxtLink to="/practise-area" style="text-decoration: none">
-                    <p class="w-dropdown-link">Loan Closing</p>
+                    <p class="w-dropdown-link">Title Search</p>
                   </NuxtLink>
                 </div>
                 <div class="w-dropdown-list-sub">
                   <NuxtLink to="/practise-area" style="text-decoration: none">
-                    <p class="w-dropdown-link">Residential</p>
+                    <p class="w-dropdown-link">Residential Closings</p>
                   </NuxtLink>
                   <NuxtLink to="/practise-area" style="text-decoration: none">
                     <p class="w-dropdown-link">Estate Planning</p>
