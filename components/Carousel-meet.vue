@@ -14,7 +14,7 @@
         class="testimonial w-slider"
         :css-ease="ease"
         :autoplay="true"
-        :autoplay-speed="5000"
+        :autoplay-speed="7000"
       >
         <div class="w-slide">
           <div class="testimonial-text meet">

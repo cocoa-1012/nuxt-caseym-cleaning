@@ -98,7 +98,7 @@
               associate&nbsp;attorney<strong><br /></strong>
             </p>
             <a
-              href="#"
+              href="meet-our-attorneys.html"
               class="button w-button desktop-view"
               style="
                 background: #892432;
@@ -106,6 +106,13 @@
                 bottom: -110px;
                 right: 150px;
               "
+            >
+              <strong>MEET&nbsp;OUR&nbsp;ATTORNEYS</strong>
+            </a>
+            <a
+              href="meet-our-attorneys.html"
+              class="button w-button mobile-view"
+              style="background: #892432; margin-top: 30px"
             >
               <strong>MEET&nbsp;OUR&nbsp;ATTORNEYS</strong>
             </a>
